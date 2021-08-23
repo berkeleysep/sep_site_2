@@ -1,13 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
-import Home from './pages/Home';
+import Home from "./pages/Home";
 import Members from "./pages/Members";
 import Entrepreneurship from "./pages/Entrepreneurship";
 import Blog from "./pages/Blog";
 import Recruitment from "./pages/Recruitment";
 
-import reportWebVitals from './reportWebVitals';
+import reportWebVitals from "./reportWebVitals";
 
 import "./index.css";
 
@@ -30,11 +30,11 @@ ReactDOM.render(
         <Route exact path="/recruitment">
           <Recruitment />
         </Route>
-        <Route render={() => <Redirect to={{pathname: "/"}} />} />
+        <Route render={() => <Redirect to={{ pathname: "/" }} />} />
       </Switch>
     </BrowserRouter>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
