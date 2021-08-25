@@ -1,5 +1,11 @@
 import React from "react";
+import TopNav from "../components/TopNav";
 
 export default function Blog() {
-  return <>Blog</>;
+  return (
+    <>
+      <TopNav blog/>
+      Blog
+    </>
+  );
 }

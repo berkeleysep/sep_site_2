@@ -6,12 +6,53 @@ import { Link } from "react-router-dom";
 import SEPLogo from "../assets/SEP-logo-dark.svg";
 
 const useStyles = makeStyles({
-  button: {
+  logo: {
+    opacity: props => props.home ? "1" : "0.6",
+    height: "30px",
+    "&:hover": {
+      transition: ".3s ease-in",
+      opacity: 1,
+    }
+  },
+  membersButton: {
+    color: props => props.members ? "black" : "#969BAB",
+    textDecoration: props => props.members ? "underline" : "none",
+    textUnderlineOffset: "6px",
     textTransform: "none",
     paddingLeft: "15px",
     paddingRight: "15px",
     "&:hover": {
-      color: "blue",
+      transition: ".3s ease-in-out",
+      color: "black",
+      textDecoration: "underline",
+      backgroundColor: "transparent"
+    }
+  },
+  entrepreneurshipButton: {
+    color: props => props.entrepreneurship ? "black" : "#969BAB",
+    textDecoration: props => props.entrepreneurship ? "underline" : "none",
+    textUnderlineOffset: "6px",
+    textTransform: "none",
+    paddingLeft: "15px",
+    paddingRight: "15px",
+    "&:hover": {
+      transition: ".3s ease-in-out",
+      color: "black",
+      textDecoration: "underline",
+      backgroundColor: "transparent"
+    },
+  },
+  blogButton: {
+    color: props => props.blog ? "black" : "#969BAB",
+    textDecoration: props => props.blog ? "underline" : "none",
+    textUnderlineOffset: "6px",
+    textTransform: "none",
+    paddingLeft: "15px",
+    paddingRight: "15px",
+    "&:hover": {
+      transition: ".3s ease-in-out",
+      color: "black",
+      textDecoration: "underline",
       backgroundColor: "transparent"
     }
   },
@@ -23,13 +64,16 @@ const useStyles = makeStyles({
     paddingRight: "20px",
     marginLeft: "10px",
     "&:hover": {
-      color: "blue"
+      transition: ".3s ease-in-out",
+      backgroundColor: "#F1E4FF",
+      color: "#8C30F5",
+      cursor: "select",
     }
   }
 })
 
 const PaddingBox = styled(Box)`
-  padding-left: 6%;
+  padding-left: 10%;
   padding-right: 10%;
 `;
 
@@ -55,8 +99,8 @@ const NavBarItem = styled(Link)`
   height: 40px;
 `;
 
-export default function TopNav() {
-  const classes = useStyles()
+export default function TopNav({home, members, entrepreneurship, blog, recruitment}) {
+  const classes = useStyles({home, members, entrepreneurship, blog, recruitment})
 
   return (
     <PaddingBox style={{ borderBottom: "1px solid #e5e5e5" }}>
@@ -67,7 +111,9 @@ export default function TopNav() {
               pathname: "/",
             }}
           >
-            <img src={SEPLogo} alt="SEP Logo" style={{ height: "35px" }} />
+            <Box className={classes.logo}>
+              <img className={classes.logo} src={SEPLogo} alt="SEP Logo" />
+            </Box>
           </NavBarItem>
         </NavBarLeft>
         <NavBarRight>
@@ -76,7 +122,7 @@ export default function TopNav() {
               pathname: "/members",
             }}
           >
-            <Button className={classes.button}>
+            <Button className={classes.membersButton}>
               Members
             </Button>
           </NavBarItem>
@@ -85,7 +131,7 @@ export default function TopNav() {
               pathname: "/entrepreneurship",
             }}
           >
-            <Button className={classes.button}>
+            <Button className={classes.entrepreneurshipButton}>
               Entrepreneurship
             </Button>
           </NavBarItem>
@@ -94,7 +140,7 @@ export default function TopNav() {
               pathname: "/blog",
             }}
           >
-            <Button className={classes.button}>
+            <Button className={classes.blogButton}>
               Blog
             </Button>
           </NavBarItem>
@@ -111,4 +157,12 @@ export default function TopNav() {
       </NavBarContainer>
     </PaddingBox>
   );
-}
+};
+
+TopNav.defaultProps = {
+  home: false,
+  members: false,
+  entrepreneurship: false,
+  blog: false,
+  recruitment: false
+};

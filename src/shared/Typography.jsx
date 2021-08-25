@@ -4,25 +4,25 @@ import styled from "styled-components";
 export const Hl1 = styled(Box)`
   font-size: 72px;
   line-height: 98px;
-  font-weight: extrabold;
+  font-weight: 800;
 `;
 
 export const Hl2 = styled(Box)`
   font-size: 48px;
   line-height: 64px;
-  font-weight: extrabold;
+  font-weight: 800;
 `;
 
 export const Hl3 = styled(Box)`
   font-size: 40px;
   line-height: 54x;
-  font-weight: extrabold;
+  font-weight: 800;
 `;
 
 export const Hl4 = styled(Box)`
   font-size: 28px;
   line-height: 40px;
-  font-weight: extrabold;
+  font-weight: 800;
 `;
 
 export const Hl5 = styled(Box)`
@@ -88,5 +88,5 @@ export const Label3 = styled(Box)`
 export const Capitalised = styled(Box)`
   font-size: 14px;
   line-height: 18px;
-  font-weight: extrabold;
+  font-weight: 800;
 `;
