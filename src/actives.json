@@ -1,0 +1,15 @@
+{
+  "executives": [
+    {
+      "name": "David Wei",
+      "class": "Tau Class",
+      "major": "Computer Science",
+      "position": "Professional Development Vice President",
+      "bio": "something something something something something",
+      "linkedin": "https://www.linkedin.com/in/davidmwei/",
+      "imgpath": "/assets/images/individual/soki.png"
+    }
+  ],
+  "actives": [{}],
+  "images": ["/assets/images/individual/soki.png"]
+}

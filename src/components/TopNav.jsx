@@ -7,16 +7,16 @@ import SEPLogo from "../assets/SEP-logo-dark.svg";
 
 const useStyles = makeStyles({
   logo: {
-    opacity: props => props.home ? "1" : "0.6",
+    opacity: (props) => (props.home ? "1" : "0.6"),
     height: "30px",
     "&:hover": {
       transition: ".3s ease-in",
       opacity: 1,
-    }
+    },
   },
   membersButton: {
-    color: props => props.members ? "black" : "#969BAB",
-    textDecoration: props => props.members ? "underline" : "none",
+    color: (props) => (props.members ? "black" : "#969BAB"),
+    textDecoration: (props) => (props.members ? "underline" : "none"),
     textUnderlineOffset: "6px",
     textTransform: "none",
     paddingLeft: "15px",
@@ -25,12 +25,12 @@ const useStyles = makeStyles({
       transition: ".3s ease-in-out",
       color: "black",
       textDecoration: "underline",
-      backgroundColor: "transparent"
-    }
+      backgroundColor: "transparent",
+    },
   },
   entrepreneurshipButton: {
-    color: props => props.entrepreneurship ? "black" : "#969BAB",
-    textDecoration: props => props.entrepreneurship ? "underline" : "none",
+    color: (props) => (props.entrepreneurship ? "black" : "#969BAB"),
+    textDecoration: (props) => (props.entrepreneurship ? "underline" : "none"),
     textUnderlineOffset: "6px",
     textTransform: "none",
     paddingLeft: "15px",
@@ -39,12 +39,12 @@ const useStyles = makeStyles({
       transition: ".3s ease-in-out",
       color: "black",
       textDecoration: "underline",
-      backgroundColor: "transparent"
+      backgroundColor: "transparent",
     },
   },
   blogButton: {
-    color: props => props.blog ? "black" : "#969BAB",
-    textDecoration: props => props.blog ? "underline" : "none",
+    color: (props) => (props.blog ? "black" : "#969BAB"),
+    textDecoration: (props) => (props.blog ? "underline" : "none"),
     textUnderlineOffset: "6px",
     textTransform: "none",
     paddingLeft: "15px",
@@ -53,8 +53,8 @@ const useStyles = makeStyles({
       transition: ".3s ease-in-out",
       color: "black",
       textDecoration: "underline",
-      backgroundColor: "transparent"
-    }
+      backgroundColor: "transparent",
+    },
   },
   recruitmentButton: {
     textTransform: "none",
@@ -68,9 +68,9 @@ const useStyles = makeStyles({
       backgroundColor: "#F1E4FF",
       color: "#8C30F5",
       cursor: "select",
-    }
-  }
-})
+    },
+  },
+});
 
 const PaddingBox = styled(Box)`
   padding-left: 10%;
@@ -99,8 +99,20 @@ const NavBarItem = styled(Link)`
   height: 40px;
 `;
 
-export default function TopNav({home, members, entrepreneurship, blog, recruitment}) {
-  const classes = useStyles({home, members, entrepreneurship, blog, recruitment})
+export default function TopNav({
+  home,
+  members,
+  entrepreneurship,
+  blog,
+  recruitment,
+}) {
+  const classes = useStyles({
+    home,
+    members,
+    entrepreneurship,
+    blog,
+    recruitment,
+  });
 
   return (
     <PaddingBox style={{ borderBottom: "1px solid #e5e5e5" }}>
@@ -122,9 +134,7 @@ export default function TopNav({home, members, entrepreneurship, blog, recruitme
               pathname: "/members",
             }}
           >
-            <Button className={classes.membersButton}>
-              Members
-            </Button>
+            <Button className={classes.membersButton}>Members</Button>
           </NavBarItem>
           <NavBarItem
             to={{
@@ -140,29 +150,25 @@ export default function TopNav({home, members, entrepreneurship, blog, recruitme
               pathname: "/blog",
             }}
           >
-            <Button className={classes.blogButton}>
-              Blog
-            </Button>
+            <Button className={classes.blogButton}>Blog</Button>
           </NavBarItem>
           <NavBarItem
             to={{
               pathname: "/recruitment",
             }}
           >
-            <Button className={classes.recruitmentButton}>
-              Recruitment
-            </Button>
+            <Button className={classes.recruitmentButton}>Recruitment</Button>
           </NavBarItem>
         </NavBarRight>
       </NavBarContainer>
     </PaddingBox>
   );
-};
+}
 
 TopNav.defaultProps = {
   home: false,
   members: false,
   entrepreneurship: false,
   blog: false,
-  recruitment: false
+  recruitment: false,
 };

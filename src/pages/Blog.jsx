@@ -4,7 +4,7 @@ import TopNav from "../components/TopNav";
 export default function Blog() {
   return (
     <>
-      <TopNav blog/>
+      <TopNav blog />
       Blog
     </>
   );
