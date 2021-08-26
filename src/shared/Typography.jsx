@@ -34,7 +34,7 @@ export const Hl5 = styled(Box)`
 export const Hl6 = styled(Box)`
   font-size: 20px;
   line-height: 30px;
-  font-weight: medium;
+  font-weight: 500;
 `;
 
 export const St1 = styled(Box)`
@@ -46,7 +46,7 @@ export const St1 = styled(Box)`
 export const St2 = styled(Box)`
   font-size: 18px;
   line-height: 28px;
-  font-weight: medium;
+  font-weight: 500;
 `;
 
 export const Bd1 = styled(Box)`

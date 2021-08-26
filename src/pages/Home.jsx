@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 import TopNav from "../components/TopNav";
+import BottomNav from "../components/BottomNav";
 import { Hl2, Bd1, Hl3, Hl4, Bd2 } from "../shared/Typography";
 
 const StatsBox = styled(Box)`
@@ -81,7 +82,7 @@ const RushSEP = styled(Box)`
   display: flex;
   flex-direction: row;
   padding: 76px 10% 76px 10%;
-  height: 30vh;
+  min-height: 30vh;
   background-color: #f4f5f7;
 `;
 
@@ -178,7 +179,7 @@ export default function Home() {
           </Box>
         </Box>
         <Box style={{ width: "60%" }}>
-          <Hl3 style={{ marginBottom: "48px" }}>Interested in joining SEP?</Hl3>
+          <Hl3 style={{ marginBottom: "32px" }}>Interested in joining SEP?</Hl3>
           <Bd1 style={{ marginBottom: "32px" }}>
             Come be a part of our amazing brotherhood! Rush for Fall 2021 starts
             on September 6th.
@@ -194,6 +195,7 @@ export default function Home() {
           </Link>
         </Box>
       </RushSEP>
+      <BottomNav />
     </>
   );
 }

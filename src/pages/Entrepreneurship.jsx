@@ -1,4 +1,5 @@
 import React from "react";
+import BottomNav from "../components/BottomNav";
 import TopNav from "../components/TopNav";
 
 export default function Entrepreneurship() {
@@ -6,6 +7,7 @@ export default function Entrepreneurship() {
     <>
       <TopNav entrepreneurship />
       Entrepreneurship
+      <BottomNav />
     </>
   );
 }
