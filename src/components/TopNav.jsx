@@ -99,12 +99,7 @@ const NavBarItem = styled(Link)`
   height: 40px;
 `;
 
-export default function TopNav({
-  home,
-  members,
-  entrepreneurship,
-  blog,
-}) {
+export default function TopNav({ home, members, entrepreneurship, blog }) {
   const classes = useStyles({
     home,
     members,
@@ -167,5 +162,5 @@ TopNav.defaultProps = {
   home: false,
   members: false,
   entrepreneurship: false,
-  blog: false
+  blog: false,
 };
