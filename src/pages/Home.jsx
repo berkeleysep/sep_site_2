@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 import TopNav from "../components/TopNav";
+import BottomNav from "../components/BottomNav";
 import { Hl2, Bd1, Hl3, Hl4, Bd2 } from "../shared/Typography";
 
 const StatsBox = styled(Box)`
@@ -194,6 +195,7 @@ export default function Home() {
           </Link>
         </Box>
       </RushSEP>
+      <BottomNav />
     </>
   );
 }
