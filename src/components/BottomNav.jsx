@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Box } from "@material-ui/core";
 import { Link } from "react-router-dom";
 
-import SEPLogo from "../assets/SEP-logo-dark.svg";
+import SEPLogo from "../assets/SEP-logo-light.svg";
 import { Bd1, Hl6 } from "../shared/Typography";
 
 const FooterSpread = styled(Box)`
@@ -47,8 +47,8 @@ export default function BottomNav() {
             pathname: "/",
           }}
         >
-          <Box>
-            <img src={SEPLogo} alt="SEP Logo" />
+          <Box style={{height: "36px"}}>
+            <img style={{height: "36px"}} src={SEPLogo} alt="SEP Logo" />
           </Box>
         </NavBarItem>
       </BoxLeft>

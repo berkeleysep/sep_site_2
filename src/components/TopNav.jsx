@@ -104,14 +104,12 @@ export default function TopNav({
   members,
   entrepreneurship,
   blog,
-  recruitment,
 }) {
   const classes = useStyles({
     home,
     members,
     entrepreneurship,
     blog,
-    recruitment,
   });
 
   return (
@@ -169,6 +167,5 @@ TopNav.defaultProps = {
   home: false,
   members: false,
   entrepreneurship: false,
-  blog: false,
-  recruitment: false,
+  blog: false
 };
