@@ -15,7 +15,7 @@ export const Hl2 = styled(Box)`
 
 export const Hl3 = styled(Box)`
   font-size: 40px;
-  line-height: 54x;
+  line-height: 54px;
   font-weight: 800;
 `;
 
