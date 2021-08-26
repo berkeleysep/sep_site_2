@@ -7,6 +7,7 @@ import { Bd1, Hl3 } from "../shared/Typography";
 import { Link } from "react-router-dom";
 import ArrowRightAltIcon from "@material-ui/icons/ArrowRightAlt";
 import MemberPhoto from "../components/MemberPhoto";
+import BottomNav from "../components/BottomNav";
 
 const useStyles = makeStyles({
   familyButton: {
@@ -253,6 +254,7 @@ export default function Members() {
           cc={true}
         />
       </ActiveHouse>
+      <BottomNav />
     </>
   );
 }
