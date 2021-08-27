@@ -6,7 +6,11 @@ import styled from "styled-components";
 
 import TopNav from "../components/TopNav";
 import BottomNav from "../components/BottomNav";
+import AnimationPhoto from "../components/AnimationPhoto";
+import Expire from "../components/Expire";
 import { Hl2, Bd1, Hl3, Hl4, Bd2 } from "../shared/Typography";
+import actives from "../actives.json";
+import { useState } from "react";
 
 const StatsBox = styled(Box)`
   border-left: 3px solid #8c30f5;
@@ -55,6 +59,7 @@ const FrontSpread = styled(Box)`
   width: 100%;
   min-height: 80vh;
   margin-bottom: 50px;
+  position: relative;
 `;
 
 const WhoWeAre = styled(Box)`
@@ -87,18 +92,33 @@ const RushSEP = styled(Box)`
 `;
 
 export default function Home() {
+  const [animationToggle, setAnimationToggle] = useState(true);
   const classes = useStyles();
 
   return (
     <>
       <TopNav home />
       <FrontSpread className="frontSpread">
-        <Box style={{ width: "60%" }}>
+        <Box style={{ width: "60%", position: "absolute" }}>
           <Hl2 style={{ marginBottom: "16px" }}>
             UC Berkeley's Premier Entrepreneurship Fraternity
           </Hl2>
           <Bd1>Here at Sigma Eta Pi, we do something...</Bd1>`
         </Box>
+        {
+          animationToggle &&
+            actives.images.map((path) => {
+              const min = 3000;
+              const max = 4000;
+              const expiration = Math.floor(Math.random() * max) + min;
+
+              return (
+                <Expire delay={expiration}>
+                  <AnimationPhoto path={path} delay={expiration}/>
+                </Expire>
+              )
+            })
+          }
       </FrontSpread>
       <WhoWeAre>
         <Box style={{ width: "40%", marginRight: "10%" }}>
