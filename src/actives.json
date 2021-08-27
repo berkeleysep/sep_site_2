@@ -28,6 +28,47 @@
       "imgpath": "david"
     }
   ],
-  "actives": [{}],
+  "actives": [
+    {
+      "name": "David Wei",
+      "pledge_class": "Tau",
+      "major": "Computer Science",
+      "linkedin": "https://www.linkedin.com/in/davidmwei/",
+      "imgpath": "david",
+      "cc": true
+    },
+    {
+      "name": "David Wei",
+      "pledge_class": "Tau",
+      "major": "Computer Science",
+      "linkedin": "https://www.linkedin.com/in/davidmwei/",
+      "imgpath": "david",
+      "cc": false
+    },
+    {
+      "name": "David Wei",
+      "pledge_class": "Tau",
+      "major": "Computer Science",
+      "linkedin": "https://www.linkedin.com/in/davidmwei/",
+      "imgpath": "david",
+      "cc": true
+    },
+    {
+      "name": "David Wei",
+      "pledge_class": "Tau",
+      "major": "Computer Science",
+      "linkedin": "https://www.linkedin.com/in/davidmwei/",
+      "imgpath": "david",
+      "cc": false
+    },
+    {
+      "name": "David Wei",
+      "pledge_class": "Tau",
+      "major": "Computer Science",
+      "linkedin": "https://www.linkedin.com/in/davidmwei/",
+      "imgpath": "david",
+      "cc": true
+    }
+  ],
   "images": ["david"]
 }

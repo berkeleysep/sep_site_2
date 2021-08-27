@@ -33,10 +33,14 @@ export default function Members() {
   `;
 
   const ActiveHouse = styled(Box)`
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 76px;
-    padding-bottom: 76px;
+    padding: 76px 10% 76px 10%;
+  `;
+
+  const ActivePhotos = styled(Box)`
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+    align-items: start;
   `;
 
   return (
@@ -85,96 +89,20 @@ export default function Members() {
         <Box style={{ width: "35%", marginRight: "10%" }}>
           <Hl3 style={{ marginBottom: "48px" }}>Active House</Hl3>
         </Box>
-        <MemberPhoto
-          major={"Computer Science"}
-          email={"psonthalia@berkeley.edu"}
-          linkedin={"https://google.com"}
-          name={"Paran Sonthalia"}
-          path={"../assets/images/individual/paran.png"}
-          pledge_class={"Upsilon"}
-          cc={true}
-        />
-        <MemberPhoto
-          major={"Computer Science"}
-          email={"psonthalia@berkeley.edu"}
-          linkedin={"https://google.com"}
-          name={"Paran Sonthalia"}
-          path={"../assets/images/individual/paran.png"}
-          pledge_class={"Upsilon"}
-          cc={true}
-        />
-        <MemberPhoto
-          major={"Computer Science"}
-          email={"psonthalia@berkeley.edu"}
-          linkedin={"https://google.com"}
-          name={"Paran Sonthalia"}
-          path={"../assets/images/individual/paran.png"}
-          pledge_class={"Upsilon"}
-          cc={true}
-        />
-        <MemberPhoto
-          major={"Computer Science"}
-          email={"psonthalia@berkeley.edu"}
-          linkedin={"https://google.com"}
-          name={"Paran Sonthalia"}
-          path={"../assets/images/individual/paran.png"}
-          pledge_class={"Upsilon"}
-          cc={true}
-        />
-        <MemberPhoto
-          major={"Computer Science"}
-          email={"psonthalia@berkeley.edu"}
-          linkedin={"https://google.com"}
-          name={"Paran Sonthalia"}
-          path={"../assets/images/individual/paran.png"}
-          pledge_class={"Upsilon"}
-          cc={true}
-        />
-        <MemberPhoto
-          major={"Computer Science"}
-          email={"psonthalia@berkeley.edu"}
-          linkedin={"https://google.com"}
-          name={"Paran Sonthalia"}
-          path={"../assets/images/individual/paran.png"}
-          pledge_class={"Upsilon"}
-          cc={true}
-        />
-        <MemberPhoto
-          major={"Computer Science"}
-          email={"psonthalia@berkeley.edu"}
-          linkedin={"https://google.com"}
-          name={"Paran Sonthalia"}
-          path={"../assets/images/individual/paran.png"}
-          pledge_class={"Upsilon"}
-          cc={true}
-        />
-        <MemberPhoto
-          major={"Computer Science"}
-          email={"psonthalia@berkeley.edu"}
-          linkedin={"https://google.com"}
-          name={"Paran Sonthalia"}
-          path={"../assets/images/individual/paran.png"}
-          pledge_class={"Upsilon"}
-          cc={true}
-        />
-        <MemberPhoto
-          major={"Computer Science"}
-          email={"psonthalia@berkeley.edu"}
-          linkedin={"https://google.com"}
-          name={"Paran Sonthalia"}
-          path={"../assets/images/individual/paran.png"}
-          pledge_class={"Upsilon"}
-          cc={true}
-        />
-        <MemberPhoto
-          major={"Computer Science"}
-          email={"psonthalia@berkeley.edu"}
-          linkedin={"https://google.com"}
-          name={"Paran Sonthalia"}
-          path={"../assets/images/individual/paran.png"}
-          pledge_class={"Upsilon"}
-          cc={true}
-        />
+        <ActivePhotos>
+          {actives.actives.map((active) => {
+            return (
+              <MemberPhoto
+                path={active.imgpath}
+                name={active.name}
+                pledge_class={active.pledge_class}
+                major={active.major}
+                linkedin={active.linkedin}
+                cc={active.cc}
+              />
+            );
+          })}
+        </ActivePhotos>
       </ActiveHouse>
       <BottomNav />
     </>
