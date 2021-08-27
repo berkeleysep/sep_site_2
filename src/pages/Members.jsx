@@ -24,12 +24,12 @@ export default function Members() {
   `;
   const ExecutivePhotos = styled(Box)`
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     background-color: #f4f5f7;
     padding: 76px 10% 76px 10%;
     margin: auto;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
+    justify-content: space-between;
   `;
 
   const ActiveHouse = styled(Box)`

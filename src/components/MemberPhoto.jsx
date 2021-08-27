@@ -21,7 +21,7 @@ export default function MemberPhoto({
     display: inline-block;
   `;
 
-  const logo = require("../assets/images/individual/paran.png");
+  const logo = require("../assets/images/individual/david.png");
   return (
     <PaddingBox style={{ borderBottom: "1px solid #e5e5e5" }}>
       <Box>

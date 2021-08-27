@@ -16,13 +16,11 @@ export default function ExecutivePhoto({
   linkedin
 }) {
   const PaddingBox = styled(Box)`
-    padding-left: 5%;
-    padding-right: 5%;
     display: flex;
     flex-direction: row;
-    border-bottom: "1px solid #e5e5e5"
     max-height: 240px;
     max-width: 550px;
+    margin-bottom: 48px;
   `;
 
   return (
