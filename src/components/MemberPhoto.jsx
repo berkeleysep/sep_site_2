@@ -1,40 +1,71 @@
 import { Box, Button } from "@material-ui/core";
 import React from "react";
 import styled from "styled-components";
-import { Hl5, Label1, Label2 } from "../shared/Typography";
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import EmailIcon from '@material-ui/icons/Email';
-import IconButton from '@material-ui/core/IconButton';
+import { Bd2, Hl5, Label1, Label2, St1 } from "../shared/Typography";
 
-export default function MemberPhoto({path, name, pledge_class, major, linkedin, email, cc}) {
+import LinkedInIcon from "../assets/linkedin.svg";
+
+export default function MemberPhoto({
+  path,
+  name,
+  pledge_class,
+  major,
+  linkedin,
+  cc,
+}) {
   const PaddingBox = styled(Box)`
-    padding-left: 5%;
-    padding-right: 5%;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    min-height: 320px;
+    max-width: 200px;
+    margin-bottom: 48px;
+    margin-right: 32px;
   `;
 
-  const logo = require("../assets/paran.png");
+  const CCBox = styled(Box)`
+    max-width: 60px;
+    border-radius: 4px;
+    padding: 2px 5px 2px 5px;
+    position: relative;
+    bottom: 32px;
+    left: 10px;
+    background-color: black;
+    font-size: 10px;
+    line-height: 16px;
+    text-align: center;
+  `;
+
   return (
-    <PaddingBox style={{ borderBottom: "1px solid #e5e5e5" }}>
-      <Box>
-        <img alt={name} src={logo}/>
+    <PaddingBox>
+      <Box style={{ maxHeight: "200px", marginBottom: "20px" }}>
+        <img
+          alt={name}
+          src={require("../assets/images/individual/" + path + ".png").default}
+          style={{ maxHeight: "200px" }}
+        />
+        {cc && (
+          <CCBox>
+            <a
+              href={linkedin}
+              target="_blank"
+              style={{ textDecoration: "none", color: "white" }}
+            >
+              Coffee Chat
+            </a>
+          </CCBox>
+        )}
       </Box>
       <Box>
-        <Hl5>{name}</Hl5>
-        <Label2 style={{color: 'gray'}}>{pledge_class} Class, {major}</Label2>
-        <Box style={{display: "inline-block"}}>
-          <IconButton href={linkedin}><LinkedInIcon /></IconButton>
-          <IconButton href={email}><EmailIcon /></IconButton>
+        <St1 style={{ marginBottom: "4px" }}>{name}</St1>
+        <Bd2 style={{ color: "#969BAB", marginBottom: "4px" }}>
+          {pledge_class} Class, {major}
+        </Bd2>
+        <Box>
+          <a href={linkedin} target="_blank">
+            <img src={LinkedInIcon} />
+          </a>
         </Box>
       </Box>
     </PaddingBox>
   );
-};
-
-MemberPhoto.defaultProps = {
-  home: false,
-  members: false,
-  entrepreneurship: false,
-  blog: false,
-  recruitment: false
-};
+}
