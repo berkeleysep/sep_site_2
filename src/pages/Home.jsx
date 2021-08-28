@@ -91,8 +91,7 @@ const RushSEP = styled(Box)`
   background-color: #f4f5f7;
 `;
 
-export default function Home() {
-  const [animationToggle, setAnimationToggle] = useState(true);
+function Home() {
   const classes = useStyles();
 
   return (
@@ -106,15 +105,15 @@ export default function Home() {
           <Bd1>Here at Sigma Eta Pi, we do something...</Bd1>`
         </Box>
         {
-          animationToggle &&
-            actives.images.map((path) => {
+            actives.images.map((path, index) => {
               const min = 3000;
               const max = 4000;
               const expiration = Math.floor(Math.random() * max) + min;
+              const stagger = index * 1000
 
               return (
-                <Expire delay={expiration}>
-                  <AnimationPhoto path={path} delay={expiration}/>
+                <Expire delay={expiration + stagger}>
+                  <AnimationPhoto path={path} delay={expiration} stagger={stagger}/>
                 </Expire>
               )
             })
@@ -171,7 +170,7 @@ export default function Home() {
           <Bd1 style={{ width: "90%", marginBottom: "32px" }}>
             Our actives go on to accomplish amazing things. These include
             starting ventures that go on to be backed by Y-Combinator and
-            acquired by Square for $90 million, and finding successful careers
+            acquired by Square for $90 million, to finding successful careers
             at top companies.
           </Bd1>
           <Link
@@ -219,3 +218,5 @@ export default function Home() {
     </>
   );
 }
+
+export default React.memo(Home);

@@ -23,12 +23,14 @@ const PhotoBox = styled(Box)`
 `
 
 const Img = styled.img`
+  opacity: 0;
   width: 125px;
   height: 125px;
   animation: ${props => props.duration}ms ${fadeInOut} ease-in-out;
+  animation-delay: ${props => props.stagger}ms
 `
 
-export default function AnimationPhoto({path, delay}) {
+export default function AnimationPhoto({path, delay, stagger}) {
   const positionTop = Math.floor(Math.random() * 80);
   const positionLeft = Math.floor(Math.random() * 100);
 
@@ -36,6 +38,7 @@ export default function AnimationPhoto({path, delay}) {
     <PhotoBox positionTop={positionTop} positionLeft={positionLeft}>
       <Img 
       duration={delay}
+      stagger={stagger}
       src={require("../assets/images/individual/" + path + ".png").default} />
     </PhotoBox>
   )
