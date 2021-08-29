@@ -54,12 +54,12 @@ const InfoBox = styled(Box)`
 
 const InfoLeft = styled(Box)`
   background-color: #f4f5f7;
-  width: 30%;
-  padding: 76px 6% 76px 6%;
+  width: 35%;
+  padding: 76px 3% 76px 6%;
 `;
 
 const InfoRight = styled(Box)`
-  width: 70%;
+  width: 65%;
   padding: 76px 5% 76px 5%;
 `;
 
@@ -114,13 +114,13 @@ export default function Recruitment() {
           <Box style={{position: "-webkit-sticky",
   position: "sticky", top: "5%"}}>
           <Hl3 style={{ marginBottom: "34px" }}>Rush Timeline</Hl3>
-
+          
           <VerticalTimeline layout={"1-column-left"}>
             <VerticalTimelineElement>
               <TimelineItem date={"Tues, Sept 7th"} time={"8PM"} location={"Location"} title={"Meet the Chapter #1"} description={"Description"}/>
             </VerticalTimelineElement>
             <VerticalTimelineElement>
-              <Hl6>Tues, Sept 7th</Hl6>
+              <TimelineItem date={"Tues, Sept 7th"} time={"8PM"} location={"Location"} title={"Meet the Chapter #1"} description={"Description"}/>
             </VerticalTimelineElement>
           </VerticalTimeline>
           </Box>
