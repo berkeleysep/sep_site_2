@@ -7,23 +7,12 @@ import { Link, withRouter } from "react-router-dom";
 function ShowBlog(props, p) {
 
   return (
-    <div className={`col-md-4 col-sm-6 col-xs-12 ${c.grid}`}>
+    <div className={c.grid}>
       <div className={c.cardsmall}>
         <div
           className={c.cardpost__image}
           style={{ backgroundImage: `url(${props.thumbnail})` }}
         >
-
-          <div className={c.authorimg}>
-            <a
-              href={props.profileurl}
-              rel="noopener noreferrer"
-              target="_blank"
-              style={{ backgroundImage: `url(${props.avtar})` }}
-            >
-              Written By Mehul
-            </a>
-          </div>
         </div>
 
         <div className="card-body">

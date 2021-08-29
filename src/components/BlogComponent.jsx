@@ -82,7 +82,7 @@ export class BlogComponent extends Component {
     }
     return (
       <div className="container">
-        <div className="row">
+        <div className="row" style={{ maxWidth: "100vw", flexDirection: "row", flexGrow: "1"}}>
           {/* {this.state.item.map((post, index) => (
           <ShowBlog key={index} {...post} {...this.state.profile} {...index} />
         ))} */}
