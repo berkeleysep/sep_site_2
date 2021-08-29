@@ -71,7 +71,7 @@ const useStyles = makeStyles({
       color: "#8C30F5",
       cursor: "select",
       textDecoration: "underline",
-      textUnderlineOffset: "4px"
+      textUnderlineOffset: "4px",
     },
   },
 });
@@ -103,13 +103,19 @@ const NavBarItem = styled(Link)`
   height: 40px;
 `;
 
-export default function TopNav({ home, members, entrepreneurship, blog, recruitment }) {
+export default function TopNav({
+  home,
+  members,
+  entrepreneurship,
+  blog,
+  recruitment,
+}) {
   const classes = useStyles({
     home,
     members,
     entrepreneurship,
     blog,
-    recruitment
+    recruitment,
   });
 
   return (
