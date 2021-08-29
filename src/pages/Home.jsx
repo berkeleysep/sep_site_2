@@ -98,7 +98,7 @@ function Home() {
     <>
       <TopNav home />
       <FrontSpread className="frontSpread">
-        <Box style={{ width: "60%", position: "absolute" }}>
+        <Box style={{ width: "60%", zIndex: "100" }}>
           <Hl2 style={{ marginBottom: "16px" }}>
             UC Berkeley's Premier Entrepreneurship Fraternity
           </Hl2>
@@ -109,7 +109,7 @@ function Home() {
               const min = 3000;
               const max = 4000;
               const expiration = Math.floor(Math.random() * max) + min;
-              const stagger = index * 1000
+              const stagger = index * 700
 
               return (
                 <Expire delay={expiration + stagger}>
