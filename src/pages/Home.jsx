@@ -6,7 +6,11 @@ import styled from "styled-components";
 
 import TopNav from "../components/TopNav";
 import BottomNav from "../components/BottomNav";
+import AnimationPhoto from "../components/AnimationPhoto";
+import Expire from "../components/Expire";
 import { Hl2, Bd1, Hl3, Hl4, Bd2 } from "../shared/Typography";
+import actives from "../actives.json";
+import { useState } from "react";
 
 const StatsBox = styled(Box)`
   border-left: 3px solid #8c30f5;
@@ -55,6 +59,7 @@ const FrontSpread = styled(Box)`
   width: 100%;
   min-height: 80vh;
   margin-bottom: 50px;
+  position: relative;
 `;
 
 const WhoWeAre = styled(Box)`
@@ -86,19 +91,33 @@ const RushSEP = styled(Box)`
   background-color: #f4f5f7;
 `;
 
-export default function Home() {
+function Home() {
   const classes = useStyles();
 
   return (
     <>
       <TopNav home />
       <FrontSpread className="frontSpread">
-        <Box style={{ width: "60%" }}>
+        <Box style={{ width: "60%", zIndex: "100" }}>
           <Hl2 style={{ marginBottom: "16px" }}>
             UC Berkeley's Premier Entrepreneurship Fraternity
           </Hl2>
           <Bd1>Here at Sigma Eta Pi, we do something...</Bd1>`
         </Box>
+        {
+            actives.images.map((path, index) => {
+              const min = 3000;
+              const max = 4000;
+              const expiration = Math.floor(Math.random() * max) + min;
+              const stagger = index * 700
+
+              return (
+                <Expire delay={expiration + stagger}>
+                  <AnimationPhoto path={path} delay={expiration} stagger={stagger}/>
+                </Expire>
+              )
+            })
+          }
       </FrontSpread>
       <WhoWeAre>
         <Box style={{ width: "40%", marginRight: "10%" }}>
@@ -151,7 +170,7 @@ export default function Home() {
           <Bd1 style={{ width: "90%", marginBottom: "32px" }}>
             Our actives go on to accomplish amazing things. These include
             starting ventures that go on to be backed by Y-Combinator and
-            acquired by Square for $90 million, and finding successful careers
+            acquired by Square for $90 million, to finding successful careers
             at top companies.
           </Bd1>
           <Link
@@ -199,3 +218,5 @@ export default function Home() {
     </>
   );
 }
+
+export default React.memo(Home);

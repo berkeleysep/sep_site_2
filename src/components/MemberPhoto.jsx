@@ -1,7 +1,7 @@
-import { Box, Button } from "@material-ui/core";
+import { Box } from "@material-ui/core";
 import React from "react";
 import styled from "styled-components";
-import { Bd2, Hl5, Label1, Label2, St1 } from "../shared/Typography";
+import { Bd2, St1 } from "../shared/Typography";
 
 import LinkedInIcon from "../assets/linkedin.svg";
 
@@ -48,6 +48,7 @@ export default function MemberPhoto({
             <a
               href={linkedin}
               target="_blank"
+              rel="noreferrer"
               style={{ textDecoration: "none", color: "white" }}
             >
               Coffee Chat
@@ -61,8 +62,8 @@ export default function MemberPhoto({
           {pledge_class} Class, {major}
         </Bd2>
         <Box>
-          <a href={linkedin} target="_blank">
-            <img src={LinkedInIcon} />
+          <a href={linkedin} target="_blank" rel="noreferrer">
+            <img alt="LinkedIn Icon" src={LinkedInIcon} />
           </a>
         </Box>
       </Box>

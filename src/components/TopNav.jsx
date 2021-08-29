@@ -58,6 +58,8 @@ const useStyles = makeStyles({
   },
   recruitmentButton: {
     textTransform: "none",
+    textDecoration: (props) => (props.recruitment ? "underline" : "none"),
+    textUnderlineOffset: "4px",
     backgroundColor: "#8C30F5",
     color: "white",
     paddingLeft: "20px",
@@ -68,6 +70,8 @@ const useStyles = makeStyles({
       backgroundColor: "#F1E4FF",
       color: "#8C30F5",
       cursor: "select",
+      textDecoration: "underline",
+      textUnderlineOffset: "4px"
     },
   },
 });
@@ -99,12 +103,13 @@ const NavBarItem = styled(Link)`
   height: 40px;
 `;
 
-export default function TopNav({ home, members, entrepreneurship, blog }) {
+export default function TopNav({ home, members, entrepreneurship, blog, recruitment }) {
   const classes = useStyles({
     home,
     members,
     entrepreneurship,
     blog,
+    recruitment
   });
 
   return (
@@ -163,4 +168,5 @@ TopNav.defaultProps = {
   members: false,
   entrepreneurship: false,
   blog: false,
+  recruitment: false,
 };

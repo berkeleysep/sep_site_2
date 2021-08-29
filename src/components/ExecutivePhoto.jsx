@@ -1,4 +1,4 @@
-import { Box, Button } from "@material-ui/core";
+import { Box } from "@material-ui/core";
 import React from "react";
 import styled from "styled-components";
 
@@ -39,8 +39,8 @@ export default function ExecutivePhoto({
         <Bd2 style={{ opacity: ".4", marginBottom: "8px" }}>{major}</Bd2>
         <Bd2 style={{ marginBottom: "8px" }}>{bio}</Bd2>
         <Box>
-          <a href={linkedin} target="_blank">
-            <img src={LinkedInIcon} />
+          <a href={linkedin} target="_blank" rel="noreferrer">
+            <img alt="LinkedInIcon" src={LinkedInIcon} />
           </a>
         </Box>
       </Box>
