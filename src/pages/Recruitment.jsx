@@ -2,10 +2,13 @@ import React from "react";
 import styled from "styled-components";
 import { Box, Button, makeStyles} from "@material-ui/core";
 import { Link } from "react-router-dom";
+import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
 
 import BottomNav from "../components/BottomNav";
 import TopNav from "../components/TopNav";
-import { Bd1, Hl2, Hl3 } from "../shared/Typography";
+import YoutubeEmbed from "../components/YoutubeEmbed";
+import { Bd1, Hl2, Hl3, Hl6 } from "../shared/Typography";
 
 const useStyles = makeStyles({
   applyButton: {
@@ -48,12 +51,12 @@ const InfoBox = styled(Box)`
 
 const InfoLeft = styled(Box)`
   background-color: #F4F5F7;
-  min-width: 30%;
+  width: 30%;
   padding: 76px 6% 76px 6%;
 `
 
 const InfoRight = styled(Box)`
-  min-width: 70%;
+  width: 70%;
   padding: 76px 5% 76px 5%;
 `
 
@@ -93,12 +96,36 @@ export default function Recruitment() {
 
 
 
+            <VerticalTimeline layout={"1-column-left"}>
+              <VerticalTimelineElement
+              >
+                <Hl6>
+                  Tues, Sept 7th
+                </Hl6>
+              </VerticalTimelineElement>
+              <VerticalTimelineElement>
+                <Hl6>
+                  Tues, Sept 7th
+                </Hl6>
+              </VerticalTimelineElement>
+            </VerticalTimeline>
+
+
+
 
 
 
           </InfoLeft>
           <InfoRight>
-            right here
+            <Hl3 style={{marginBottom: "48px"}}>
+              Rush Video
+            </Hl3>
+            <Box style={{width: "100%", height: "80%", marginBottom: "48px"}}>
+              <YoutubeEmbed embedId="rokGy0huYEA"/>
+            </Box>
+            <Hl3 style={{}}>
+              Frequently Asked Questions
+            </Hl3>
           </InfoRight>
         </InfoBox>
       <BottomNav />
