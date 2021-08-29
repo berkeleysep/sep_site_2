@@ -104,20 +104,22 @@ function Home() {
           </Hl2>
           <Bd1>Here at Sigma Eta Pi, we do something...</Bd1>`
         </Box>
-        {
-            actives.images.map((path, index) => {
-              const min = 3000;
-              const max = 4000;
-              const expiration = Math.floor(Math.random() * max) + min;
-              const stagger = index * 700
+        {actives.images.map((path, index) => {
+          const min = 3000;
+          const max = 4000;
+          const expiration = Math.floor(Math.random() * max) + min;
+          const stagger = index * 700;
 
-              return (
-                <Expire delay={expiration + stagger}>
-                  <AnimationPhoto path={path} delay={expiration} stagger={stagger}/>
-                </Expire>
-              )
-            })
-          }
+          return (
+            <Expire delay={expiration + stagger}>
+              <AnimationPhoto
+                path={path}
+                delay={expiration}
+                stagger={stagger}
+              />
+            </Expire>
+          );
+        })}
       </FrontSpread>
       <WhoWeAre>
         <Box style={{ width: "40%", marginRight: "10%" }}>
@@ -170,8 +172,8 @@ function Home() {
           <Bd1 style={{ width: "90%", marginBottom: "32px" }}>
             Our actives go on to accomplish amazing things. These include
             starting ventures that go on to be backed by Y-Combinator and
-            acquired by Square for $90 million, to finding successful careers
-            at top companies.
+            acquired by Square for $90 million, to finding successful careers at
+            top companies.
           </Bd1>
           <Link
             to={{ pathname: "/entrepreneurship" }}
