@@ -17,7 +17,7 @@ export default function MemberPhoto({
     display: flex;
     flex-direction: column;
     min-height: 320px;
-    max-width: 200px;
+    width: 200px;
     margin-bottom: 48px;
     margin-right: 32px;
   `;

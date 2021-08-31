@@ -22,14 +22,13 @@ export default function Members() {
     padding-left: 10%;
     padding-right: 10%;
   `;
+
   const ExecutivePhotos = styled(Box)`
     display: flex;
     flex-flow: row wrap;
     background-color: #f4f5f7;
     padding: 76px 10% 76px 10%;
-    margin: auto;
     align-items: start;
-    justify-content: space-between;
   `;
 
   const ActiveHouse = styled(Box)`
@@ -39,7 +38,6 @@ export default function Members() {
   const ActivePhotos = styled(Box)`
     display: flex;
     flex-flow: row wrap;
-    margin: auto;
     align-items: start;
   `;
 
@@ -47,7 +45,14 @@ export default function Members() {
     <>
       <TopNav members />
       <Header>
-        <Box style={{ width: "100%", marginRight: "10%", display: "block" }}>
+        <Box
+          style={{
+            width: "100%",
+            marginRight: "10%",
+            display: "block",
+            marginBottom: "48px",
+          }}
+        >
           <Box style={{ height: "200px", backgroundColor: "grey" }}>
             pic here
           </Box>
