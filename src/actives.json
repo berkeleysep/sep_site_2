@@ -292,6 +292,54 @@
       "linkedin": "https://www.linkedin.com/in/jprajna/",
       "imgpath": "Prajna-Jalagam",
       "cc": false
+    },
+    {
+      "name": "Adwoa Boateng",
+      "pledge_class": "Pi",
+      "major": "International Business",
+      "linkedin": "https://www.linkedin.com/in/adwoab/",
+      "imgpath": "Adwoa-Boateng",
+      "cc": false
+    },
+    {
+      "name": "Gokce Guven",
+      "pledge_class": "Pi",
+      "major": "CS + International Business + Cognitive Science",
+      "linkedin": "https://www.linkedin.com/in/gokceguven/",
+      "imgpath": "Gokce-Guven",
+      "cc": false
+    },
+    {
+      "name": "Jonathan Li",
+      "pledge_class": "Pi",
+      "major": "Engineering Physics",
+      "linkedin": "https://www.linkedin.com/in/jon-athan-l/",
+      "imgpath": "Jonathan-Li",
+      "cc": false
+    },
+    {
+      "name": "Nikita Krishnan",
+      "pledge_class": "Pi",
+      "major": "Materials Engineering",
+      "linkedin": "https://www.linkedin.com/in/jprajna/",
+      "imgpath": "Nikita-Krishnan",
+      "cc": false
+    },
+    {
+      "name": "Saira Chawla",
+      "pledge_class": "Pi",
+      "major": "Economics + Data Science",
+      "linkedin": "https://www.linkedin.com/in/sairachawla1/",
+      "imgpath": "Saira-Chawla",
+      "cc": false
+    },
+    {
+      "name": "Thalia Georgiou",
+      "pledge_class": "Pi",
+      "major": "Physics",
+      "linkedin": "https://www.linkedin.com/in/thaliageorgiou/",
+      "imgpath": "Thalia-Georgiou",
+      "cc": false
     }
   ],
   "images": [
