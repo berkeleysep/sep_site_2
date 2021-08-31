@@ -108,7 +108,7 @@ export default function Entrepreneurship() {
           {entrepreneurship.careers.map((name) => {
             return (
               <Box
-                style={{ width: "140px", height: "140px", marginRight: "10px" }}
+                style={{ width: "140px", height: "140px", margin: "20px" }}
               >
                 <img
                   alt={name}
