@@ -22,14 +22,14 @@ import Bag from "../assets/images/emojis/bag.svg";
 import F1Car from "../assets/images/emojis/f1car.svg";
 import Pinning from "../assets/images/emojis/pinning.svg";
 
-const heroimg = require('../assets/images/group/sigmas-sf.jpg').default;
+const heroimg = require("../assets/images/group/sigmas-sf.jpg").default;
 const useStyles = makeStyles({
   backgroundImage: {
     backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url(${heroimg})`,
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
-    position: "relative"
+    position: "relative",
   },
   applyButton: {
     textTransform: "none",
@@ -134,7 +134,15 @@ export default function Recruitment() {
             <Hl3 style={{ marginBottom: "34px" }}>Rush Timeline</Hl3>
 
             <VerticalTimeline layout={"1-column-left"}>
-              <VerticalTimelineElement icon={<img style={{width: "100%"}} src={Handshake} />}>
+              <VerticalTimelineElement
+                icon={
+                  <img
+                    alt="Handshake emoji"
+                    style={{ width: "100%" }}
+                    src={Handshake}
+                  />
+                }
+              >
                 <TimelineItem
                   date={"Tues, Sept 7th"}
                   time={"7PM"}
@@ -142,7 +150,15 @@ export default function Recruitment() {
                   title={"Meet the Chapter #1"}
                 />
               </VerticalTimelineElement>
-              <VerticalTimelineElement icon={<img style={{width: "100%"}} src={World} />}>
+              <VerticalTimelineElement
+                icon={
+                  <img
+                    alt="World emoji"
+                    style={{ width: "100%" }}
+                    src={World}
+                  />
+                }
+              >
                 <TimelineItem
                   date={"Wed, Sept 8th"}
                   time={"8PM"}
@@ -150,7 +166,15 @@ export default function Recruitment() {
                   title={"Diversity in SEP"}
                 />
               </VerticalTimelineElement>
-              <VerticalTimelineElement icon={<img style={{width: "100%"}} src={Celebrate} />}>
+              <VerticalTimelineElement
+                icon={
+                  <img
+                    alt="Celebrate emoji"
+                    style={{ width: "100%" }}
+                    src={Celebrate}
+                  />
+                }
+              >
                 <TimelineItem
                   date={"Thu, Sept 9th"}
                   time={"8PM"}
@@ -158,7 +182,15 @@ export default function Recruitment() {
                   title={"Social Night"}
                 />
               </VerticalTimelineElement>
-              <VerticalTimelineElement icon={<img style={{width: "100%"}} src={Essay} />}>
+              <VerticalTimelineElement
+                icon={
+                  <img
+                    alt="Essay emoji"
+                    style={{ width: "100%" }}
+                    src={Essay}
+                  />
+                }
+              >
                 <TimelineItem
                   date={"Fri, Sept 10th"}
                   time={"11:59PM"}
@@ -166,7 +198,11 @@ export default function Recruitment() {
                   title={"Applications Due"}
                 />
               </VerticalTimelineElement>
-              <VerticalTimelineElement icon={<img style={{width: "100%"}} src={Mic} />}>
+              <VerticalTimelineElement
+                icon={
+                  <img alt="Mic emoji" style={{ width: "100%" }} src={Mic} />
+                }
+              >
                 <TimelineItem
                   date={"Sat, Sept 11th"}
                   time={"TBD*"}
@@ -175,7 +211,11 @@ export default function Recruitment() {
                   description={"*Invite only"}
                 />
               </VerticalTimelineElement>
-              <VerticalTimelineElement icon={<img style={{width: "100%"}} src={Bag} />}>
+              <VerticalTimelineElement
+                icon={
+                  <img alt="Bag emoji" style={{ width: "100%" }} src={Bag} />
+                }
+              >
                 <TimelineItem
                   date={"Wed, Sept 15th"}
                   time={"TBD*"}
@@ -184,7 +224,15 @@ export default function Recruitment() {
                   description={"*Invite only"}
                 />
               </VerticalTimelineElement>
-              <VerticalTimelineElement icon={<img style={{width: "100%"}} src={F1Car} />}>
+              <VerticalTimelineElement
+                icon={
+                  <img
+                    alt="F1Car emoji"
+                    style={{ width: "100%" }}
+                    src={F1Car}
+                  />
+                }
+              >
                 <TimelineItem
                   date={"Thu, Sept 16th"}
                   time={"TBD*"}
@@ -193,7 +241,15 @@ export default function Recruitment() {
                   description={"*Invite only"}
                 />
               </VerticalTimelineElement>
-              <VerticalTimelineElement icon={<img style={{width: "100%"}} src={Pinning} />}>
+              <VerticalTimelineElement
+                icon={
+                  <img
+                    alt="Pinning emoji"
+                    style={{ width: "100%" }}
+                    src={Pinning}
+                  />
+                }
+              >
                 <TimelineItem
                   date={"Fri, Sept 17th"}
                   time={"TBD*"}
@@ -225,6 +281,7 @@ export default function Recruitment() {
                 height: "100%",
               }}
               src="https://www.youtube.com/embed/rokGy0huYEA"
+              title="SEP Rush Video Fall 2021"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen

@@ -123,7 +123,11 @@ function Home() {
       <WhoWeAre>
         <Box style={{ width: "40%", marginRight: "10%" }}>
           <Box style={{ width: "100%", backgroundColor: "grey" }}>
-            <img style={{ width: "100%"}} alt="camping-trip-1" src={require("../assets/images/group/camping-trip-1.JPG").default} />
+            <img
+              style={{ width: "100%" }}
+              alt="camping-trip-1"
+              src={require("../assets/images/group/camping-trip-1.JPG").default}
+            />
           </Box>
         </Box>
         <Box style={{ width: "50%" }}>
