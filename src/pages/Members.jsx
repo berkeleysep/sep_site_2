@@ -99,8 +99,8 @@ export default function Members() {
               <Bd2 style={{marginBottom: "16px"}}>
                 Byline
               </Bd2>
-              <Box style={{ height: "210px", backgroundColor: "grey"}}>
-                pic here
+              <Box style={{ height: "210px", overflow: "hidden" }}>
+                <img style= {{ width: "100%"}} alt="glade-1" src={require("../assets/images/group/glade-1.png").default}/>
               </Box>
             </BrotherHoodBox>
             <BrotherHoodBox>
