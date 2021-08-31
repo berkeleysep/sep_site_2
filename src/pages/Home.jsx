@@ -101,7 +101,7 @@ function Home() {
           <Hl2 style={{ marginBottom: "16px" }}>
             UC Berkeley's Premier Entrepreneurship Fraternity
           </Hl2>
-          <Bd1>Here at Sigma Eta Pi, we do something...</Bd1>`
+          <Bd1>Here at Sigma Eta Pi, we are building the future...</Bd1>`
         </Box>
         {actives.images.map((path, index) => {
           const min = 3000;
@@ -122,8 +122,12 @@ function Home() {
       </FrontSpread>
       <WhoWeAre>
         <Box style={{ width: "40%", marginRight: "10%" }}>
-          <Box style={{ height: "100%", backgroundColor: "grey" }}>
-            pic here
+          <Box style={{ width: "100%", backgroundColor: "grey" }}>
+            <img
+              style={{ width: "100%" }}
+              alt="camping-trip-1"
+              src={require("../assets/images/group/camping-trip-1.JPG").default}
+            />
           </Box>
         </Box>
         <Box style={{ width: "50%" }}>

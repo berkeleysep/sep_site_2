@@ -58,7 +58,7 @@ export default function MemberPhoto({
       </Box>
       <Box>
         <St1 style={{ marginBottom: "4px" }}>{name}</St1>
-        <Bd2 style={{ color: "#969BAB", marginBottom: "4px" }}>
+        <Bd2 style={{ color: "#969BAB", marginBottom: "8px" }}>
           {pledge_class} Class, {major}
         </Bd2>
         <Box>
