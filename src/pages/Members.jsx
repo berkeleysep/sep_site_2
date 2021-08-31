@@ -75,7 +75,7 @@ export default function Members() {
                 Executive Board
               </Hl5>
               <Bd2 style={{marginBottom: "16px"}}>
-                Byline
+                Our Foundation
               </Bd2>
               <Box style={{ height: "210px", backgroundColor: "grey"}}>
                 pic here
@@ -86,7 +86,7 @@ export default function Members() {
                 Active House
               </Hl5>
               <Bd2 style={{marginBottom: "16px"}}>
-                Byline
+                A supportive community.
               </Bd2>
               <Box style={{ height: "210px", backgroundColor: "grey"}}>
                 pic here
@@ -97,7 +97,7 @@ export default function Members() {
                 Big + Littles
               </Hl5>
               <Bd2 style={{marginBottom: "16px"}}>
-                Byline
+                Family and mentorship 
               </Bd2>
               <Box style={{ height: "210px", overflow: "hidden" }}>
                 <img style= {{ width: "100%"}} alt="glade-1" src={require("../assets/images/group/glade-1.png").default}/>
@@ -108,7 +108,7 @@ export default function Members() {
                 Pledge Class
               </Hl5>
               <Bd2 style={{marginBottom: "16px"}}>
-                Byline
+               Your future co-founders
               </Bd2>
               <Box style={{ height: "210px", backgroundColor: "grey"}}>
                 pic here
