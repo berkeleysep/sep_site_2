@@ -1,6 +1,15 @@
 {
   "executives": [
     {
+      "name": "Pooja Shah",
+      "pledge_class": "Sigma",
+      "major": "Cognitive Science",
+      "position": "President",
+      "bio": "Hi! I'm Pooja, current president of SEP and a junior studying cognitive science and data science. I am passionate about figuring out ways to integrate art and music as alternative forms of treatment for different neurological disorders. I also love film, design, and music composition. I believe entrepreneurship is a mindset that allows us break boundaries and challenge familiarity, where anyone can innovate in whatever path they choose.",
+      "linkedin": "https://www.linkedin.com/in/pooja-shah01/",
+      "imgpath": "Pooja-Shah"
+    },
+    {
       "name": "David Wei",
       "pledge_class": "Tau",
       "major": "Computer Science",
@@ -10,22 +19,40 @@
       "imgpath": "David-Wei"
     },
     {
-      "name": "Adwoa Boateng",
+      "name": "Austin Ho",
       "pledge_class": "Tau",
-      "major": "Computer Science",
+      "major": "CS + Data Science",
       "position": "Professional Development VP",
-      "bio": "something something something something something",
-      "linkedin": "https://www.linkedin.com/in/davidmwei/",
-      "imgpath": "Adwoa-Boateng"
+      "bio": "Hi there! I'm a third-year CS + Data Science double major and I'm currently one of the Professional Development VPs! Outside of class, I enjoy making Spotify playlists, trying out new recipes, and tinkering.",
+      "linkedin": "https://www.linkedin.com/in/aho1628/",
+      "imgpath": "Austin-Ho"
     },
     {
-      "name": "David Wei",
+      "name": "Nikita Chauhan",
       "pledge_class": "Tau",
-      "major": "Computer Science",
-      "position": "Professional Development VP",
-      "bio": "something something something something something",
-      "linkedin": "https://www.linkedin.com/in/davidmwei/",
-      "imgpath": "David-Wei"
+      "major": "Cognitive Science",
+      "position": "External VP",
+      "bio": "Hey! I'm a third-year studying cognitive and data science. My professional interests include, product design, UI/UX, education, and honestly anything startup related :). I love cooking and am a huge coffee fanatic. In my free time, I love playing racquetball and chilling on the glade!",
+      "linkedin": "https://www.linkedin.com/in/nikita-chauhan-b47a3619b/",
+      "imgpath": "Nikita-Chauhan"
+    },
+    {
+      "name": "Annie Pan",
+      "pledge_class": "Tau",
+      "major": "Business + Design",
+      "position": "External VP",
+      "bio": "I'm a 3rd year who loves all things design and creative (thrift-flipping, painting, making videos, photography, you name it!). I'm pursuing a career path in UI/UX / creative design, and aside from my creative interests, I'm really passionate about mental health issues and am also an adrenaline junkie who loves playing soccer, running, snowboarding, traveling, curating my black & white aesthetic wardrobe, and eating anything and everything besides durian.",
+      "linkedin": "linkedin.com/in/anniexpan",
+      "imgpath": "Annie-Pan"
+    },
+    {
+      "name": "Riya Sinha",
+      "pledge_class": "Sigma",
+      "major": "Media Studies",
+      "position": "Internal VP",
+      "bio": "Joining SEP has given me the opportunity to follow my passions within an incredibly supportive and loving community. If you’re looking to be surrounded by students who constantly chase self-growth, seek new projects to build, and question the limits of entrepreneurship, you’ve found the right place!",
+      "linkedin": "https://www.linkedin.com/in/riya-sinha-a4b741102/",
+      "imgpath": "Riya-Sinha"
     }
   ],
   "actives": [
@@ -38,7 +65,7 @@
       "cc": false
     },
     {
-      "name": "Annamira-OToole",
+      "name": "Annamira OToole",
       "pledge_class": "Tau",
       "major": "CS + Math",
       "linkedin": "https://www.linkedin.com/in/annamiraotoole/",
@@ -366,5 +393,48 @@
       "cc": false
     }
   ],
-  "images": ["David-Wei"]
+  "images": [
+    "Andrea-Juwono",
+    "Annamira-OToole",
+    "Annie-Pan",
+    "Austin-Ho",
+    "David-Wei",
+    "Diana-Qing",
+    "Ivan-Borzenko",
+    "Jack-Chen",
+    "Leanna-Chraghchian",
+    "Miguel-Trujillo",
+    "Nikita-Chauhan",
+    "Anish-Nag",
+    "Brianna-Fann",
+    "Chirag-Sharma",
+    "George-Lee",
+    "Keren-Duque",
+    "Matthew-Hallac",
+    "Miles-Wilson",
+    "Nikhil-Lohe",
+    "Pooja-Shah",
+    "Riya-Sinha",
+    "Sereene-Saab",
+    "Wesley-Wang",
+    "Alex-Lu",
+    "Alex-Manes",
+    "Anuj-Bhandari",
+    "Avinash-Jain",
+    "Charlize-Dang",
+    "Gabrielle-Nardecchia",
+    "Jojo-Chen",
+    "Kevin-Li",
+    "Melody-Chen",
+    "Prajna-Jalagam",
+    "Adwoa-Boateng",
+    "Gokce-Guven",
+    "Jonathan-Li",
+    "Nikita-Krishnan",
+    "Saira-Chawla",
+    "Thalia-Georgiou",
+    "Henry-DiamondPott",
+    "Kai-Chorazewicz",
+    "Rohan-Arora"
+  ]
 }
