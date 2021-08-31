@@ -158,7 +158,12 @@ export default function TopNav({
               pathname: "",
             }}
           >
-            <Button onClick={() => redirectBlog()} className={classes.blogButton}>Blog</Button>
+            <Button
+              onClick={() => redirectBlog()}
+              className={classes.blogButton}
+            >
+              Blog
+            </Button>
           </NavBarItem>
           <NavBarItem
             to={{

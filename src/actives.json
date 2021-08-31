@@ -4,13 +4,13 @@
       "name": "David Wei",
       "pledge_class": "Tau",
       "major": "Computer Science",
-      "position": "Professional Development VP",
-      "bio": "something something something something something",
+      "position": "Professional Development VP + Tech Lead",
+      "bio": "Hi! I'm a Junior studying CS and am passionate the intersections between tech and other industries. I've worked at large tech companies and small startups. Outside of school, I'm an avid Seahawks fan and enjoy playing the guitar.",
       "linkedin": "https://www.linkedin.com/in/davidmwei/",
-      "imgpath": "david"
+      "imgpath": "David-Wei"
     },
     {
-      "name": "David Wei",
+      "name": "Adwoa Boateng",
       "pledge_class": "Tau",
       "major": "Computer Science",
       "position": "Professional Development VP",
@@ -25,7 +25,7 @@
       "position": "Professional Development VP",
       "bio": "something something something something something",
       "linkedin": "https://www.linkedin.com/in/davidmwei/",
-      "imgpath": "david"
+      "imgpath": "David-Wei"
     }
   ],
   "actives": [
@@ -66,7 +66,7 @@
       "pledge_class": "Tau",
       "major": "CS",
       "linkedin": "https://www.linkedin.com/in/davidmwei/",
-      "imgpath": "david",
+      "imgpath": "David-Wei",
       "cc": false
     },
     {
@@ -366,22 +366,5 @@
       "cc": false
     }
   ],
-  "images": [
-    "david",
-    "david",
-    "david",
-    "david",
-    "david",
-    "david",
-    "david",
-    "david",
-    "david",
-    "david",
-    "david",
-    "david",
-    "david",
-    "david",
-    "david",
-    "david"
-  ]
+  "images": ["David-Wei"]
 }

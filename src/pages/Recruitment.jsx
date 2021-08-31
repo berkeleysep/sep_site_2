@@ -11,9 +11,26 @@ import "react-vertical-timeline-component/style.min.css";
 import BottomNav from "../components/BottomNav";
 import TopNav from "../components/TopNav";
 import TimelineItem from "../components/TimelineItem";
-import { Bd1, Hl2, Hl3, Hl5, Hl6 } from "../shared/Typography";
+import { Bd1, Hl2, Hl3, Hl5 } from "../shared/Typography";
 
+import Handshake from "../assets/images/emojis/handshake.svg";
+import World from "../assets/images/emojis/world.svg";
+import Celebrate from "../assets/images/emojis/celebrate.svg";
+import Essay from "../assets/images/emojis/essay.svg";
+import Mic from "../assets/images/emojis/mic.svg";
+import Bag from "../assets/images/emojis/bag.svg";
+import F1Car from "../assets/images/emojis/f1car.svg";
+import Pinning from "../assets/images/emojis/pinning.svg";
+
+const heroimg = require("../assets/images/group/sigmas-sf.jpg").default;
 const useStyles = makeStyles({
+  backgroundImage: {
+    backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url(${heroimg})`,
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    position: "relative",
+  },
   applyButton: {
     textTransform: "none",
     textDecoration: (props) => (props.recruitment ? "underline" : "none"),
@@ -89,10 +106,14 @@ const FAQTitle = styled(Hl5)`
 export default function Recruitment() {
   const classes = useStyles();
 
+  function redirectTypeform() {
+    window.open("https://mkg2mvddy6x.typeform.com/to/T0epVEaT?typeform-source=l.messenger.com", "_blank");
+  }
+
   return (
     <>
       <TopNav recruitment />
-      <FrontSpread>
+      <FrontSpread className={classes.backgroundImage}>
         <Hl2 style={{ marginBottom: "8px" }}>Rush Sigma Eta Pi</Hl2>
         <Bd1 style={{ marginBottom: "24px" }}>
           Be a part of UC Berkeley's Premier Entrepreneurship Fraternity
@@ -102,7 +123,7 @@ export default function Recruitment() {
             pathname: "/recruitment",
           }}
         >
-          <Button className={classes.applyButton}>Apply Now</Button>
+          <Button onClick={() => redirectTypeform()} className={classes.applyButton}>Apply Now</Button>
         </NavBarItem>
       </FrontSpread>
       <InfoBox>
@@ -117,22 +138,128 @@ export default function Recruitment() {
             <Hl3 style={{ marginBottom: "34px" }}>Rush Timeline</Hl3>
 
             <VerticalTimeline layout={"1-column-left"}>
-              <VerticalTimelineElement>
+              <VerticalTimelineElement
+                icon={
+                  <img
+                    alt="Handshake emoji"
+                    style={{ width: "100%" }}
+                    src={Handshake}
+                  />
+                }
+              >
                 <TimelineItem
                   date={"Tues, Sept 7th"}
-                  time={"8PM"}
-                  location={"Location"}
+                  time={"7PM"}
+                  location={"TBD"}
                   title={"Meet the Chapter #1"}
-                  description={"Description"}
                 />
               </VerticalTimelineElement>
-              <VerticalTimelineElement>
+              <VerticalTimelineElement
+                icon={
+                  <img
+                    alt="World emoji"
+                    style={{ width: "100%" }}
+                    src={World}
+                  />
+                }
+              >
                 <TimelineItem
-                  date={"Tues, Sept 7th"}
+                  date={"Wed, Sept 8th"}
                   time={"8PM"}
-                  location={"Location"}
-                  title={"Meet the Chapter #1"}
-                  description={"Description"}
+                  location={"TBD"}
+                  title={"Diversity in SEP"}
+                />
+              </VerticalTimelineElement>
+              <VerticalTimelineElement
+                icon={
+                  <img
+                    alt="Celebrate emoji"
+                    style={{ width: "100%" }}
+                    src={Celebrate}
+                  />
+                }
+              >
+                <TimelineItem
+                  date={"Thu, Sept 9th"}
+                  time={"8PM"}
+                  location={"TBD"}
+                  title={"Social Night"}
+                />
+              </VerticalTimelineElement>
+              <VerticalTimelineElement
+                icon={
+                  <img
+                    alt="Essay emoji"
+                    style={{ width: "100%" }}
+                    src={Essay}
+                  />
+                }
+              >
+                <TimelineItem
+                  date={"Fri, Sept 10th"}
+                  time={"11:59PM"}
+                  location={"TBD"}
+                  title={"Applications Due"}
+                />
+              </VerticalTimelineElement>
+              <VerticalTimelineElement
+                icon={
+                  <img alt="Mic emoji" style={{ width: "100%" }} src={Mic} />
+                }
+              >
+                <TimelineItem
+                  date={"Sat, Sept 11th"}
+                  time={"TBD*"}
+                  location={"TBD*"}
+                  title={"1st Round Interviews"}
+                  description={"*Invite only"}
+                />
+              </VerticalTimelineElement>
+              <VerticalTimelineElement
+                icon={
+                  <img alt="Bag emoji" style={{ width: "100%" }} src={Bag} />
+                }
+              >
+                <TimelineItem
+                  date={"Wed, Sept 15th"}
+                  time={"TBD*"}
+                  location={"TBD*"}
+                  title={"2nd Round Interviews"}
+                  description={"*Invite only"}
+                />
+              </VerticalTimelineElement>
+              <VerticalTimelineElement
+                icon={
+                  <img
+                    alt="F1Car emoji"
+                    style={{ width: "100%" }}
+                    src={F1Car}
+                  />
+                }
+              >
+                <TimelineItem
+                  date={"Thu, Sept 16th"}
+                  time={"TBD*"}
+                  location={"TBD*"}
+                  title={"Speed Dating Round"}
+                  description={"*Invite only"}
+                />
+              </VerticalTimelineElement>
+              <VerticalTimelineElement
+                icon={
+                  <img
+                    alt="Pinning emoji"
+                    style={{ width: "100%" }}
+                    src={Pinning}
+                  />
+                }
+              >
+                <TimelineItem
+                  date={"Fri, Sept 17th"}
+                  time={"TBD*"}
+                  location={"TBD*"}
+                  title={"Bid Night"}
+                  description={"*Invite only"}
                 />
               </VerticalTimelineElement>
             </VerticalTimeline>
@@ -158,6 +285,7 @@ export default function Recruitment() {
                 height: "100%",
               }}
               src="https://www.youtube.com/embed/rokGy0huYEA"
+              title="SEP Rush Video Fall 2021"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
@@ -202,7 +330,6 @@ export default function Recruitment() {
               </li>
               <li>
                 <Bd1>
-                  {" "}
                   willing to challenge both the status quo and themselves
                 </Bd1>
               </li>
