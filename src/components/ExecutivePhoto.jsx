@@ -2,7 +2,7 @@ import { Box } from "@material-ui/core";
 import React from "react";
 import styled from "styled-components";
 
-import { Bd2, St1 } from "../shared/Typography";
+import { Bd3, St1 } from "../shared/Typography";
 import LinkedInIcon from "../assets/linkedin.svg";
 
 export default function ExecutivePhoto({
@@ -25,20 +25,20 @@ export default function ExecutivePhoto({
 
   return (
     <PaddingBox>
-      <Box style={{ maxHeight: "240px" }}>
+      <Box style={{ maxHeight: "200px" }}>
         <img
           alt={name}
           src={require("../assets/images/individual/" + path + ".png").default}
-          style={{ maxHeight: "240px", marginRight: "24px" }}
+          style={{ maxHeight: "200px", marginRight: "24px" }}
         />
       </Box>
       <Box>
         <St1 style={{ marginBottom: "12px" }}>{name}</St1>
-        <Bd2 style={{ opacity: ".4" }}>
+        <Bd3 style={{ opacity: ".4" }}>
           {position}, {pledge_class} Class
-        </Bd2>
-        <Bd2 style={{ opacity: ".4", marginBottom: "8px" }}>{major}</Bd2>
-        <Bd2 style={{ marginBottom: "8px" }}>{bio}</Bd2>
+        </Bd3>
+        <Bd3 style={{ opacity: ".4", marginBottom: "8px" }}>{major}</Bd3>
+        <Bd3 style={{ marginBottom: "8px" }}>{bio}</Bd3>
         <Box>
           <a href={linkedin} target="_blank" rel="noreferrer">
             <img alt="LinkedInIcon" src={LinkedInIcon} />

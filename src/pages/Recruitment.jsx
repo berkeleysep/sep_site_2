@@ -107,7 +107,10 @@ export default function Recruitment() {
   const classes = useStyles();
 
   function redirectTypeform() {
-    window.open("https://mkg2mvddy6x.typeform.com/to/T0epVEaT?typeform-source=l.messenger.com", "_blank");
+    window.open(
+      "https://mkg2mvddy6x.typeform.com/to/T0epVEaT?typeform-source=l.messenger.com",
+      "_blank"
+    );
   }
 
   return (
@@ -123,7 +126,12 @@ export default function Recruitment() {
             pathname: "/recruitment",
           }}
         >
-          <Button onClick={() => redirectTypeform()} className={classes.applyButton}>Apply Now</Button>
+          <Button
+            onClick={() => redirectTypeform()}
+            className={classes.applyButton}
+          >
+            Apply Now
+          </Button>
         </NavBarItem>
       </FrontSpread>
       <InfoBox>

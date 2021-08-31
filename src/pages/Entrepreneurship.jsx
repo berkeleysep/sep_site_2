@@ -55,8 +55,14 @@ export default function Entrepreneurship() {
             marginBottom: "48px",
           }}
         >
-          <Box style={{ height: "200px", backgroundColor: "grey" }}>
-            pic here
+          <Box style={{ width: "100%", height: "200px", overflow: "hidden" }}>
+            <img
+              style={{ width: "100%", position: "relative", bottom: "200px" }}
+              alt="professional-table"
+              src={
+                require("../assets/images/group/professional-table.JPG").default
+              }
+            />
           </Box>
         </Box>
         <TitleContainer>
@@ -84,8 +90,14 @@ export default function Entrepreneurship() {
           </Bd1>
         </Box>
         <Box style={{ width: "55%" }}>
-          <Box style={{ height: "100%", backgroundColor: "grey" }}>
-            pic here
+          <Box style={{ width: "100%", backgroundColor: "grey" }}>
+            <img
+              style={{ width: "100%", overflow: "none" }}
+              alt="rohan-pitching"
+              src={
+                require("../assets/images/group/rohan-pitching.jpeg").default
+              }
+            />
           </Box>
         </Box>
       </VentureProcess>
@@ -107,9 +119,7 @@ export default function Entrepreneurship() {
         <CareerPhotoContainer>
           {entrepreneurship.careers.map((name) => {
             return (
-              <Box
-                style={{ width: "140px", height: "140px", marginRight: "10px" }}
-              >
+              <Box style={{ width: "140px", height: "140px", margin: "20px" }}>
                 <img
                   alt={name}
                   src={

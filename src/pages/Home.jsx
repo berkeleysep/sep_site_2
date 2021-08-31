@@ -87,7 +87,7 @@ const RushSEP = styled(Box)`
   flex-direction: row;
   padding: 76px 10% 76px 10%;
   min-height: 30vh;
-  background-color: #f4f5f7;
+  // background-color: #f4f5f7;
 `;
 
 function Home() {
@@ -122,7 +122,7 @@ function Home() {
       </FrontSpread>
       <WhoWeAre>
         <Box style={{ width: "40%", marginRight: "10%" }}>
-          <Box style={{ width: "100%", backgroundColor: "grey" }}>
+          <Box style={{ width: "100%", overflow: "hidden" }}>
             <img
               style={{ width: "100%" }}
               alt="camping-trip-1"
@@ -193,13 +193,17 @@ function Home() {
           </Box>
         </Box>
       </WhatWeDo>
-      <OurBlog>
+      {/* <OurBlog>
         <Hl3 style={{ marginBottom: "48px" }}>Our blog</Hl3>
-      </OurBlog>
+      </OurBlog> */}
       <RushSEP>
         <Box style={{ width: "30%", marginRight: "10%" }}>
-          <Box style={{ height: "100%", backgroundColor: "grey" }}>
-            pic here
+          <Box style={{ height: "100%", overflow: "hidden" }}>
+            <img
+              style={{ width: "100%" }}
+              alt="tim-joelene"
+              src={require("../assets/images/group/tim-joelene.png").default}
+            />
           </Box>
         </Box>
         <Box style={{ width: "60%" }}>

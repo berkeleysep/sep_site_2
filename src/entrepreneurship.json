@@ -31,5 +31,22 @@
       "url": "https://www.trycaviar.com/"
     }
   ],
-  "careers": ["apple", "apple"]
+  "careers": [
+    "amazon",
+    "apple",
+    "caviar",
+    "cisco",
+    "citadel",
+    "deloitte",
+    "facebook",
+    "figma",
+    "gilead",
+    "goldman",
+    "lyft",
+    "microsoft",
+    "palantir",
+    "robinhood",
+    "salesforce",
+    "slack"
+  ]
 }

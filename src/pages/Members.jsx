@@ -17,27 +17,25 @@ export default function Members() {
   const BrotherHoodBoxContainer = styled(Box)`
     display: flex;
     flex-flow: row wrap;
-  `
+  `;
 
   const BrotherHoodBox = styled(Box)`
     width: 250px;
     margin-right: 30px;
-  `
+  `;
 
   const ExecutiveBoard = styled(Box)`
     display: flex;
     flex-direction: row;
-    padding-top: 76px;
     background-color: #f4f5f7;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 76px 10% 0px 10%;
   `;
 
   const ExecutivePhotos = styled(Box)`
     display: flex;
     flex-flow: row wrap;
     background-color: #f4f5f7;
-    padding: 76px 10% 76px 10%;
+    padding: 76px 10% 38px 10%;
     align-items: start;
   `;
 
@@ -63,55 +61,57 @@ export default function Members() {
             marginBottom: "48px",
           }}
         >
-          <Box style={{ height: "200px", backgroundColor: "grey" }}>
-            pic here
+          <Box style={{ height: "400px", overflow: "hidden" }}>
+            <img
+              style={{ width: "100%" }}
+              alt="camping-trip-1"
+              src={require("../assets/images/group/camping-trip-1.JPG").default}
+            />
           </Box>
         </Box>
         <Box>
-          <Hl3 style={{marginBottom: "48px"}}>Brotherhood</Hl3>
+          <Hl3 style={{ marginBottom: "48px" }}>Brotherhood</Hl3>
           <BrotherHoodBoxContainer>
             <BrotherHoodBox>
-              <Hl5 style={{marginBottom: "8px"}}>
-                Executive Board
-              </Hl5>
-              <Bd2 style={{marginBottom: "16px"}}>
-                Our Foundation
-              </Bd2>
-              <Box style={{ height: "210px", backgroundColor: "grey"}}>
+              <Hl5 style={{ marginBottom: "8px" }}>Executive Board</Hl5>
+              <Bd2 style={{ marginBottom: "16px" }}>Our Foundation</Bd2>
+              <Box style={{ height: "210px", backgroundColor: "grey" }}>
                 pic here
               </Box>
             </BrotherHoodBox>
             <BrotherHoodBox>
-              <Hl5 style={{marginBottom: "8px"}}>
-                Active House
-              </Hl5>
-              <Bd2 style={{marginBottom: "16px"}}>
-                A supportive community.
-              </Bd2>
-              <Box style={{ height: "210px", backgroundColor: "grey"}}>
-                pic here
+              <Hl5 style={{ marginBottom: "8px" }}>Active House</Hl5>
+              <Bd2 style={{ marginBottom: "16px" }}>A supportive community</Bd2>
+              <Box style={{ height: "210px", backgroundColor: "grey" }}>
+                <img
+                  style={{ width: "100%" }}
+                  alt="griffiths"
+                  src={require("../assets/images/group/griffiths.jpg").default}
+                />
               </Box>
             </BrotherHoodBox>
             <BrotherHoodBox>
-              <Hl5 style={{marginBottom: "8px"}}>
-                Big + Littles
-              </Hl5>
-              <Bd2 style={{marginBottom: "16px"}}>
-                Family and mentorship 
-              </Bd2>
+              <Hl5 style={{ marginBottom: "8px" }}>Big + Littles</Hl5>
+              <Bd2 style={{ marginBottom: "16px" }}>Family and mentorship</Bd2>
               <Box style={{ height: "210px", overflow: "hidden" }}>
-                <img style= {{ width: "100%"}} alt="glade-1" src={require("../assets/images/group/glade-1.png").default}/>
+                <img
+                  style={{ width: "100%" }}
+                  alt="glade-1"
+                  src={require("../assets/images/group/glade-1.png").default}
+                />
               </Box>
             </BrotherHoodBox>
             <BrotherHoodBox>
-              <Hl5 style={{marginBottom: "8px"}}>
-                Pledge Class
-              </Hl5>
-              <Bd2 style={{marginBottom: "16px"}}>
-               Your future co-founders
+              <Hl5 style={{ marginBottom: "8px" }}>Pledge Class</Hl5>
+              <Bd2 style={{ marginBottom: "16px" }}>
+                Your future co-founders
               </Bd2>
-              <Box style={{ height: "210px", backgroundColor: "grey"}}>
-                pic here
+              <Box style={{ height: "210px", backgroundColor: "grey" }}>
+                <img
+                  style={{ width: "100%" }}
+                  alt="oopsilons"
+                  src={require("../assets/images/group/oopsilons.jpg").default}
+                />
               </Box>
             </BrotherHoodBox>
           </BrotherHoodBoxContainer>
