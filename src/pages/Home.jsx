@@ -10,7 +10,6 @@ import AnimationPhoto from "../components/AnimationPhoto";
 import Expire from "../components/Expire";
 import { Hl2, Bd1, Hl3, Hl4, Bd2 } from "../shared/Typography";
 import actives from "../actives.json";
-import { useState } from "react";
 
 const StatsBox = styled(Box)`
   border-left: 3px solid #8c30f5;

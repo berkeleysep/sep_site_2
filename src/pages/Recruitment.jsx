@@ -7,7 +7,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
- 
+
 import BottomNav from "../components/BottomNav";
 import TopNav from "../components/TopNav";
 import TimelineItem from "../components/TimelineItem";
@@ -106,29 +106,38 @@ export default function Recruitment() {
         </NavBarItem>
       </FrontSpread>
       <InfoBox>
-
-
-
-
         <InfoLeft>
-          <Box style={{position: "-webkit-sticky",
-  position: "sticky", top: "5%"}}>
-          <Hl3 style={{ marginBottom: "34px" }}>Rush Timeline</Hl3>
-          
-          <VerticalTimeline layout={"1-column-left"}>
-            <VerticalTimelineElement>
-              <TimelineItem date={"Tues, Sept 7th"} time={"8PM"} location={"Location"} title={"Meet the Chapter #1"} description={"Description"}/>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement>
-              <TimelineItem date={"Tues, Sept 7th"} time={"8PM"} location={"Location"} title={"Meet the Chapter #1"} description={"Description"}/>
-            </VerticalTimelineElement>
-          </VerticalTimeline>
+          <Box
+            style={{
+              position: "-webkit-sticky",
+              position: "sticky",
+              top: "5%",
+            }}
+          >
+            <Hl3 style={{ marginBottom: "34px" }}>Rush Timeline</Hl3>
+
+            <VerticalTimeline layout={"1-column-left"}>
+              <VerticalTimelineElement>
+                <TimelineItem
+                  date={"Tues, Sept 7th"}
+                  time={"8PM"}
+                  location={"Location"}
+                  title={"Meet the Chapter #1"}
+                  description={"Description"}
+                />
+              </VerticalTimelineElement>
+              <VerticalTimelineElement>
+                <TimelineItem
+                  date={"Tues, Sept 7th"}
+                  time={"8PM"}
+                  location={"Location"}
+                  title={"Meet the Chapter #1"}
+                  description={"Description"}
+                />
+              </VerticalTimelineElement>
+            </VerticalTimeline>
           </Box>
         </InfoLeft>
-
-
-
-
 
         <InfoRight>
           <Hl3 style={{ marginBottom: "48px" }}>Rush Video</Hl3>

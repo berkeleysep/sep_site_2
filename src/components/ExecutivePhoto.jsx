@@ -18,8 +18,9 @@ export default function ExecutivePhoto({
     display: flex;
     flex-direction: row;
     min-height: 240px;
-    max-width: 550px;
+    width: 48%;
     margin-bottom: 48px;
+    margin-right: 2%;
   `;
 
   return (
