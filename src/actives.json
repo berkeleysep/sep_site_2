@@ -16,7 +16,7 @@
       "position": "Professional Development VP",
       "bio": "something something something something something",
       "linkedin": "https://www.linkedin.com/in/davidmwei/",
-      "imgpath": "david"
+      "imgpath": "Adwoa-Boateng"
     },
     {
       "name": "David Wei",
@@ -30,44 +30,340 @@
   ],
   "actives": [
     {
-      "name": "David Wei",
+      "name": "Andrea Juwono",
       "pledge_class": "Tau",
-      "major": "Computer Science",
-      "linkedin": "https://www.linkedin.com/in/davidmwei/",
-      "imgpath": "david",
-      "cc": true
+      "major": "Data Science + Creative Writing",
+      "linkedin": "https://www.linkedin.com/in/andrea-juwono/",
+      "imgpath": "Andrea-Juwono",
+      "cc": false
     },
     {
-      "name": "David Wei",
+      "name": "Annamira-OToole",
       "pledge_class": "Tau",
-      "major": "Computer Science",
-      "linkedin": "https://www.linkedin.com/in/davidmwei/",
-      "imgpath": "david",
+      "major": "CS + Math",
+      "linkedin": "https://www.linkedin.com/in/annamiraotoole/",
+      "imgpath": "Annamira-OToole",
+      "cc": false
+    },
+    {
+      "name": "Annie Pan",
+      "pledge_class": "Tau",
+      "major": "Business + Design",
+      "linkedin": "linkedin.com/in/anniexpan",
+      "imgpath": "Annie-Pan",
+      "cc": false
+    },
+    {
+      "name": "Austin Ho",
+      "pledge_class": "Tau",
+      "major": "CS + Data Science",
+      "linkedin": "https://www.linkedin.com/in/aho1628",
+      "imgpath": "Austin-Ho",
       "cc": false
     },
     {
       "name": "David Wei",
       "pledge_class": "Tau",
-      "major": "Computer Science",
-      "linkedin": "https://www.linkedin.com/in/davidmwei/",
-      "imgpath": "david",
-      "cc": true
-    },
-    {
-      "name": "David Wei",
-      "pledge_class": "Tau",
-      "major": "Computer Science",
+      "major": "CS",
       "linkedin": "https://www.linkedin.com/in/davidmwei/",
       "imgpath": "david",
       "cc": false
     },
     {
-      "name": "David Wei",
+      "name": "Diana Qing",
       "pledge_class": "Tau",
-      "major": "Computer Science",
-      "linkedin": "https://www.linkedin.com/in/davidmwei/",
-      "imgpath": "david",
-      "cc": true
+      "major": "CS + Social Welfare",
+      "linkedin": "https://www.linkedin.com/in/dianaqing/",
+      "imgpath": "Diana-Qing",
+      "cc": false
+    },
+    {
+      "name": "Ivan Borzenko",
+      "pledge_class": "Tau",
+      "major": "Business",
+      "linkedin": "https://www.linkedin.com/in/ivanborzenko/",
+      "imgpath": "Ivan-Borzenko",
+      "cc": false
+    },
+    {
+      "name": "Jack Chen",
+      "pledge_class": "Tau",
+      "major": "CS + Econ",
+      "linkedin": "www.linkedin.com/in/jackchen1",
+      "imgpath": "Jack-Chen",
+      "cc": false
+    },
+    {
+      "name": "Leanna Chraghchian",
+      "pledge_class": "Tau",
+      "major": " Business",
+      "linkedin": "https://www.linkedin.com/in/leannachraghchian/",
+      "imgpath": "Leanna-Chraghchian",
+      "cc": false
+    },
+    {
+      "name": "Miguel Trujillo",
+      "pledge_class": "Tau",
+      "major": "Environmental Economics and Policy",
+      "linkedin": "https://www.linkedin.com/in/miguelctrujillo/",
+      "imgpath": "Miguel-Trujillo",
+      "cc": false
+    },
+    {
+      "name": "Nikita Chauhan",
+      "pledge_class": "Tau",
+      "major": "Cognitive Science + Data Science",
+      "linkedin": "https://www.linkedin.com/in/nikita-chauhan-b47a3619b/",
+      "imgpath": "Nikita-Chauhan",
+      "cc": false
+    },
+    {
+      "name": "Anish Nag",
+      "pledge_class": "Sigma",
+      "major": "EECS",
+      "linkedin": "https://www.linkedin.com/in/anishnag24/",
+      "imgpath": "Anish-Nag",
+      "cc": false
+    },
+    {
+      "name": "Brianna Fann",
+      "pledge_class": "Sigma",
+      "major": "CS + History",
+      "linkedin": "https://www.linkedin.com/in/briannafan/",
+      "imgpath": "Brianna-Fann",
+      "cc": false
+    },
+    {
+      "name": "Chirag Sharma",
+      "pledge_class": "Sigma",
+      "major": "CS + Physics",
+      "linkedin": "http://linkedin.com/in/chirag-sharma-00",
+      "imgpath": "Chirag-Sharma",
+      "cc": false
+    },
+    {
+      "name": "George Lee",
+      "pledge_class": "Sigma",
+      "major": "Bioengineering",
+      "linkedin": "https://www.linkedin.com/in/leegeorgefc/",
+      "imgpath": "George-Lee",
+      "cc": false
+    },
+    {
+      "name": "Keren Duque",
+      "pledge_class": "Sigma",
+      "major": "CS + Data Science",
+      "linkedin": "https://www.linkedin.com/in/kerenduque/",
+      "imgpath": "Keren-Duque",
+      "cc": false
+    },
+    {
+      "name": "Matthew Hallac",
+      "pledge_class": "Sigma",
+      "major": "EECS + Business",
+      "linkedin": "https://www.linkedin.com/in/matthewhallac/",
+      "imgpath": "Matthew-Hallac",
+      "cc": false
+    },
+    {
+      "name": "Miles Wilson",
+      "pledge_class": "Sigma",
+      "major": "Nuclear Engineering",
+      "linkedin": "https://www.linkedin.com/in/milesnwilson/",
+      "imgpath": "Miles-Wilson",
+      "cc": false
+    },
+    {
+      "name": "Nikhil Lohe",
+      "pledge_class": "Sigma",
+      "major": "Math + Data Science",
+      "linkedin": "https://www.linkedin.com/in/nikhil-lohe-207718114/",
+      "imgpath": "Nikhil-Lohe",
+      "cc": false
+    },
+    {
+      "name": "Pooja Shah",
+      "pledge_class": "Sigma",
+      "major": "Cognitive Science",
+      "linkedin": "https://www.linkedin.com/in/pooja-shah-a6600b156/",
+      "imgpath": "Pooja-Shah",
+      "cc": false
+    },
+    {
+      "name": "Riya Sinha",
+      "pledge_class": "Sigma",
+      "major": "Media Studies",
+      "linkedin": "https://www.linkedin.com/in/riya-sinha-a4b741102/",
+      "imgpath": "Riya-Sinha",
+      "cc": false
+    },
+    {
+      "name": "Sereene Saab",
+      "pledge_class": "Sigma",
+      "major": "Economics and Political Science",
+      "linkedin": "https://www.linkedin.com/in/sereene-saab/",
+      "imgpath": "Sereene-Saab",
+      "cc": false
+    },
+    {
+      "name": "Wesley Wang",
+      "pledge_class": "Sigma",
+      "major": "Chemical Engineering",
+      "linkedin": "https://www.linkedin.com/in/wesley-z-wang/",
+      "imgpath": "Wesley-Wang",
+      "cc": false
+    },
+    {
+      "name": "Alex Lu",
+      "pledge_class": "Rho",
+      "major": "CS + Math",
+      "linkedin": "https://www.linkedin.com/in/alexlu876/",
+      "imgpath": "Alex-Lu",
+      "cc": false
+    },
+    {
+      "name": "Alexander Manes",
+      "pledge_class": "Rho",
+      "major": "MET",
+      "linkedin": "https://www.linkedin.com/in/alexander-manes/",
+      "imgpath": "Alex-Manes",
+      "cc": false
+    },
+    {
+      "name": "Anuj Bhandari",
+      "pledge_class": "Rho",
+      "major": "Economics",
+      "linkedin": "https://www.linkedin.com/in/anuj-bhandari/",
+      "imgpath": "Anuj-Bhandari",
+      "cc": false
+    },
+    {
+      "name": "Avinash Jain",
+      "pledge_class": "Rho",
+      "major": "EECS",
+      "linkedin": "https://www.linkedin.com/in/avinashj1/",
+      "imgpath": "Avinash-Jain",
+      "cc": false
+    },
+    {
+      "name": "Charlize Dang",
+      "pledge_class": "Rho",
+      "major": "CS",
+      "linkedin": "https://www.linkedin.com/in/charlizedang/",
+      "imgpath": "Charlize-Dang",
+      "cc": false
+    },
+    {
+      "name": "Gabrielle Nardecchia",
+      "pledge_class": "Rho",
+      "major": "Mechanical Engineering + Architecture",
+      "linkedin": "https://www.linkedin.com/in/gabrielle-nardecchia-5bb535195/",
+      "imgpath": "Gabrielle-Nardecchia",
+      "cc": false
+    },
+    {
+      "name": "Jojo Chen",
+      "pledge_class": "Rho",
+      "major": "CS + Business",
+      "linkedin": "https://www.linkedin.com/in/jojo-chen-426095159/",
+      "imgpath": "Jojo-Chen",
+      "cc": false
+    },
+    {
+      "name": "Kevin Li",
+      "pledge_class": "Rho",
+      "major": "CS + Philosophy",
+      "linkedin": "https://www.linkedin.com/in/kevinkevin-li/",
+      "imgpath": "Kevin-Li",
+      "cc": false
+    },
+    {
+      "name": "Melody Chen",
+      "pledge_class": "Rho",
+      "major": "Civil Engineering",
+      "linkedin": "https://www.linkedin.com/in/melodyfchen/",
+      "imgpath": "Melody-Chen",
+      "cc": false
+    },
+    {
+      "name": "Prajna Jalagam",
+      "pledge_class": "Rho",
+      "major": "Materials Engineering",
+      "linkedin": "https://www.linkedin.com/in/jprajna/",
+      "imgpath": "Prajna-Jalagam",
+      "cc": false
+    },
+    {
+      "name": "Adwoa Boateng",
+      "pledge_class": "Pi",
+      "major": "International Business",
+      "linkedin": "https://www.linkedin.com/in/adwoab/",
+      "imgpath": "Adwoa-Boateng",
+      "cc": false
+    },
+    {
+      "name": "Gokce Guven",
+      "pledge_class": "Pi",
+      "major": "CS + International Business + Cognitive Science",
+      "linkedin": "https://www.linkedin.com/in/gokceguven/",
+      "imgpath": "Gokce-Guven",
+      "cc": false
+    },
+    {
+      "name": "Jonathan Li",
+      "pledge_class": "Pi",
+      "major": "Engineering Physics",
+      "linkedin": "https://www.linkedin.com/in/jon-athan-l/",
+      "imgpath": "Jonathan-Li",
+      "cc": false
+    },
+    {
+      "name": "Nikita Krishnan",
+      "pledge_class": "Pi",
+      "major": "Materials Engineering",
+      "linkedin": "https://www.linkedin.com/in/jprajna/",
+      "imgpath": "Nikita-Krishnan",
+      "cc": false
+    },
+    {
+      "name": "Saira Chawla",
+      "pledge_class": "Pi",
+      "major": "Economics + Data Science",
+      "linkedin": "https://www.linkedin.com/in/sairachawla1/",
+      "imgpath": "Saira-Chawla",
+      "cc": false
+    },
+    {
+      "name": "Thalia Georgiou",
+      "pledge_class": "Pi",
+      "major": "Physics",
+      "linkedin": "https://www.linkedin.com/in/thaliageorgiou/",
+      "imgpath": "Thalia-Georgiou",
+      "cc": false
+    },
+    {
+      "name": "Henry Diamond-Pott",
+      "pledge_class": "Omicron",
+      "major": "Biochemistry + Molecular Biology",
+      "linkedin": "https://www.linkedin.com/in/henry-diamond-pott-713361172/",
+      "imgpath": "Henry-DiamondPott",
+      "cc": false
+    },
+    {
+      "name": "Kai Chorazewicz",
+      "pledge_class": "Omicron",
+      "major": "Business + Mechanical Engineering",
+      "linkedin": "https://www.linkedin.com/in/kaichorazewicz/",
+      "imgpath": "Kai-Chorazewicz",
+      "cc": false
+    },
+    {
+      "name": "Rohan Arora",
+      "pledge_class": "Omicron",
+      "major": "Bioengineering + Biomedical Engineering",
+      "linkedin": "https://www.linkedin.com/in/meetrohanarora/",
+      "imgpath": "Rohan-Arora",
+      "cc": false
     }
   ],
   "images": [
