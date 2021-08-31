@@ -212,6 +212,86 @@
       "linkedin": "https://www.linkedin.com/in/wesley-z-wang/",
       "imgpath": "Wesley-Wang",
       "cc": false
+    },
+    {
+      "name": "Alex Lu",
+      "pledge_class": "Rho",
+      "major": "CS + Math",
+      "linkedin": "https://www.linkedin.com/in/alexlu876/",
+      "imgpath": "Alex-Lu",
+      "cc": false
+    },
+    {
+      "name": "Alexander Manes",
+      "pledge_class": "Rho",
+      "major": "MET",
+      "linkedin": "https://www.linkedin.com/in/alexander-manes/",
+      "imgpath": "Alex-Manes",
+      "cc": false
+    },
+    {
+      "name": "Anuj Bhandari",
+      "pledge_class": "Rho",
+      "major": "Economics",
+      "linkedin": "https://www.linkedin.com/in/anuj-bhandari/",
+      "imgpath": "Anuj-Bhandari",
+      "cc": false
+    },
+    {
+      "name": "Avinash Jain",
+      "pledge_class": "Rho",
+      "major": "EECS",
+      "linkedin": "https://www.linkedin.com/in/avinashj1/",
+      "imgpath": "Avinash-Jain",
+      "cc": false
+    },
+    {
+      "name": "Charlize Dang",
+      "pledge_class": "Rho",
+      "major": "CS",
+      "linkedin": "https://www.linkedin.com/in/charlizedang/",
+      "imgpath": "Charlize-Dang",
+      "cc": false
+    },
+    {
+      "name": "Gabrielle Nardecchia",
+      "pledge_class": "Rho",
+      "major": "Mechanical Engineering + Architecture",
+      "linkedin": "https://www.linkedin.com/in/gabrielle-nardecchia-5bb535195/",
+      "imgpath": "Gabrielle-Nardecchia",
+      "cc": false
+    },
+    {
+      "name": "Jojo Chen",
+      "pledge_class": "Rho",
+      "major": "CS + Business",
+      "linkedin": "https://www.linkedin.com/in/jojo-chen-426095159/",
+      "imgpath": "Jojo-Chen",
+      "cc": false
+    },
+    {
+      "name": "Kevin Li",
+      "pledge_class": "Rho",
+      "major": "CS + Philosophy",
+      "linkedin": "https://www.linkedin.com/in/kevinkevin-li/",
+      "imgpath": "Kevin-Li",
+      "cc": false
+    },
+    {
+      "name": "Melody Chen",
+      "pledge_class": "Rho",
+      "major": "Civil Engineering",
+      "linkedin": "https://www.linkedin.com/in/melodyfchen/",
+      "imgpath": "Melody-Chen",
+      "cc": false
+    },
+    {
+      "name": "Prajna Jalagam",
+      "pledge_class": "Rho",
+      "major": "Materials Engineering",
+      "linkedin": "https://www.linkedin.com/in/jprajna/",
+      "imgpath": "Prajna-Jalagam",
+      "cc": false
     }
   ],
   "images": [
