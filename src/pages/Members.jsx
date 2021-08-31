@@ -6,13 +6,23 @@ import TopNav from "../components/TopNav";
 import BottomNav from "../components/BottomNav";
 import ExecutivePhoto from "../components/ExecutivePhoto";
 import MemberPhoto from "../components/MemberPhoto";
-import { Bd1, Hl3 } from "../shared/Typography";
+import { Bd1, Bd2, Hl3, Hl5 } from "../shared/Typography";
 import actives from "../actives.json";
 
 export default function Members() {
   const Header = styled(Box)`
     padding: 76px 10% 76px 10%;
   `;
+
+  const BrotherHoodBoxContainer = styled(Box)`
+    display: flex;
+    flex-flow: row wrap;
+  `
+
+  const BrotherHoodBox = styled(Box)`
+    width: 250px;
+    margin-right: 30px;
+  `
 
   const ExecutiveBoard = styled(Box)`
     display: flex;
@@ -58,7 +68,53 @@ export default function Members() {
           </Box>
         </Box>
         <Box>
-          <Hl3>Brotherhood</Hl3>
+          <Hl3 style={{marginBottom: "48px"}}>Brotherhood</Hl3>
+          <BrotherHoodBoxContainer>
+            <BrotherHoodBox>
+              <Hl5 style={{marginBottom: "8px"}}>
+                Executive Board
+              </Hl5>
+              <Bd2 style={{marginBottom: "16px"}}>
+                Byline
+              </Bd2>
+              <Box style={{ height: "210px", backgroundColor: "grey"}}>
+                pic here
+              </Box>
+            </BrotherHoodBox>
+            <BrotherHoodBox>
+              <Hl5 style={{marginBottom: "8px"}}>
+                Active House
+              </Hl5>
+              <Bd2 style={{marginBottom: "16px"}}>
+                Byline
+              </Bd2>
+              <Box style={{ height: "210px", backgroundColor: "grey"}}>
+                pic here
+              </Box>
+            </BrotherHoodBox>
+            <BrotherHoodBox>
+              <Hl5 style={{marginBottom: "8px"}}>
+                Big + Littles
+              </Hl5>
+              <Bd2 style={{marginBottom: "16px"}}>
+                Byline
+              </Bd2>
+              <Box style={{ height: "210px", backgroundColor: "grey"}}>
+                pic here
+              </Box>
+            </BrotherHoodBox>
+            <BrotherHoodBox>
+              <Hl5 style={{marginBottom: "8px"}}>
+                Pledge Class
+              </Hl5>
+              <Bd2 style={{marginBottom: "16px"}}>
+                Byline
+              </Bd2>
+              <Box style={{ height: "210px", backgroundColor: "grey"}}>
+                pic here
+              </Box>
+            </BrotherHoodBox>
+          </BrotherHoodBoxContainer>
         </Box>
       </Header>
 
