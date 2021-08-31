@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
 import Home from "./pages/Home";
 import Members from "./pages/Members";
 import Entrepreneurship from "./pages/Entrepreneurship";
@@ -13,6 +14,7 @@ import "./index.css";
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
+      <ScrollToTop />
       <Switch>
         <Route exact path="/">
           <Home />

@@ -6,7 +6,6 @@ import { Bd2, Hl5, Hl6 } from "../shared/Typography";
 
 const TimelineTitle = styled(Hl5)`
   color: #8c30f5;
-  margin-bottom: "4px";
 `;
 
 export default function TimelineItem({
@@ -29,8 +28,8 @@ export default function TimelineItem({
 
 TimelineItem.defaultProps = {
   date: "Monday, Feb 5th",
-  time: "5AM",
-  location: "Location",
-  chapter: "Happy Birthday!",
-  description: "Description",
+  time: "TBD",
+  location: "TBD",
+  title: "Happy Birthday!",
+  description: "",
 };
