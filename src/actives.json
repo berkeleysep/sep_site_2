@@ -83,7 +83,7 @@
       "major": "Business",
       "linkedin": "https://www.linkedin.com/in/ivanborzenko/",
       "imgpath": "Ivan-Borzenko",
-      "cc": true
+      "cc": false
     },
     {
       "name": "Jack Chen",
@@ -91,23 +91,23 @@
       "major": "CS + Econ",
       "linkedin": "www.linkedin.com/in/jackchen1",
       "imgpath": "Jack-Chen",
-      "cc": true
+      "cc": false
     },
     {
       "name": "Leanna Chraghchian",
       "pledge_class": "Tau",
-      "major": "Computer Science",
-      "linkedin": "https://www.linkedin.com/in/davidmwei/",
+      "major": " Business",
+      "linkedin": "https://www.linkedin.com/in/leannachraghchian/",
       "imgpath": "Leanna-Chraghchian",
-      "cc": true
+      "cc": false
     },
     {
       "name": "Miguel Trujillo",
       "pledge_class": "Tau",
-      "major": "Computer Science",
-      "linkedin": "https://www.linkedin.com/in/davidmwei/",
+      "major": "Environmental Economics and Policy",
+      "linkedin": "https://www.linkedin.com/in/miguelctrujillo/",
       "imgpath": "Miguel-Trujillo",
-      "cc": true
+      "cc": false
     },
     {
       "name": "Nikita Chauhan",
@@ -115,7 +115,103 @@
       "major": "Cognitive Science + Data Science",
       "linkedin": "https://www.linkedin.com/in/nikita-chauhan-b47a3619b/",
       "imgpath": "Nikita-Chauhan",
-      "cc": true
+      "cc": false
+    },
+    {
+      "name": "Anish Nag",
+      "pledge_class": "Sigma",
+      "major": "EECS",
+      "linkedin": "https://www.linkedin.com/in/anishnag24/",
+      "imgpath": "Anish-Nag",
+      "cc": false
+    },
+    {
+      "name": "Brianna Fann",
+      "pledge_class": "Sigma",
+      "major": "CS + History",
+      "linkedin": "https://www.linkedin.com/in/briannafan/",
+      "imgpath": "Brianna-Fann",
+      "cc": false
+    },
+    {
+      "name": "Chirag Sharma",
+      "pledge_class": "Sigma",
+      "major": "CS + Physics",
+      "linkedin": "http://linkedin.com/in/chirag-sharma-00",
+      "imgpath": "Chirag-Sharma",
+      "cc": false
+    },
+    {
+      "name": "George Lee",
+      "pledge_class": "Sigma",
+      "major": "Bioengineering",
+      "linkedin": "https://www.linkedin.com/in/leegeorgefc/",
+      "imgpath": "George-Lee",
+      "cc": false
+    },
+    {
+      "name": "Keren Duque",
+      "pledge_class": "Sigma",
+      "major": "CS + Data Science",
+      "linkedin": "https://www.linkedin.com/in/kerenduque/",
+      "imgpath": "Keren-Duque",
+      "cc": false
+    },
+    {
+      "name": "Matthew Hallac",
+      "pledge_class": "Sigma",
+      "major": "EECS + Business",
+      "linkedin": "https://www.linkedin.com/in/matthewhallac/",
+      "imgpath": "Matthew-Hallac",
+      "cc": false
+    },
+    {
+      "name": "Miles Wilson",
+      "pledge_class": "Sigma",
+      "major": "Nuclear Engineering",
+      "linkedin": "https://www.linkedin.com/in/milesnwilson/",
+      "imgpath": "Miles-Wilson",
+      "cc": false
+    },
+    {
+      "name": "Nikhil Lohe",
+      "pledge_class": "Sigma",
+      "major": "Math + Data Science",
+      "linkedin": "https://www.linkedin.com/in/nikhil-lohe-207718114/",
+      "imgpath": "Nikhil-Lohe",
+      "cc": false
+    },
+    {
+      "name": "Pooja Shah",
+      "pledge_class": "Sigma",
+      "major": "Cognitive Science",
+      "linkedin": "https://www.linkedin.com/in/pooja-shah-a6600b156/",
+      "imgpath": "Pooja-Shah",
+      "cc": false
+    },
+    {
+      "name": "Riya Sinha",
+      "pledge_class": "Sigma",
+      "major": "Media Studies",
+      "linkedin": "https://www.linkedin.com/in/riya-sinha-a4b741102/",
+      "imgpath": "Riya-Sinha",
+      "cc": false
+    },
+    {
+      "name": "Sereene Saab",
+      "pledge_class": "Sigma",
+      "major": "Economics and Political Science",
+      "linkedin": "https://www.linkedin.com/in/sereene-saab/",
+      "imgpath": "Sereene-Saab",
+      "cc": false
+    },
+    {
+      "name": "Wesley Wang",
+      "pledge_class": "Sigma",
+      "major": "Chemical Engineering",
+      "linkedin": "https://www.linkedin.com/in/wesley-z-wang/",
+      "imgpath": "Wesley-Wang",
+      "cc": false
     }
   ],
   "images": [
