@@ -30,43 +30,91 @@
   ],
   "actives": [
     {
-      "name": "David Wei",
+      "name": "Andrea Juwono",
       "pledge_class": "Tau",
-      "major": "Computer Science",
-      "linkedin": "https://www.linkedin.com/in/davidmwei/",
-      "imgpath": "david",
-      "cc": true
+      "major": "Data Science + Creative Writing",
+      "linkedin": "https://www.linkedin.com/in/andrea-juwono/",
+      "imgpath": "Andrea-Juwono",
+      "cc": false
     },
     {
-      "name": "David Wei",
+      "name": "Annamira-OToole",
       "pledge_class": "Tau",
-      "major": "Computer Science",
-      "linkedin": "https://www.linkedin.com/in/davidmwei/",
-      "imgpath": "david",
+      "major": "CS + Math",
+      "linkedin": "https://www.linkedin.com/in/annamiraotoole/",
+      "imgpath": "Annamira-OToole",
+      "cc": false
+    },
+    {
+      "name": "Annie Pan",
+      "pledge_class": "Tau",
+      "major": "Business + Design",
+      "linkedin": "linkedin.com/in/anniexpan",
+      "imgpath": "Annie-Pan",
+      "cc": false
+    },
+    {
+      "name": "Austin Ho",
+      "pledge_class": "Tau",
+      "major": "CS + Data Science",
+      "linkedin": "https://www.linkedin.com/in/aho1628",
+      "imgpath": "Austin-Ho",
       "cc": false
     },
     {
       "name": "David Wei",
       "pledge_class": "Tau",
-      "major": "Computer Science",
-      "linkedin": "https://www.linkedin.com/in/davidmwei/",
-      "imgpath": "david",
-      "cc": true
-    },
-    {
-      "name": "David Wei",
-      "pledge_class": "Tau",
-      "major": "Computer Science",
+      "major": "CS",
       "linkedin": "https://www.linkedin.com/in/davidmwei/",
       "imgpath": "david",
       "cc": false
     },
     {
-      "name": "David Wei",
+      "name": "Diana Qing",
+      "pledge_class": "Tau",
+      "major": "CS + Social Welfare",
+      "linkedin": "https://www.linkedin.com/in/dianaqing/",
+      "imgpath": "Diana-Qing",
+      "cc": false
+    },
+    {
+      "name": "Ivan Borzenko",
+      "pledge_class": "Tau",
+      "major": "Business",
+      "linkedin": "https://www.linkedin.com/in/ivanborzenko/",
+      "imgpath": "Ivan-Borzenko",
+      "cc": true
+    },
+    {
+      "name": "Jack Chen",
+      "pledge_class": "Tau",
+      "major": "CS + Econ",
+      "linkedin": "www.linkedin.com/in/jackchen1",
+      "imgpath": "Jack-Chen",
+      "cc": true
+    },
+    {
+      "name": "Leanna Chraghchian",
       "pledge_class": "Tau",
       "major": "Computer Science",
       "linkedin": "https://www.linkedin.com/in/davidmwei/",
-      "imgpath": "david",
+      "imgpath": "Leanna-Chraghchian",
+      "cc": true
+    },
+    {
+      "name": "Miguel Trujillo",
+      "pledge_class": "Tau",
+      "major": "Computer Science",
+      "linkedin": "https://www.linkedin.com/in/davidmwei/",
+      "imgpath": "Miguel-Trujillo",
+      "cc": true
+    },
+    {
+      "name": "Nikita Chauhan",
+      "pledge_class": "Tau",
+      "major": "Cognitive Science + Data Science",
+      "linkedin": "https://www.linkedin.com/in/nikita-chauhan-b47a3619b/",
+      "imgpath": "Nikita-Chauhan",
       "cc": true
     }
   ],
