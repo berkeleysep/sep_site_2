@@ -101,7 +101,7 @@ function Home() {
           <Hl2 style={{ marginBottom: "16px" }}>
             UC Berkeley's Premier Entrepreneurship Fraternity
           </Hl2>
-          <Bd1>Here at Sigma Eta Pi, we do something...</Bd1>`
+          <Bd1>Here at Sigma Eta Pi, we are building the future...</Bd1>`
         </Box>
         {actives.images.map((path, index) => {
           const min = 3000;

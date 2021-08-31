@@ -27,20 +27,20 @@ const VentureProcess = styled(Box)`
 
 const BeyondSEP = styled(Box)`
   padding: 76px 10% 64px 10%;
-`
+`;
 
 const FoundedCompaniesContainer = styled(Box)`
   display: flex;
   flex-flow: row wrap;
   align-items: start;
   margin-bottom: 48px;
-`
+`;
 
 const CareerPhotoContainer = styled(Box)`
   display: flex;
   flex-flow: row wrap;
   align-items: start;
-`
+`;
 
 export default function Entrepreneurship() {
   return (
@@ -62,10 +62,10 @@ export default function Entrepreneurship() {
         <TitleContainer>
           <Hl3 style={{ marginRight: "5%" }}>Entrepreneurship</Hl3>
           <Bd1>
-            Here at SEP, we focus on Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation
+            Here at SEP we focus on cultivating a community of passionate and
+            fearless leaders. Through our pledging process, members become
+            acquainted with the key principles of entrepreneurship and obtain
+            highly transferable skills for success in nearly any domain.
           </Bd1>
         </TitleContainer>
       </Header>
@@ -75,10 +75,12 @@ export default function Entrepreneurship() {
           <Bd1 style={{ width: "90%", marginBottom: "40px" }}>
             Our pledge education process is, in its own way, our own product.
             We’re constantly iterating on what equips new members with the tools
-            needed to successfully dive into their own ventures. While the
-            specifics are left as a surprise to the new members, here’s an
-            overview of the different phases of the venture-building aspect of
-            pledging:
+            needed to successfully dive into their own ventures.
+          </Bd1>
+          <Bd1 style={{ width: "90%", marginBottom: "40px" }}>
+            While the specifics are left as a surprise to the new members,
+            here’s an overview of the different phases of the venture-building
+            aspect of pledging:
           </Bd1>
         </Box>
         <Box style={{ width: "55%" }}>
@@ -87,32 +89,37 @@ export default function Entrepreneurship() {
           </Box>
         </Box>
       </VentureProcess>
-      <BeyondSEP >
+      <BeyondSEP>
         <Hl3 style={{ marginBottom: "32px" }}>What we founded:</Hl3>
         <FoundedCompaniesContainer>
-          {
-            entrepreneurship.founded.map((company) => {
-              return (
-                <FoundedCompanies path={company.imgpath} name={company.name} description={company.description} urlsrc={company.url} />
-              )
-            }) 
-          }
+          {entrepreneurship.founded.map((company) => {
+            return (
+              <FoundedCompanies
+                path={company.imgpath}
+                name={company.name}
+                description={company.description}
+                urlsrc={company.url}
+              />
+            );
+          })}
         </FoundedCompaniesContainer>
         <Hl3 style={{ marginBottom: "32px" }}>Where we go:</Hl3>
         <CareerPhotoContainer>
-        {
-          entrepreneurship.careers.map((name) => {
+          {entrepreneurship.careers.map((name) => {
             return (
-              <Box style={{width: "140px", height: "140px", marginRight: "10px"}}>
+              <Box
+                style={{ width: "140px", height: "140px", marginRight: "10px" }}
+              >
                 <img
                   alt={name}
-                  src={require("../assets/images/careers/" + name + ".png").default}
+                  src={
+                    require("../assets/images/careers/" + name + ".png").default
+                  }
                   style={{ maxHeight: "140px" }}
                 />
               </Box>
-            )
-          })
-        }
+            );
+          })}
         </CareerPhotoContainer>
       </BeyondSEP>
       <BottomNav />

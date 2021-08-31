@@ -32,7 +32,7 @@ export default function ExecutivePhoto({
           style={{ maxHeight: "240px", marginRight: "24px" }}
         />
       </Box>
-      <Box >
+      <Box>
         <St1 style={{ marginBottom: "12px" }}>{name}</St1>
         <Bd2 style={{ opacity: ".4" }}>
           {position}, {pledge_class} Class

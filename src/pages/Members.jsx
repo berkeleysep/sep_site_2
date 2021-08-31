@@ -66,7 +66,8 @@ export default function Members() {
         <Box style={{ width: "35%", marginRight: "10%" }}>
           <Hl3 style={{ marginBottom: "48px" }}>Executive Board</Hl3>
           <Bd1 style={{ width: "90%", marginBottom: "40px" }}>
-            They do something
+            Our executive board is responsible for envisioning and executing the
+            mission of our fraternity.
           </Bd1>
         </Box>
         <Box style={{ width: "55%" }}>
