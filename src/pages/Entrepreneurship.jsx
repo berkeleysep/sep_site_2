@@ -55,7 +55,7 @@ export default function Entrepreneurship() {
             marginBottom: "48px",
           }}
         >
-          <Box style={{ width: "100%", height: "200px", overflow: "hidden",  backgroundColor: "grey" }}>
+          <Box style={{ width: "100%", height: "200px", overflow: "hidden" }}>
             <img style= {{ width: "100%", position: "relative", bottom: "200px"}} alt="professional-table" src={require("../assets/images/group/professional-table.JPG").default}/>
           </Box>
         </Box>

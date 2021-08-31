@@ -61,8 +61,12 @@ export default function Members() {
             marginBottom: "48px",
           }}
         >
-          <Box style={{ height: "200px", backgroundColor: "grey" }}>
-            pic here
+          <Box style={{ height: "400px", overflow: "hidden" }}>
+          <img
+              style={{ width: "100%", }}
+              alt="camping-trip-1"
+              src={require("../assets/images/group/camping-trip-1.JPG").default}
+            />
           </Box>
         </Box>
         <Box>
