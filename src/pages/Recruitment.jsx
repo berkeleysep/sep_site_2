@@ -11,9 +11,26 @@ import "react-vertical-timeline-component/style.min.css";
 import BottomNav from "../components/BottomNav";
 import TopNav from "../components/TopNav";
 import TimelineItem from "../components/TimelineItem";
-import { Bd1, Hl2, Hl3, Hl5, Hl6 } from "../shared/Typography";
+import { Bd1, Hl2, Hl3, Hl5 } from "../shared/Typography";
 
+import Handshake from "../assets/images/emojis/handshake.svg";
+import World from "../assets/images/emojis/world.svg";
+import Celebrate from "../assets/images/emojis/celebrate.svg";
+import Essay from "../assets/images/emojis/essay.svg";
+import Mic from "../assets/images/emojis/mic.svg";
+import Bag from "../assets/images/emojis/bag.svg";
+import F1Car from "../assets/images/emojis/f1car.svg";
+import Pinning from "../assets/images/emojis/pinning.svg";
+
+const heroimg = require('../assets/images/group/sigmas-sf.jpg').default;
 const useStyles = makeStyles({
+  backgroundImage: {
+    backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url(${heroimg})`,
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    position: "relative"
+  },
   applyButton: {
     textTransform: "none",
     textDecoration: (props) => (props.recruitment ? "underline" : "none"),
@@ -92,7 +109,7 @@ export default function Recruitment() {
   return (
     <>
       <TopNav recruitment />
-      <FrontSpread>
+      <FrontSpread className={classes.backgroundImage}>
         <Hl2 style={{ marginBottom: "8px" }}>Rush Sigma Eta Pi</Hl2>
         <Bd1 style={{ marginBottom: "24px" }}>
           Be a part of UC Berkeley's Premier Entrepreneurship Fraternity
@@ -117,7 +134,7 @@ export default function Recruitment() {
             <Hl3 style={{ marginBottom: "34px" }}>Rush Timeline</Hl3>
 
             <VerticalTimeline layout={"1-column-left"}>
-              <VerticalTimelineElement>
+              <VerticalTimelineElement icon={<img style={{width: "100%"}} src={Handshake} />}>
                 <TimelineItem
                   date={"Tues, Sept 7th"}
                   time={"7PM"}
@@ -125,7 +142,7 @@ export default function Recruitment() {
                   title={"Meet the Chapter #1"}
                 />
               </VerticalTimelineElement>
-              <VerticalTimelineElement>
+              <VerticalTimelineElement icon={<img style={{width: "100%"}} src={World} />}>
                 <TimelineItem
                   date={"Wed, Sept 8th"}
                   time={"8PM"}
@@ -133,7 +150,7 @@ export default function Recruitment() {
                   title={"Diversity in SEP"}
                 />
               </VerticalTimelineElement>
-              <VerticalTimelineElement>
+              <VerticalTimelineElement icon={<img style={{width: "100%"}} src={Celebrate} />}>
                 <TimelineItem
                   date={"Thu, Sept 9th"}
                   time={"8PM"}
@@ -141,7 +158,7 @@ export default function Recruitment() {
                   title={"Social Night"}
                 />
               </VerticalTimelineElement>
-              <VerticalTimelineElement>
+              <VerticalTimelineElement icon={<img style={{width: "100%"}} src={Essay} />}>
                 <TimelineItem
                   date={"Fri, Sept 10th"}
                   time={"11:59PM"}
@@ -149,7 +166,7 @@ export default function Recruitment() {
                   title={"Applications Due"}
                 />
               </VerticalTimelineElement>
-              <VerticalTimelineElement>
+              <VerticalTimelineElement icon={<img style={{width: "100%"}} src={Mic} />}>
                 <TimelineItem
                   date={"Sat, Sept 11th"}
                   time={"TBD*"}
@@ -158,7 +175,7 @@ export default function Recruitment() {
                   description={"*Invite only"}
                 />
               </VerticalTimelineElement>
-              <VerticalTimelineElement>
+              <VerticalTimelineElement icon={<img style={{width: "100%"}} src={Bag} />}>
                 <TimelineItem
                   date={"Wed, Sept 15th"}
                   time={"TBD*"}
@@ -167,7 +184,7 @@ export default function Recruitment() {
                   description={"*Invite only"}
                 />
               </VerticalTimelineElement>
-              <VerticalTimelineElement>
+              <VerticalTimelineElement icon={<img style={{width: "100%"}} src={F1Car} />}>
                 <TimelineItem
                   date={"Thu, Sept 16th"}
                   time={"TBD*"}
@@ -176,7 +193,7 @@ export default function Recruitment() {
                   description={"*Invite only"}
                 />
               </VerticalTimelineElement>
-              <VerticalTimelineElement>
+              <VerticalTimelineElement icon={<img style={{width: "100%"}} src={Pinning} />}>
                 <TimelineItem
                   date={"Fri, Sept 17th"}
                   time={"TBD*"}
