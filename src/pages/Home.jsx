@@ -122,7 +122,7 @@ function Home() {
       </FrontSpread>
       <WhoWeAre>
         <Box style={{ width: "40%", marginRight: "10%" }}>
-          <Box style={{ width: "100%", overflow: "hidden"}}>
+          <Box style={{ width: "100%", overflow: "hidden" }}>
             <img
               style={{ width: "100%" }}
               alt="camping-trip-1"
@@ -198,12 +198,12 @@ function Home() {
       </OurBlog> */}
       <RushSEP>
         <Box style={{ width: "30%", marginRight: "10%" }}>
-          <Box style={{ height: "100%", overflow: "hidden"  }}>
+          <Box style={{ height: "100%", overflow: "hidden" }}>
             <img
-                style={{ width: "100%"}}
-                alt="tim-joelene"
-                src={require("../assets/images/group/tim-joelene.png").default}
-              />
+              style={{ width: "100%" }}
+              alt="tim-joelene"
+              src={require("../assets/images/group/tim-joelene.png").default}
+            />
           </Box>
         </Box>
         <Box style={{ width: "60%" }}>
