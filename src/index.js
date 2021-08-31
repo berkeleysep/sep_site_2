@@ -4,7 +4,6 @@ import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import Home from "./pages/Home";
 import Members from "./pages/Members";
 import Entrepreneurship from "./pages/Entrepreneurship";
-import Blog from "./pages/Blog";
 import Recruitment from "./pages/Recruitment";
 
 import reportWebVitals from "./reportWebVitals";
@@ -23,9 +22,6 @@ ReactDOM.render(
         </Route>
         <Route exact path="/entrepreneurship">
           <Entrepreneurship />
-        </Route>
-        <Route exact path="/blog">
-          <Blog />
         </Route>
         <Route exact path="/recruitment">
           <Recruitment />

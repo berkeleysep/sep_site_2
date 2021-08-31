@@ -7,7 +7,7 @@ const PaddingBox = styled(Box)`
 display: flex;
 flex-direction: column;
 min-height: 250px;
-max-width: 270px;
+width: 270px;
 margin-bottom: 48px;
 margin-right: 32px;
 `;

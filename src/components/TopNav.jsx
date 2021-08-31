@@ -118,6 +118,10 @@ export default function TopNav({
     recruitment,
   });
 
+  function redirectBlog() {
+    window.open("https://medium.com/sep-berkeley/tagged/uc-berkeley", "_blank");
+  }
+
   return (
     <PaddingBox style={{ borderBottom: "1px solid #e5e5e5" }}>
       <NavBarContainer>
@@ -151,10 +155,10 @@ export default function TopNav({
           </NavBarItem>
           <NavBarItem
             to={{
-              pathname: "/blog",
+              pathname: "",
             }}
           >
-            <Button className={classes.blogButton}>Blog</Button>
+            <Button onClick={() => redirectBlog()} className={classes.blogButton}>Blog</Button>
           </NavBarItem>
           <NavBarItem
             to={{

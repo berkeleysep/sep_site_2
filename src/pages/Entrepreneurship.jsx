@@ -33,6 +33,7 @@ const FoundedCompaniesContainer = styled(Box)`
   display: flex;
   flex-flow: row wrap;
   align-items: start;
+  margin-bottom: 48px;
 `
 
 const CareerPhotoContainer = styled(Box)`
@@ -89,20 +90,20 @@ export default function Entrepreneurship() {
       <BeyondSEP >
         <Hl3 style={{ marginBottom: "32px" }}>What we founded:</Hl3>
         <FoundedCompaniesContainer>
-        {
-          entrepreneurship.founded.map((company) => {
-            return (
-              <FoundedCompanies path={company.imgpath} name={company.name} description={company.description} urlsrc={company.url} />
-            )
-          }) 
-        }
+          {
+            entrepreneurship.founded.map((company) => {
+              return (
+                <FoundedCompanies path={company.imgpath} name={company.name} description={company.description} urlsrc={company.url} />
+              )
+            }) 
+          }
         </FoundedCompaniesContainer>
         <Hl3 style={{ marginBottom: "32px" }}>Where we go:</Hl3>
         <CareerPhotoContainer>
         {
           entrepreneurship.careers.map((name) => {
             return (
-              <Box style={{width: "140px", height: "140px"}}>
+              <Box style={{width: "140px", height: "140px", marginRight: "10px"}}>
                 <img
                   alt={name}
                   src={require("../assets/images/careers/" + name + ".png").default}
