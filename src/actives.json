@@ -340,6 +340,30 @@
       "linkedin": "https://www.linkedin.com/in/thaliageorgiou/",
       "imgpath": "Thalia-Georgiou",
       "cc": false
+    },
+    {
+      "name": "Henry Diamond-Pott",
+      "pledge_class": "Omicron",
+      "major": "Biochemistry + Molecular Biology",
+      "linkedin": "https://www.linkedin.com/in/henry-diamond-pott-713361172/",
+      "imgpath": "Henry-DiamondPott",
+      "cc": false
+    },
+    {
+      "name": "Kai Chorazewicz",
+      "pledge_class": "Omicron",
+      "major": "Business + Mechanical Engineering",
+      "linkedin": "https://www.linkedin.com/in/kaichorazewicz/",
+      "imgpath": "Kai-Chorazewicz",
+      "cc": false
+    },
+    {
+      "name": "Rohan Arora",
+      "pledge_class": "Omicron",
+      "major": "Bioengineering + Biomedical Engineering",
+      "linkedin": "https://www.linkedin.com/in/meetrohanarora/",
+      "imgpath": "Rohan-Arora",
+      "cc": false
     }
   ],
   "images": [
