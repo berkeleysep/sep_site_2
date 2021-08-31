@@ -84,10 +84,10 @@ export default function Members() {
                 Active House
               </Hl5>
               <Bd2 style={{marginBottom: "16px"}}>
-                A supportive community.
+                A supportive community
               </Bd2>
               <Box style={{ height: "210px", backgroundColor: "grey"}}>
-                pic here
+              <img style= {{ width: "100%"}} alt="griffiths" src={require("../assets/images/group/griffiths.jpg").default}/>
               </Box>
             </BrotherHoodBox>
             <BrotherHoodBox>
@@ -109,7 +109,7 @@ export default function Members() {
                Your future co-founders
               </Bd2>
               <Box style={{ height: "210px", backgroundColor: "grey"}}>
-                pic here
+                <img style= {{ width: "100%"}} alt="oopsilons" src={require("../assets/images/group/oopsilons.jpg").default}/>
               </Box>
             </BrotherHoodBox>
           </BrotherHoodBoxContainer>
