@@ -120,19 +120,69 @@ export default function Recruitment() {
               <VerticalTimelineElement>
                 <TimelineItem
                   date={"Tues, Sept 7th"}
-                  time={"8PM"}
-                  location={"Location"}
+                  time={"7PM"}
+                  location={"TBD"}
                   title={"Meet the Chapter #1"}
-                  description={"Description"}
                 />
               </VerticalTimelineElement>
               <VerticalTimelineElement>
                 <TimelineItem
-                  date={"Tues, Sept 7th"}
+                  date={"Wed, Sept 8th"}
                   time={"8PM"}
-                  location={"Location"}
-                  title={"Meet the Chapter #1"}
-                  description={"Description"}
+                  location={"TBD"}
+                  title={"Diversity in SEP"}
+                />
+              </VerticalTimelineElement>
+              <VerticalTimelineElement>
+                <TimelineItem
+                  date={"Thu, Sept 9th"}
+                  time={"8PM"}
+                  location={"TBD"}
+                  title={"Social Night"}
+                />
+              </VerticalTimelineElement>
+              <VerticalTimelineElement>
+                <TimelineItem
+                  date={"Fri, Sept 10th"}
+                  time={"11:59PM"}
+                  location={"TBD"}
+                  title={"Applications Due"}
+                />
+              </VerticalTimelineElement>
+              <VerticalTimelineElement>
+                <TimelineItem
+                  date={"Sat, Sept 11th"}
+                  time={"TBD*"}
+                  location={"TBD*"}
+                  title={"1st Round Interviews"}
+                  description={"*Invite only"}
+                />
+              </VerticalTimelineElement>
+              <VerticalTimelineElement>
+                <TimelineItem
+                  date={"Wed, Sept 15th"}
+                  time={"TBD*"}
+                  location={"TBD*"}
+                  title={"2nd Round Interviews"}
+                  description={"*Invite only"}
+                />
+              </VerticalTimelineElement>
+              <VerticalTimelineElement>
+                <TimelineItem
+                  date={"Thu, Sept 16th"}
+                  time={"TBD*"}
+                  location={"TBD*"}
+                  title={"Speed Dating Round"}
+                  description={"*Invite only"}
+                />
+              </VerticalTimelineElement>
+              <VerticalTimelineElement>
+                <TimelineItem
+                  date={"Fri, Sept 17th"}
+                  time={"TBD*"}
+                  location={"TBD*"}
+                  title={"Bid Night"}
+                  description={"*Invite only"}
                 />
               </VerticalTimelineElement>
             </VerticalTimeline>
@@ -202,7 +252,6 @@ export default function Recruitment() {
               </li>
               <li>
                 <Bd1>
-                  {" "}
                   willing to challenge both the status quo and themselves
                 </Bd1>
               </li>
