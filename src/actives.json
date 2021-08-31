@@ -5,27 +5,54 @@
       "pledge_class": "Sigma",
       "major": "Cognitive Science",
       "position": "President",
-      "bio": "something something something something something",
-      "linkedin": "https://www.linkedin.com/in/davidmwei/",
-      "imgpath": "david"
+      "bio": "Hi! I'm Pooja, current president of SEP and a junior studying cognitive science and data science. I am passionate about figuring out ways to integrate art and music as alternative forms of treatment for different neurological disorders. I also love film, design, and music composition. I believe entrepreneurship is a mindset that allows us break boundaries and challenge familiarity, where anyone can innovate in whatever path they choose.",
+      "linkedin": "https://www.linkedin.com/in/pooja-shah01/",
+      "imgpath": "Pooja-Shah"
     },
     {
       "name": "David Wei",
       "pledge_class": "Tau",
       "major": "Computer Science",
-      "position": "Professional Development VP",
-      "bio": "something something something something something",
+      "position": "Professional Development VP + Tech Lead",
+      "bio": "Hi! I'm a Junior studying CS and am passionate the intersections between tech and other industries. I've worked at large tech companies and small startups. Outside of school, I'm an avid Seahawks fan and enjoy playing the guitar.",
       "linkedin": "https://www.linkedin.com/in/davidmwei/",
-      "imgpath": "Adwoa-Boateng"
+      "imgpath": "David-Wei"
     },
     {
-      "name": "David Wei",
+      "name": "Austin Ho",
       "pledge_class": "Tau",
-      "major": "Computer Science",
+      "major": "CS + Data Science",
       "position": "Professional Development VP",
-      "bio": "something something something something something",
-      "linkedin": "https://www.linkedin.com/in/davidmwei/",
-      "imgpath": "david"
+      "bio": "Hi there! I'm a third-year CS + Data Science double major and I'm currently one of the Professional Development VPs! Outside of class, I enjoy making Spotify playlists, trying out new recipes, and tinkering.",
+      "linkedin": "https://www.linkedin.com/in/aho1628/",
+      "imgpath": "Austin-Ho"
+    },
+    {
+      "name": "Nikita Chauhan",
+      "pledge_class": "Tau",
+      "major": "Cognitive Science",
+      "position": "External VP",
+      "bio": "Hey! I'm a third-year studying cognitive and data science. My professional interests include, product design, UI/UX, education, and honestly anything startup related :). I love cooking and am a huge coffee fanatic. In my free time, I love playing racquetball and chilling on the glade!",
+      "linkedin": "https://www.linkedin.com/in/nikita-chauhan-b47a3619b/",
+      "imgpath": "Nikita-Chauhan"
+    },
+    {
+      "name": "Annie Pan",
+      "pledge_class": "Tau",
+      "major": "Business + Design",
+      "position": "External VP",
+      "bio": "I'm a 3rd year who loves all things design and creative (thrift-flipping, painting, making videos, photography, you name it!). I'm pursuing a career path in UI/UX / creative design, and aside from my creative interests, I'm really passionate about mental health issues and am also an adrenaline junkie who loves playing soccer, running, snowboarding, traveling, curating my black & white aesthetic wardrobe, and eating anything and everything besides durian.",
+      "linkedin": "linkedin.com/in/anniexpan",
+      "imgpath": "Annie-Pan"
+    },
+    {
+      "name": "Riya Sinha",
+      "pledge_class": "Sigma",
+      "major": "Media Studies",
+      "position": "Internal VP",
+      "bio": "Joining SEP has given me the opportunity to follow my passions within an incredibly supportive and loving community. If you’re looking to be surrounded by students who constantly chase self-growth, seek new projects to build, and question the limits of entrepreneurship, you’ve found the right place!",
+      "linkedin": "https://www.linkedin.com/in/riya-sinha-a4b741102/",
+      "imgpath": "Riya-Sinha"
     }
   ],
   "actives": [
@@ -66,7 +93,7 @@
       "pledge_class": "Tau",
       "major": "CS",
       "linkedin": "https://www.linkedin.com/in/davidmwei/",
-      "imgpath": "david",
+      "imgpath": "David-Wei",
       "cc": false
     },
     {
