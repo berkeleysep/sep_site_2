@@ -27,17 +27,15 @@ export default function Members() {
   const ExecutiveBoard = styled(Box)`
     display: flex;
     flex-direction: row;
-    padding-top: 76px;
     background-color: #f4f5f7;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 76px 10% 0px 10%;
   `;
 
   const ExecutivePhotos = styled(Box)`
     display: flex;
     flex-flow: row wrap;
     background-color: #f4f5f7;
-    padding: 76px 10% 76px 10%;
+    padding: 76px 10% 38px 10%;
     align-items: start;
   `;
 
