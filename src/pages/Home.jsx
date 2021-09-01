@@ -195,7 +195,7 @@ function Home() {
         </Box>
       </WhoWeAre>
       <WhatWeDo>
-        <Box style={{ width: "55%", marginRight: "10%" }}>
+        <Box style={{ width: "55%", marginRight: "5%" }}>
           <Hl3 style={{ marginBottom: "48px" }}>
             What we do: entrepreneurship
           </Hl3>
@@ -220,10 +220,10 @@ function Home() {
             </Button>
           </Link>
         </Box>
-        <Box style={{ width: "35%" }}>
+        <Box style={{ width: "40%" }}>
           <Box
             style={{
-              height: "80%",
+              height: "100%",
               overflow: "hidden",
               border: "1px solid black",
             }}
