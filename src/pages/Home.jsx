@@ -142,7 +142,7 @@ function Home() {
           const stagger = index * 700;
 
           return (
-            <Expire delay={expiration + stagger}>
+            <Expire delay={expiration + stagger * 2}>
               <AnimationPhoto
                 path={path}
                 delay={expiration}
