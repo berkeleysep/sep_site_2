@@ -48,6 +48,24 @@ const useStyles = makeStyles({
     backgroundColor: "#F1E4FF",
     color: "#8C30F5",
   },
+  recruitmentButton: {
+    textTransform: "none",
+    textDecoration: (props) => (props.recruitment ? "underline" : "none"),
+    textUnderlineOffset: "4px",
+    backgroundColor: "#8C30F5",
+    color: "white",
+    paddingLeft: "20px",
+    paddingRight: "20px",
+    marginTop: "20px",
+    "&:hover": {
+      transition: ".3s ease-in-out",
+      backgroundColor: "#F1E4FF",
+      color: "#8C30F5",
+      cursor: "select",
+      textDecoration: "underline",
+      textUnderlineOffset: "4px",
+    },
+  },
 });
 
 const FrontSpread = styled(Box)`
@@ -90,6 +108,12 @@ const RushSEP = styled(Box)`
   // background-color: #f4f5f7;
 `;
 
+const NavBarItem = styled(Link)`
+  text-decoration: none;
+  color: black;
+  height: 40px;
+`;
+
 function Home() {
   const classes = useStyles();
 
@@ -101,7 +125,16 @@ function Home() {
           <Hl2 style={{ marginBottom: "16px" }}>
             UC Berkeley's Premier Entrepreneurship Fraternity
           </Hl2>
-          <Bd1>Here at Sigma Eta Pi, we are building the future...</Bd1>`
+          <Bd1>Here at Sigma Eta Pi, we are building the future...</Bd1>
+          <NavBarItem
+            to={{
+              pathname: "/recruitment",
+            }}
+          >
+            <Button className={classes.recruitmentButton}>
+              Rush Fall 2021
+            </Button>
+          </NavBarItem>
         </Box>
         {actives.images.map((path, index) => {
           const min = 3000;
@@ -110,7 +143,7 @@ function Home() {
           const stagger = index * 700;
 
           return (
-            <Expire delay={expiration + stagger}>
+            <Expire delay={expiration + stagger * 2}>
               <AnimationPhoto
                 path={path}
                 delay={expiration}
@@ -145,10 +178,10 @@ function Home() {
               marginBottom: "32px",
             }}
           >
-            <Stats number="22" descriptor="Majors" />
-            <Stats number="50" descriptor="Actives" />
-            <Stats number="18" descriptor="Countries" />
-            <Stats number="30" descriptor="Ventures" />
+            <Stats number="30+" descriptor="Majors" />
+            <Stats number="42+" descriptor="Actives" />
+            <Stats number="14+" descriptor="Countries" />
+            <Stats number="30+" descriptor="Ventures" />
           </Box>
           <Link
             to={{ pathname: "/members" }}
@@ -188,8 +221,18 @@ function Home() {
           </Link>
         </Box>
         <Box style={{ width: "35%" }}>
-          <Box style={{ height: "100%", backgroundColor: "grey" }}>
-            pic here
+          <Box
+            style={{
+              height: "80%",
+              overflow: "hidden",
+              border: "1px solid black",
+            }}
+          >
+            <img
+              style={{ height: "100%", width: "100%" }}
+              alt="sep-logo"
+              src={require("../assets/SEP-logo-dark.png").default}
+            />
           </Box>
         </Box>
       </WhatWeDo>
