@@ -85,6 +85,23 @@ const WhoWeAre = styled(Box)`
   padding-left: 10%;
   padding-right: 10%;
   margin-bottom: 76px;
+  @media (max-width: 767px) {
+    flex-direction: column;
+  }
+`;
+const WhoWeAreLeft = styled(Box)`
+  width: 40%;
+  margin-right: 10%;
+  @media (max-width: 767px) {
+    width: 100%;
+    margin-right: 0;
+  }
+`;
+const WhoWeAreRight = styled(Box)`
+  width: 50%;
+  @media (max-width: 767px) {
+    width: 100%;
+  }
 `;
 
 const WhatWeDo = styled(Box)`
@@ -92,6 +109,23 @@ const WhatWeDo = styled(Box)`
   flex-direction: row;
   background-color: #f4f5f7;
   padding: 76px 10% 76px 10%;
+  @media (max-width: 767px) {
+    flex-direction: column;
+  }
+`;
+const WhatWeDoLeft = styled(Box)`
+  width: 55%;
+  margin-right: 5%;
+  @media (max-width: 767px) {
+    width: 100%;
+    margin-right: 0;
+  }
+`;
+const WhatWeDoRight = styled(Box)`
+  width: 40%;
+  @media (max-width: 767px) {
+    width: 100%;
+  }
 `;
 
 const OurBlog = styled(Box)`
@@ -105,8 +139,26 @@ const RushSEP = styled(Box)`
   flex-direction: row;
   padding: 76px 10% 76px 10%;
   min-height: 30vh;
+  @media (max-width: 767px) {
+    flex-direction: column;
+  }
   // background-color: #f4f5f7;
 `;
+const RushSEPLeft = styled(Box)`
+  width: 30%;
+  margin-right: 10%;
+  @media (max-width: 767px) {
+    width: 100%;
+    margin-right: 0;
+  }
+`;
+const RushSEPRight = styled(Box)`
+  width: 60%;
+  @media (max-width: 767px) {
+    width: 100%;
+  }
+`;
+
 
 const NavBarItem = styled(Link)`
   text-decoration: none;
@@ -154,7 +206,7 @@ function Home() {
         })}
       </FrontSpread>
       <WhoWeAre>
-        <Box style={{ width: "40%", marginRight: "10%" }}>
+        <WhoWeAreLeft>
           <Box style={{ width: "100%", overflow: "hidden" }}>
             <img
               style={{ width: "100%" }}
@@ -162,8 +214,8 @@ function Home() {
               src={require("../assets/images/group/camping-trip-1.JPG").default}
             />
           </Box>
-        </Box>
-        <Box style={{ width: "50%" }}>
+        </WhoWeAreLeft>
+        <WhoWeAreRight>
           <Hl3 style={{ marginBottom: "32px" }}>Who we are</Hl3>
           <Bd1 style={{ marginBottom: "40px" }}>
             Sigma Eta Pi is UC Berkeley’s premier co-ed entrepreneurship
@@ -192,10 +244,10 @@ function Home() {
               <ArrowRightAltIcon style={{ marginLeft: "6px" }} />
             </Button>
           </Link>
-        </Box>
+        </WhoWeAreRight>
       </WhoWeAre>
       <WhatWeDo>
-        <Box style={{ width: "55%", marginRight: "5%" }}>
+        <WhatWeDoLeft>
           <Hl3 style={{ marginBottom: "48px" }}>
             What we do: entrepreneurship
           </Hl3>
@@ -219,8 +271,8 @@ function Home() {
               Our Ventures <ArrowRightAltIcon style={{ marginLeft: "6px" }} />
             </Button>
           </Link>
-        </Box>
-        <Box style={{ width: "40%" }}>
+        </WhatWeDoLeft>
+        <WhatWeDoRight>
           <Box
             style={{
               height: "100%",
@@ -234,13 +286,13 @@ function Home() {
               src={require("../assets/SEP-logo-dark.png").default}
             />
           </Box>
-        </Box>
+        </WhatWeDoRight>
       </WhatWeDo>
       {/* <OurBlog>
         <Hl3 style={{ marginBottom: "48px" }}>Our blog</Hl3>
       </OurBlog> */}
       <RushSEP>
-        <Box style={{ width: "30%", marginRight: "10%" }}>
+        <RushSEPLeft>
           <Box style={{ height: "100%", overflow: "hidden" }}>
             <img
               style={{ width: "100%" }}
@@ -248,8 +300,8 @@ function Home() {
               src={require("../assets/images/group/tim-joelene.png").default}
             />
           </Box>
-        </Box>
-        <Box style={{ width: "60%" }}>
+        </RushSEPLeft>
+        <RushSEPRight>
           <Hl3 style={{ marginBottom: "32px" }}>Interested in joining SEP?</Hl3>
           <Bd1 style={{ marginBottom: "32px" }}>
             Come be a part of our amazing brotherhood! Rush for Fall 2021 starts
@@ -264,7 +316,7 @@ function Home() {
               <ArrowRightAltIcon style={{ marginLeft: "6px" }} />
             </Button>
           </Link>
-        </Box>
+        </RushSEPRight>
       </RushSEP>
       <BottomNav />
     </>
