@@ -30,6 +30,22 @@ export default function Members() {
     flex-direction: row;
     background-color: #f4f5f7;
     padding: 76px 10% 0px 10%;
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+  `;
+  const ExecutiveBoardLeft = styled(Box)`
+    width: 35%;
+    margin-right: 10%;
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+  `;
+  const ExecutiveBoardRight = styled(Box)`
+    width: 55%;
+    @media (max-width: 768px) {
+      width: 100%;
+    }
   `;
 
   const ExecutivePhotos = styled(Box)`
@@ -130,14 +146,14 @@ export default function Members() {
       </Header>
 
       <ExecutiveBoard>
-        <Box style={{ width: "35%", marginRight: "10%" }}>
+        <ExecutiveBoardLeft>
           <Hl3 style={{ marginBottom: "48px" }}>Executive Board</Hl3>
           <Bd1 style={{ width: "90%", marginBottom: "40px" }}>
             Our executive board is responsible for envisioning and executing the
             mission of our fraternity.
           </Bd1>
-        </Box>
-        <Box style={{ width: "55%" }}>
+        </ExecutiveBoardLeft>
+        <ExecutiveBoardRight>
           <Box style={{ height: "100%", overflow: "hidden" }}>
             <img
               style={{ height: "100%", width: "100%" }}
@@ -145,7 +161,7 @@ export default function Members() {
               src={require("../assets/SEP-logo-dark.png").default}
             />
           </Box>
-        </Box>
+        </ExecutiveBoardRight>
       </ExecutiveBoard>
       <ExecutivePhotos>
         {actives.executives.map((executive) => {
