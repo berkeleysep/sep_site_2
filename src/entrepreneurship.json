@@ -23,12 +23,6 @@
       "description": "TigerTalk is an online platform helping individuals looking to improve their communication skills by combining AI with human coaching to provide personalized feedback on their speeches.",
       "imgpath": "tigertalk",
       "url": " "
-    },
-    {
-      "name": "Caviar",
-      "description": "Delivery & takeout from the best local restaurants. Breakfast, lunch, dinner and more, delivered safely to your door.",
-      "imgpath": "caviar",
-      "url": "https://www.trycaviar.com/"
     }
   ],
   "careers": ["apple", "apple"]
