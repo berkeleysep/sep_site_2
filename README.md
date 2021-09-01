@@ -25,4 +25,4 @@ Deployment is complicated, but it shouldn't be with these steps:
 npm run deploy
 ```
 
-If all goes well, ```www.berkeleysep.com` should have the updated changes.
+If all goes well, `www.berkeleysep.com` should have the updated changes in a few minutes.
