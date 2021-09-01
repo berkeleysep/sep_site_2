@@ -276,7 +276,7 @@ export default function Recruitment() {
 
         <InfoRight>
           <Hl3 style={{ marginBottom: "48px" }}>Rush Video</Hl3>
-          <ResponsiveIFrame
+          {/* <ResponsiveIFrame
             style={{
               position: "relative",
               paddingBottom: "56.25%",
@@ -298,7 +298,10 @@ export default function Recruitment() {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
-          </ResponsiveIFrame>
+          </ResponsiveIFrame> */}
+          <Bd1 style={{ marginBottom: "32px"}}>
+          Coming soon!
+          </Bd1>
           <Hl3 style={{ marginBottom: "48px" }}>Frequently Asked Questions</Hl3>
           <FAQItem>
             <FAQTitle>What is the pledging process?</FAQTitle>
