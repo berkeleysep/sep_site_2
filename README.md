@@ -12,3 +12,17 @@ In order to start your development server, run:
 npm install
 npm start
 ```
+
+#### Deployment
+
+Deployment is complicated, but it shouldn't be with these steps:
+
+1. Make your changes
+2. Commit and push (make sure to merge onto `main` branch
+3. Run:
+
+```bash
+npm run deploy
+```
+
+If all goes well, ```www.berkeleysep.com` should have the updated changes.
