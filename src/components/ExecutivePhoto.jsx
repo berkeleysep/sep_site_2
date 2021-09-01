@@ -38,7 +38,7 @@ export default function ExecutivePhoto({
           {position}, {pledge_class} Class
         </Bd3>
         <Bd3 style={{ opacity: ".4", marginBottom: "8px" }}>{major}</Bd3>
-        <Bd3 style={{ marginBottom: "8px" }}>{bio}</Bd3>
+        <Bd3 style={{ marginBottom: "8px", paddingRight: "16px" }}>{bio}</Bd3>
         <Box>
           <a href={linkedin} target="_blank" rel="noreferrer">
             <img alt="LinkedInIcon" src={LinkedInIcon} />

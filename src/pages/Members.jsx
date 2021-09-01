@@ -11,7 +11,7 @@ import actives from "../actives.json";
 
 export default function Members() {
   const Header = styled(Box)`
-    padding: 76px 10% 76px 10%;
+    padding: 76px 10% 38px 10%;
   `;
 
   const BrotherHoodBoxContainer = styled(Box)`
@@ -22,6 +22,7 @@ export default function Members() {
   const BrotherHoodBox = styled(Box)`
     width: 250px;
     margin-right: 30px;
+    margin-bottom: 32px;
   `;
 
   const ExecutiveBoard = styled(Box)`
@@ -75,16 +76,26 @@ export default function Members() {
             <BrotherHoodBox>
               <Hl5 style={{ marginBottom: "8px" }}>Executive Board</Hl5>
               <Bd2 style={{ marginBottom: "16px" }}>Our Foundation</Bd2>
-              <Box style={{ height: "210px", backgroundColor: "grey" }}>
-                pic here
+              <Box
+                style={{
+                  height: "210px",
+                  overflow: "hidden",
+                  border: "1px solid black",
+                }}
+              >
+                <img
+                  style={{ height: "100%", width: "100%" }}
+                  alt="sep-logo"
+                  src={require("../assets/SEP-logo-dark.png").default}
+                />
               </Box>
             </BrotherHoodBox>
             <BrotherHoodBox>
               <Hl5 style={{ marginBottom: "8px" }}>Active House</Hl5>
               <Bd2 style={{ marginBottom: "16px" }}>A supportive community</Bd2>
-              <Box style={{ height: "210px", backgroundColor: "grey" }}>
+              <Box style={{ height: "210px", overflow: "hidden" }}>
                 <img
-                  style={{ width: "100%" }}
+                  style={{ height: "100%", width: "100%" }}
                   alt="griffiths"
                   src={require("../assets/images/group/griffiths.jpg").default}
                 />
@@ -95,7 +106,7 @@ export default function Members() {
               <Bd2 style={{ marginBottom: "16px" }}>Family and mentorship</Bd2>
               <Box style={{ height: "210px", overflow: "hidden" }}>
                 <img
-                  style={{ width: "100%" }}
+                  style={{ height: "100%", width: "100%" }}
                   alt="glade-1"
                   src={require("../assets/images/group/glade-1.png").default}
                 />
@@ -106,9 +117,9 @@ export default function Members() {
               <Bd2 style={{ marginBottom: "16px" }}>
                 Your future co-founders
               </Bd2>
-              <Box style={{ height: "210px", backgroundColor: "grey" }}>
+              <Box style={{ height: "210px", overflow: "hidden" }}>
                 <img
-                  style={{ width: "100%" }}
+                  style={{ height: "100%", width: "100%" }}
                   alt="oopsilons"
                   src={require("../assets/images/group/oopsilons.jpg").default}
                 />
@@ -127,8 +138,12 @@ export default function Members() {
           </Bd1>
         </Box>
         <Box style={{ width: "55%" }}>
-          <Box style={{ height: "100%", backgroundColor: "grey" }}>
-            pic here
+          <Box style={{ height: "100%", overflow: "hidden" }}>
+            <img
+              style={{ height: "100%", width: "100%" }}
+              alt="sep-logo"
+              src={require("../assets/SEP-logo-dark.png").default}
+            />
           </Box>
         </Box>
       </ExecutiveBoard>

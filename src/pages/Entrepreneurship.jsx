@@ -83,11 +83,11 @@ export default function Entrepreneurship() {
             We’re constantly iterating on what equips new members with the tools
             needed to successfully dive into their own ventures.
           </Bd1>
-          <Bd1 style={{ width: "90%", marginBottom: "40px" }}>
+          {/* <Bd1 style={{ width: "90%", marginBottom: "40px" }}>
             While the specifics are left as a surprise to the new members,
             here’s an overview of the different phases of the venture-building
             aspect of pledging:
-          </Bd1>
+          </Bd1> */}
         </Box>
         <Box style={{ width: "55%" }}>
           <Box style={{ width: "100%", backgroundColor: "grey" }}>
