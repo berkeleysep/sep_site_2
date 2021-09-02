@@ -16,6 +16,9 @@ const Header = styled(Box)`
 const TitleContainer = styled(Box)`
   display: flex;
   flex-direction: row;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 const VentureProcess = styled(Box)`
@@ -23,6 +26,22 @@ const VentureProcess = styled(Box)`
   flex-direction: row;
   background-color: #f4f5f7;
   padding: 76px 10% 64px 10%;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+`;
+const VentureProcessLeft = styled(Box)`
+  width: 35%;
+  margin-right: 10%;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+`;
+const VentureProcessRight = styled(Box)`
+  width: 55%;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 const BeyondSEP = styled(Box)`
@@ -76,7 +95,7 @@ export default function Entrepreneurship() {
         </TitleContainer>
       </Header>
       <VentureProcess>
-        <Box style={{ width: "35%", marginRight: "10%" }}>
+        <VentureProcessLeft>
           <Hl3 style={{ marginBottom: "48px" }}>Our venture process</Hl3>
           <Bd1 style={{ width: "90%", marginBottom: "40px" }}>
             Our pledge education process is, in its own way, our own product.
@@ -88,8 +107,8 @@ export default function Entrepreneurship() {
             here’s an overview of the different phases of the venture-building
             aspect of pledging:
           </Bd1> */}
-        </Box>
-        <Box style={{ width: "55%" }}>
+        </VentureProcessLeft>
+        <VentureProcessRight>
           <Box style={{ width: "100%", backgroundColor: "grey" }}>
             <img
               style={{ width: "100%", overflow: "none" }}
@@ -99,7 +118,7 @@ export default function Entrepreneurship() {
               }
             />
           </Box>
-        </Box>
+        </VentureProcessRight>
       </VentureProcess>
       <BeyondSEP>
         <Hl3 style={{ marginBottom: "32px" }}>What we founded:</Hl3>
