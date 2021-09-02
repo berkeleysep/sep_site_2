@@ -21,6 +21,9 @@ export default function ExecutivePhoto({
     width: 48%;
     margin-bottom: 48px;
     margin-right: 2%;
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
   `;
 
   return (
