@@ -157,8 +157,8 @@ export default function Recruitment() {
               >
                 <TimelineItem
                   date={"Tues, Sept 7th"}
-                  time={"7PM"}
-                  location={"TBD"}
+                  time={"8PM"}
+                  location={"VLSB 2050"}
                   title={"Meet the Chapter #1"}
                 />
               </VerticalTimelineElement>
@@ -174,7 +174,7 @@ export default function Recruitment() {
                 <TimelineItem
                   date={"Wed, Sept 8th"}
                   time={"8PM"}
-                  location={"TBD"}
+                  location={"VLSB 2030"}
                   title={"Diversity in SEP"}
                 />
               </VerticalTimelineElement>
@@ -189,8 +189,8 @@ export default function Recruitment() {
               >
                 <TimelineItem
                   date={"Thu, Sept 9th"}
-                  time={"8PM"}
-                  location={"TBD"}
+                  time={"7PM"}
+                  location={"Hearst Field Annex A1"}
                   title={"Social Night"}
                 />
               </VerticalTimelineElement>
