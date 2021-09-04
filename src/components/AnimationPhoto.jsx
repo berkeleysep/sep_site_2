@@ -32,7 +32,7 @@ const Img = styled.img`
 
 export default function AnimationPhoto({ path, delay, stagger, mobile }) {
   const positionTop = Math.floor(Math.random() * 80);
-  const positionLeft = 10 + Math.floor(Math.random() * 70);
+  const positionLeft = mobile ? 10 + Math.floor(Math.random() * 60) : 10 + Math.floor(Math.random() * 70);
   const opacity = mobile ? ".25" : ".75";
 
   return (

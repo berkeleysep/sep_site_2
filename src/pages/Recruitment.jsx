@@ -63,6 +63,9 @@ const FrontSpread = styled(Box)`
   background-color: #969bab;
   color: white;
   padding-left: 10%;
+  @media (max-width: 768px) {
+    padding-left: 6%;
+  }
 `;
 
 const InfoBox = styled(Box)`
@@ -79,7 +82,7 @@ const InfoLeft = styled(Box)`
   padding: 76px 3% 76px 6%;
   @media (max-width: 768px) {
     width: auto;
-    padding: 38px 0 38px 3%;
+    padding: 38px 0 38px 6%;
   }
 `;
 
