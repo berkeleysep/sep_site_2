@@ -12,6 +12,11 @@ const FooterSpread = styled(Box)`
   background-color: black;
   padding: 64px 10% 64px 10%;
   color: white;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    width: auto;
+    padding: 38px 0 38px 3%;
+  }
 `;
 
 const NavBarItem = styled(Link)`
@@ -24,19 +29,36 @@ const NavBarItem = styled(Link)`
 const BoxLeft = styled(Box)`
   width: 30%;
   padding-right: 15%;
+  @media (max-width: 768px) {
+    padding: 16px 0 38px 3%;
+  }
 `;
 
 const BoxRight = styled(Box)`
   display: flex;
   flex-direction: row;
   width: 55%;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 0 0 16px 3%;
+  }
 `;
 
 const SubSection = styled(Box)`
   display: flex;
   flex-direction: column;
   margin-right: 30px;
+  @media (max-width: 768px) {
+    font-size: 5px;
+  }
 `;
+
+const MobileBox = styled(Box)`
+  @media (max-width: 768px) {
+    width: auto;
+    margin-left: 20px;
+  }
+`
 
 export default function BottomNav() {
   return (
@@ -75,14 +97,18 @@ export default function BottomNav() {
               pathname: "/entrepreneurship",
             }}
           >
+            <MobileBox>
             <Bd1>Ventures</Bd1>
+            </MobileBox>
           </NavBarItem>
           <NavBarItem
             to={{
               pathname: "/entrepreneurship",
             }}
           >
+            <MobileBox>
             <Bd1>Careers</Bd1>
+            </MobileBox>
           </NavBarItem>
         </SubSection>
         <SubSection>
@@ -98,7 +124,9 @@ export default function BottomNav() {
               pathname: "/recruitment",
             }}
           >
-            <Bd1>Apply</Bd1>
+            <MobileBox>
+              <Bd1>Apply</Bd1>
+            </MobileBox>
           </NavBarItem>
         </SubSection>
       </BoxRight>
