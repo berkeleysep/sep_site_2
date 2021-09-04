@@ -6,10 +6,10 @@ const fadeInOut = keyframes`
   0% {
     opacity: 0;
   }
-  50% {
-    opacity: 1;
+ 25% {
+    opacity: .5;
   }
-  100% {
+  50% {
     opacity: 0;
   }
 `;
@@ -26,13 +26,13 @@ const Img = styled.img`
   opacity: 0;
   width: 125px;
   height: 125px;
-  animation: ${(props) => props.duration}ms ${fadeInOut} ease-in-out;
+  animation: ${(props) => props.duration * 2}ms ${fadeInOut} ease-in-out infinite;
   animation-delay: ${(props) => props.stagger}ms;
 `;
 
 export default function AnimationPhoto({ path, delay, stagger }) {
   const positionTop = Math.floor(Math.random() * 80);
-  const positionLeft = Math.floor(Math.random() * 100);
+  const positionLeft = 10 + Math.floor(Math.random() * 70);
 
   return (
     <PhotoBox positionTop={positionTop} positionLeft={positionLeft}>

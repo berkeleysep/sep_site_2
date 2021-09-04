@@ -7,7 +7,6 @@ import styled from "styled-components";
 import TopNav from "../components/TopNav";
 import BottomNav from "../components/BottomNav";
 import AnimationPhoto from "../components/AnimationPhoto";
-import Expire from "../components/Expire";
 import { Hl2, Bd1, Hl3, Hl4, Bd2 } from "../shared/Typography";
 import actives from "../actives.json";
 import MobileNav from "../components/MobileNav";
@@ -222,13 +221,11 @@ function Home() {
           const stagger = index * 700;
 
           return (
-            <Expire delay={expiration + stagger * 2}>
-              <AnimationPhoto
-                path={path}
-                delay={expiration}
-                stagger={stagger}
-              />
-            </Expire>
+            <AnimationPhoto
+              path={path}
+              delay={expiration}
+              stagger={stagger}
+            />
           );
         })}
         </Box>
