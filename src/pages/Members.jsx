@@ -1,74 +1,100 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import { Box } from "@material-ui/core";
 import styled from "styled-components";
 
 import TopNav from "../components/TopNav";
+import MobileNav from "../components/MobileNav";
 import BottomNav from "../components/BottomNav";
 import ExecutivePhoto from "../components/ExecutivePhoto";
 import MemberPhoto from "../components/MemberPhoto";
 import { Bd1, Bd2, Hl3, Hl5 } from "../shared/Typography";
 import actives from "../actives.json";
 
+const Header = styled(Box)`
+padding: 76px 10% 38px 10%;
+`;
+
+const BrotherHoodBoxContainer = styled(Box)`
+display: flex;
+flex-flow: row wrap;
+`;
+
+const BrotherHoodBox = styled(Box)`
+width: 250px;
+margin-right: 30px;
+margin-bottom: 32px;
+`;
+
+const ExecutiveBoard = styled(Box)`
+display: flex;
+flex-direction: row;
+background-color: #f4f5f7;
+padding: 76px 10% 0px 10%;
+@media (max-width: 768px) {
+  flex-direction: column;
+}
+`;
+const ExecutiveBoardLeft = styled(Box)`
+width: 35%;
+margin-right: 10%;
+@media (max-width: 768px) {
+  width: 100%;
+}
+`;
+const ExecutiveBoardRight = styled(Box)`
+width: 55%;
+@media (max-width: 768px) {
+  width: 100%;
+}
+`;
+
+const ExecutivePhotos = styled(Box)`
+display: flex;
+flex-flow: row wrap;
+background-color: #f4f5f7;
+padding: 76px 10% 38px 10%;
+align-items: start;
+`;
+
+const ActiveHouse = styled(Box)`
+padding: 76px 10% 76px 10%;
+`;
+
+const ActivePhotos = styled(Box)`
+display: flex;
+flex-flow: row wrap;
+align-items: start;
+`;
+
 export default function Members() {
-  const Header = styled(Box)`
-    padding: 76px 10% 38px 10%;
-  `;
 
-  const BrotherHoodBoxContainer = styled(Box)`
-    display: flex;
-    flex-flow: row wrap;
-  `;
+  const [state, setState] = useState({
+    mobileView: false,
+  });
 
-  const BrotherHoodBox = styled(Box)`
-    width: 250px;
-    margin-right: 30px;
-    margin-bottom: 32px;
-  `;
+  const { mobileView } = state;
 
-  const ExecutiveBoard = styled(Box)`
-    display: flex;
-    flex-direction: row;
-    background-color: #f4f5f7;
-    padding: 76px 10% 0px 10%;
-    @media (max-width: 768px) {
-      flex-direction: column;
+  useEffect(() => {
+    const setResponsiveness = () => {
+      return window.innerWidth < 700
+        ? setState((prevState) => ({ ...prevState, mobileView: true }))
+        : setState((prevState) => ({ ...prevState, mobileView: false }));
+    };
+
+    setResponsiveness();
+    window.addEventListener("resize", () => setResponsiveness());
+
+    return () => {
+      window.removeEventListener("resize", () => setResponsiveness());
     }
-  `;
-  const ExecutiveBoardLeft = styled(Box)`
-    width: 35%;
-    margin-right: 10%;
-    @media (max-width: 768px) {
-      width: 100%;
-    }
-  `;
-  const ExecutiveBoardRight = styled(Box)`
-    width: 55%;
-    @media (max-width: 768px) {
-      width: 100%;
-    }
-  `;
-
-  const ExecutivePhotos = styled(Box)`
-    display: flex;
-    flex-flow: row wrap;
-    background-color: #f4f5f7;
-    padding: 76px 10% 38px 10%;
-    align-items: start;
-  `;
-
-  const ActiveHouse = styled(Box)`
-    padding: 76px 10% 76px 10%;
-  `;
-
-  const ActivePhotos = styled(Box)`
-    display: flex;
-    flex-flow: row wrap;
-    align-items: start;
-  `;
+  }, []);
 
   return (
     <>
+      { mobileView ? 
+      <MobileNav /> :
       <TopNav members />
+    }
       <Header>
         <Box
           style={{

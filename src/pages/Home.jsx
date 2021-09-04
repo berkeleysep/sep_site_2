@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import { Box, Button, makeStyles } from "@material-ui/core";
 import ArrowRightAltIcon from "@material-ui/icons/ArrowRightAlt";
 import { Link } from "react-router-dom";
@@ -10,6 +10,7 @@ import AnimationPhoto from "../components/AnimationPhoto";
 import Expire from "../components/Expire";
 import { Hl2, Bd1, Hl3, Hl4, Bd2 } from "../shared/Typography";
 import actives from "../actives.json";
+import MobileNav from "../components/MobileNav";
 
 const StatsBox = styled(Box)`
   border-left: 3px solid #8c30f5;
@@ -70,6 +71,7 @@ const useStyles = makeStyles({
 
 const FrontSpread = styled(Box)`
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -169,9 +171,33 @@ const NavBarItem = styled(Link)`
 function Home() {
   const classes = useStyles();
 
+  const [state, setState] = useState({
+    mobileView: false,
+  });
+
+  const { mobileView } = state;
+
+  useEffect(() => {
+    const setResponsiveness = () => {
+      return window.innerWidth < 700
+        ? setState((prevState) => ({ ...prevState, mobileView: true }))
+        : setState((prevState) => ({ ...prevState, mobileView: false }));
+    };
+
+    setResponsiveness();
+    window.addEventListener("resize", () => setResponsiveness());
+
+    return () => {
+      window.removeEventListener("resize", () => setResponsiveness());
+    }
+  }, []);
+
   return (
     <>
+    { mobileView ? 
+      <MobileNav /> :
       <TopNav home />
+    }
       <FrontSpread className="frontSpread">
         <Box style={{ width: "60%", zIndex: "100" }}>
           <Hl2 style={{ marginBottom: "16px" }}>
@@ -188,6 +214,7 @@ function Home() {
             </Button>
           </NavBarItem>
         </Box>
+        <Box style={{ maxWidth: "60%"}}>
         {actives.images.map((path, index) => {
           const min = 3000;
           const max = 4000;
@@ -204,6 +231,7 @@ function Home() {
             </Expire>
           );
         })}
+        </Box>
       </FrontSpread>
       <WhoWeAre>
         <WhoWeAreLeft>

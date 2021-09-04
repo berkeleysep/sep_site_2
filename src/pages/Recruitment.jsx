@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import styled from "styled-components";
 import { Box, Button, makeStyles } from "@material-ui/core";
 import { Link } from "react-router-dom";
@@ -9,6 +9,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 
 import BottomNav from "../components/BottomNav";
+import MobileNav from "../components/MobileNav";
 import TopNav from "../components/TopNav";
 import TimelineItem from "../components/TimelineItem";
 import { Bd1, Hl2, Hl3, Hl5 } from "../shared/Typography";
@@ -111,11 +112,35 @@ export default function Recruitment() {
       "https://mkg2mvddy6x.typeform.com/to/T0epVEaT?typeform-source=l.messenger.com",
       "_blank"
     );
-  }
+  };
+
+  const [state, setState] = useState({
+    mobileView: false,
+  });
+
+  const { mobileView } = state;
+
+  useEffect(() => {
+    const setResponsiveness = () => {
+      return window.innerWidth < 700
+        ? setState((prevState) => ({ ...prevState, mobileView: true }))
+        : setState((prevState) => ({ ...prevState, mobileView: false }));
+    };
+
+    setResponsiveness();
+    window.addEventListener("resize", () => setResponsiveness());
+
+    return () => {
+      window.removeEventListener("resize", () => setResponsiveness());
+    }
+  }, []);
 
   return (
     <>
+      { mobileView ? 
+      <MobileNav /> :
       <TopNav recruitment />
+    }
       <FrontSpread className={classes.backgroundImage}>
         <Hl2 style={{ marginBottom: "8px" }}>Rush Sigma Eta Pi</Hl2>
         <Bd1 style={{ marginBottom: "24px" }}>

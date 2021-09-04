@@ -1,8 +1,9 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import { Box } from "@material-ui/core";
 import styled from "styled-components";
 
 import BottomNav from "../components/BottomNav";
+import MobileNav from "../components/MobileNav";
 import TopNav from "../components/TopNav";
 import { Bd1, Hl3 } from "../shared/Typography";
 import FoundedCompanies from "../components/FoundedCompanies";
@@ -62,9 +63,34 @@ const CareerPhotoContainer = styled(Box)`
 `;
 
 export default function Entrepreneurship() {
+  const [state, setState] = useState({
+    mobileView: false,
+  });
+
+  const { mobileView } = state;
+
+  useEffect(() => {
+    const setResponsiveness = () => {
+      return window.innerWidth < 700
+        ? setState((prevState) => ({ ...prevState, mobileView: true }))
+        : setState((prevState) => ({ ...prevState, mobileView: false }));
+    };
+
+    setResponsiveness();
+    window.addEventListener("resize", () => setResponsiveness());
+
+    return () => {
+      window.removeEventListener("resize", () => setResponsiveness());
+    }
+  }, []);
+
   return (
     <>
-      <TopNav entrepreneurship />
+      {mobileView ? 
+        <MobileNav /> :
+        <TopNav entrepreneurship />
+    }
+      
       <Header>
         <Box
           style={{
