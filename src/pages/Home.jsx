@@ -225,6 +225,7 @@ function Home() {
               path={path}
               delay={expiration}
               stagger={stagger}
+              mobile={mobileView}
             />
           );
         })}
