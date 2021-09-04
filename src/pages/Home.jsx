@@ -74,11 +74,19 @@ const FrontSpread = styled(Box)`
   align-items: center;
   justify-content: center;
   text-align: center;
-  width: 100%;
+  width: auto;
   min-height: 80vh;
   margin-bottom: 50px;
   position: relative;
 `;
+
+const FrontTitle = styled(Box)`
+  z-index: 100;
+  width: 60%;
+  @media (max-width: 767px) {
+    width: auto;
+  }
+`
 
 const WhoWeAre = styled(Box)`
   display: flex;
@@ -94,14 +102,14 @@ const WhoWeAreLeft = styled(Box)`
   width: 40%;
   margin-right: 10%;
   @media (max-width: 767px) {
-    width: 100%;
+    width: auto;
     margin-right: 0;
   }
 `;
 const WhoWeAreRight = styled(Box)`
   width: 50%;
   @media (max-width: 767px) {
-    width: 100%;
+    width: auto;
   }
 `;
 
@@ -118,14 +126,14 @@ const WhatWeDoLeft = styled(Box)`
   width: 55%;
   margin-right: 5%;
   @media (max-width: 767px) {
-    width: 100%;
+    width: auto;
     margin-right: 0;
   }
 `;
 const WhatWeDoRight = styled(Box)`
   width: 40%;
   @media (max-width: 767px) {
-    width: 100%;
+    width: auto;
   }
 `;
 
@@ -198,7 +206,7 @@ function Home() {
       <TopNav home />
     }
       <FrontSpread className="frontSpread">
-        <Box style={{ width: "60%", zIndex: "100" }}>
+        <FrontTitle>
           <Hl2 style={{ marginBottom: "16px" }}>
             UC Berkeley's Premier Entrepreneurship Fraternity
           </Hl2>
@@ -212,7 +220,7 @@ function Home() {
               Rush Fall 2021
             </Button>
           </NavBarItem>
-        </Box>
+        </FrontTitle>
         <Box style={{ maxWidth: "60%"}}>
         {actives.images.map((path, index) => {
           const min = 3000;
