@@ -26,3 +26,10 @@ npm run deploy
 ```
 
 If all goes well, `www.berkeleysep.com` should have the updated changes in a few minutes.
+
+
+#### Continued work
+
+1. There may be concerns with hosting on Github pages in the future.
+2. Purchase multiple domains and redirect to main `berkeleysep.com` page.
+3. Optimize images and potentially rework the front page animation.
