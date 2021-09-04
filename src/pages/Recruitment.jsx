@@ -68,17 +68,28 @@ const FrontSpread = styled(Box)`
 const InfoBox = styled(Box)`
   display: flex;
   flex-direction: row;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 const InfoLeft = styled(Box)`
   background-color: #f4f5f7;
   width: 35%;
   padding: 76px 3% 76px 6%;
+  @media (max-width: 768px) {
+    width: auto;
+    padding: 38px 0 38px 3%;
+  }
 `;
 
 const InfoRight = styled(Box)`
   width: 65%;
   padding: 76px 5% 76px 5%;
+  @media (max-width: 768px) {
+    width: auto;
+    padding: 38px 0 38px 6%;
+  }
 `;
 
 const NavBarItem = styled(Link)`
