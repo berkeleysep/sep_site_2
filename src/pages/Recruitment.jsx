@@ -199,6 +199,7 @@ export default function Recruitment() {
                   time={"8PM"}
                   location={"VLSB 2050"}
                   title={"Meet the Chapter #1"}
+                  description={"Business Casual"}
                 />
               </VerticalTimelineElement>
               <VerticalTimelineElement
@@ -215,6 +216,7 @@ export default function Recruitment() {
                   time={"8PM"}
                   location={"VLSB 2030"}
                   title={"Diversity in SEP"}
+                  description={"Casual"}
                 />
               </VerticalTimelineElement>
               <VerticalTimelineElement
@@ -228,9 +230,10 @@ export default function Recruitment() {
               >
                 <TimelineItem
                   date={"Thu, Sept 9th"}
-                  time={"7PM"}
+                  time={"8PM"}
                   location={"Hearst Field Annex A1"}
                   title={"Social Night"}
+                  description={"Casual"}
                 />
               </VerticalTimelineElement>
               <VerticalTimelineElement
@@ -256,10 +259,10 @@ export default function Recruitment() {
               >
                 <TimelineItem
                   date={"Sat, Sept 11th"}
-                  time={"TBD*"}
-                  location={"TBD*"}
+                  time={"TBD"}
+                  location={"TBD"}
                   title={"1st Round Interviews"}
-                  description={"*Invite only"}
+                  description={"Business formal, invite only"}
                 />
               </VerticalTimelineElement>
               <VerticalTimelineElement
@@ -269,10 +272,10 @@ export default function Recruitment() {
               >
                 <TimelineItem
                   date={"Wed, Sept 15th"}
-                  time={"TBD*"}
-                  location={"TBD*"}
+                  time={"TBD"}
+                  location={"TBD"}
                   title={"2nd Round Interviews"}
-                  description={"*Invite only"}
+                  description={"Business formal, invite only"}
                 />
               </VerticalTimelineElement>
               <VerticalTimelineElement
@@ -286,10 +289,10 @@ export default function Recruitment() {
               >
                 <TimelineItem
                   date={"Thu, Sept 16th"}
-                  time={"TBD*"}
-                  location={"TBD*"}
+                  time={"TBD"}
+                  location={"TBD"}
                   title={"Speed Dating Round"}
-                  description={"*Invite only"}
+                  description={"Casual, invite only"}
                 />
               </VerticalTimelineElement>
               <VerticalTimelineElement
