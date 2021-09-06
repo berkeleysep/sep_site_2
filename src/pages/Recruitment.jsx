@@ -247,7 +247,7 @@ export default function Recruitment() {
               >
                 <TimelineItem
                   date={"Fri, Sept 10th"}
-                  time={"11:59PM"}
+                  time={"10:00AM"}
                   location={"TBD"}
                   title={"Applications Due"}
                 />
