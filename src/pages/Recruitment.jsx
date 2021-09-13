@@ -305,7 +305,7 @@ export default function Recruitment() {
                 }
               >
                 <TimelineItem
-                  date={"Fri, Sept 17th"}
+                  date={"Sat, Sept 18th"}
                   time={"TBD*"}
                   location={"TBD*"}
                   title={"Bid Night"}
