@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { Box, Button, makeStyles } from "@material-ui/core";
 import { Link } from "react-router-dom";
@@ -126,7 +126,7 @@ export default function Recruitment() {
       "https://mkg2mvddy6x.typeform.com/to/T0epVEaT?typeform-source=l.messenger.com",
       "_blank"
     );
-  };
+  }
 
   const [state, setState] = useState({
     mobileView: false,
@@ -146,15 +146,12 @@ export default function Recruitment() {
 
     return () => {
       window.removeEventListener("resize", () => setResponsiveness());
-    }
+    };
   }, []);
 
   return (
     <>
-      { mobileView ? 
-      <MobileNav /> :
-      <TopNav recruitment />
-    }
+      {mobileView ? <MobileNav /> : <TopNav recruitment />}
       <FrontSpread className={classes.backgroundImage}>
         <Hl2 style={{ marginBottom: "8px" }}>Rush Sigma Eta Pi</Hl2>
         <Bd1 style={{ marginBottom: "24px" }}>
@@ -195,11 +192,28 @@ export default function Recruitment() {
                 }
               >
                 <TimelineItem
-                  date={"Tues, Sept 7th"}
-                  time={"8PM"}
-                  location={"VLSB 2050"}
+                  date={"Wed, Jan 26th"}
+                  time={"6PM"}
+                  location={"VLSB 2060"}
                   title={"Meet the Chapter #1"}
                   description={"Business Casual"}
+                />
+              </VerticalTimelineElement>
+              <VerticalTimelineElement
+                icon={
+                  <img
+                    alt="Handshake emoji"
+                    style={{ width: "100%" }}
+                    src={Handshake}
+                  />
+                }
+              >
+                <TimelineItem
+                  date={"Wed, Jan 26th"}
+                  time={"8PM"}
+                  location={"Zoom"}
+                  title={"Meet the Chapter #2"}
+                  description={"tinyurl.com/SEPmtc"}
                 />
               </VerticalTimelineElement>
               <VerticalTimelineElement
@@ -212,13 +226,16 @@ export default function Recruitment() {
                 }
               >
                 <TimelineItem
-                  date={"Wed, Sept 8th"}
+                  date={"Thu, Jan 27th"}
                   time={"8PM"}
-                  location={"VLSB 2030"}
+                  location={"SOCS 36"}
                   title={"Diversity in SEP"}
-                  description={"Casual"}
+                  description={
+                    "Casual, Virtual Option: tinyurl.com/SEPdiversitynight"
+                  }
                 />
               </VerticalTimelineElement>
+
               <VerticalTimelineElement
                 icon={
                   <img
@@ -229,11 +246,13 @@ export default function Recruitment() {
                 }
               >
                 <TimelineItem
-                  date={"Thu, Sept 9th"}
+                  date={"Fri, Jan 28th"}
                   time={"8PM"}
-                  location={"Hearst Field Annex A1"}
-                  title={"Social Night"}
-                  description={"Casual"}
+                  location={"VLSB 2060"}
+                  title={"Challenge  Night"}
+                  description={
+                    "Casual, Rushees who attend the virtual option will instead participate in a social night: tinyurl.com/SEPchallengenight"
+                  }
                 />
               </VerticalTimelineElement>
               <VerticalTimelineElement
@@ -246,23 +265,25 @@ export default function Recruitment() {
                 }
               >
                 <TimelineItem
-                  date={"Fri, Sept 10th"}
-                  time={"9:00AM"}
-                  location={"TBD"}
+                  date={"Fri, Jan 28th"}
+                  time={"11:59PM"}
+                  location={"N/A"}
                   title={"Applications Due"}
+                  description={"Looking forward to reading your app ;)"}
                 />
               </VerticalTimelineElement>
+
               <VerticalTimelineElement
                 icon={
                   <img alt="Mic emoji" style={{ width: "100%" }} src={Mic} />
                 }
               >
                 <TimelineItem
-                  date={"Sat, Sept 11th"}
+                  date={"Sun, Jan 30-31st"}
                   time={"TBD"}
                   location={"TBD"}
                   title={"1st Round Interviews"}
-                  description={"Business formal, invite only"}
+                  description={"Business Professional, Invite Only"}
                 />
               </VerticalTimelineElement>
               <VerticalTimelineElement
@@ -271,11 +292,11 @@ export default function Recruitment() {
                 }
               >
                 <TimelineItem
-                  date={"Wed, Sept 15th"}
+                  date={"Wed, Feb 2nd"}
                   time={"TBD"}
                   location={"TBD"}
                   title={"2nd Round Interviews"}
-                  description={"Business formal, invite only"}
+                  description={"Business Professional, Invite Only"}
                 />
               </VerticalTimelineElement>
               <VerticalTimelineElement
@@ -288,11 +309,11 @@ export default function Recruitment() {
                 }
               >
                 <TimelineItem
-                  date={"Thu, Sept 16th"}
+                  date={"Thu, Feb 3rd"}
                   time={"TBD"}
                   location={"TBD"}
                   title={"Speed Dating Round"}
-                  description={"Casual, invite only"}
+                  description={"Casual, Invite Only"}
                 />
               </VerticalTimelineElement>
               <VerticalTimelineElement
@@ -305,11 +326,11 @@ export default function Recruitment() {
                 }
               >
                 <TimelineItem
-                  date={"Sat, Sept 18th"}
-                  time={"TBD*"}
-                  location={"TBD*"}
+                  date={"Fri, Feb 4th"}
+                  time={"TBD"}
+                  location={"TBD"}
                   title={"Bid Night"}
-                  description={"*Invite only"}
+                  description={"Casual, Invite only"}
                 />
               </VerticalTimelineElement>
             </VerticalTimeline>
@@ -341,9 +362,7 @@ export default function Recruitment() {
               allowfullscreen
             ></iframe>
           </ResponsiveIFrame> */}
-          <Bd1 style={{ marginBottom: "32px"}}>
-          Coming soon!
-          </Bd1>
+          <Bd1 style={{ marginBottom: "32px" }}>Coming soon!</Bd1>
           <Hl3 style={{ marginBottom: "48px" }}>Frequently Asked Questions</Hl3>
           <FAQItem>
             <FAQTitle>What is the pledging process?</FAQTitle>
