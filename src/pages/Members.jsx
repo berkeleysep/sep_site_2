@@ -104,7 +104,7 @@ export default function Members() {
             <img
               style={{ width: "100%" }}
               alt="camping-trip-1"
-              src={require("../assets/images/group/camping-trip-1.JPG").default}
+              src={require("../assets/images/group/camping-trip-1.jpg").default}
             />
           </Box>
         </Box>
