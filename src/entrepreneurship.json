@@ -42,5 +42,75 @@
     "robinhood",
     "salesforce",
     "slack"
+  ],
+  "careers2": [
+    {
+      "industry": "Software & Hardware",
+      "description": "Software Engineering, Product Management, Product/UX Design, and more!",
+      "companies": [
+        "amazon",
+        "apple",
+        "intel",
+        "jubilyinc",
+        "leandata",
+        "odoo",
+        "palantir",
+        "parrot",
+        "saleswhale",
+        "slack",
+        "uber"
+      ]
+    },
+    {
+      "industry": "Music, Entertainment, & Gaming",
+      "description": "Film & TV Development, Music Production and Management, Game Development, and more!",
+      "companies": [
+        "88rising",
+        "itrvis",
+        "sony",
+        "unity"
+      ]
+    },
+    {
+      "industry": "Marketing, Banking, & Consulting",
+      "description": "Marketing, Banking, Accounting, Investment Banking, Consulting, and more!",
+      "companies": [
+        "bcg",
+        "citadel",
+        "quotient",
+        "sig",
+        "zs"
+      ]
+    },
+    {
+      "industry": "Health, Medicine, & BioTech",
+        "description": "Healthcare, Healthcare Research, Biotechnology, and more!",
+        "companies": [
+          "abbvie"
+        ]
+    },
+    {
+      "industry": "Industrial & Material",
+        "description": "Materials, Construction, Architecture, and more!",
+        "companies": [
+          "clarkconstruction",
+          "corning",
+          "hntb"
+        ]
+    },
+    {
+      "industry": "Venture Capital",
+        "description": "Venture capital :). ",
+        "companies": [
+          ""
+        ]
+    },
+    {
+      "industry": "Others",
+        "description": "Other industries!",
+        "companies": [
+          ""
+        ]
+    }
   ]
 }
