@@ -102,7 +102,7 @@ export default function Entrepreneurship() {
               style={{ width: "100%", position: "relative", bottom: "200px" }}
               alt="professional-table"
               src={
-                require("../assets/images/group/professional-table.JPG").default
+                require("../assets/images/group/professional-table.jpg").default
               }
             />
           </Box>
@@ -137,7 +137,7 @@ export default function Entrepreneurship() {
               style={{ width: "100%", overflow: "none" }}
               alt="rohan-pitching"
               src={
-                require("../assets/images/group/rohan-pitching.jpeg").default
+                require("../assets/images/group/rohan-pitching.jpg").default
               }
             />
           </Box>
