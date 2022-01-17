@@ -58,7 +58,7 @@ const MobileBox = styled(Box)`
     width: auto;
     margin-left: 20px;
   }
-`
+`;
 
 export default function BottomNav() {
   return (
@@ -98,7 +98,7 @@ export default function BottomNav() {
             }}
           >
             <MobileBox>
-            <Bd1>Ventures</Bd1>
+              <Bd1>Ventures</Bd1>
             </MobileBox>
           </NavBarItem>
           <NavBarItem
@@ -107,7 +107,7 @@ export default function BottomNav() {
             }}
           >
             <MobileBox>
-            <Bd1>Careers</Bd1>
+              <Bd1>Careers</Bd1>
             </MobileBox>
           </NavBarItem>
         </SubSection>

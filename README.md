@@ -17,7 +17,6 @@ npm start
 
 Deployment is NO LONGER COMPLICATED. Deployment is through AWS Amplify on David W.'s personal AWS, so it should automatically refresh with every new commit :). Please do not spam commits as you might overcharge the AWS. Go through the PR System.
 
-
 #### Continued work
 
 1. Purchase multiple domains and redirect to main `berkeleysep.com` page.

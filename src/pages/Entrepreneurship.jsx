@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import { Box } from "@material-ui/core";
 import styled from "styled-components";
 
@@ -81,16 +81,13 @@ export default function Entrepreneurship() {
 
     return () => {
       window.removeEventListener("resize", () => setResponsiveness());
-    }
+    };
   }, []);
 
   return (
     <>
-      {mobileView ? 
-        <MobileNav /> :
-        <TopNav entrepreneurship />
-    }
-      
+      {mobileView ? <MobileNav /> : <TopNav entrepreneurship />}
+
       <Header>
         <Box
           style={{

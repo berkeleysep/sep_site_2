@@ -52,19 +52,19 @@ export const St2 = styled(Box)`
 export const Bd1 = styled(Box)`
   font-size: 18px;
   line-height: 32px;
-  font-weight: 400;;
+  font-weight: 400; ;
 `;
 
 export const Bd2 = styled(Box)`
   font-size: 16px;
   line-height: 26px;
-  font-weight: 400;;
+  font-weight: 400; ;
 `;
 
 export const Bd3 = styled(Box)`
   font-size: 14px;
   line-height: 22px;
-  font-weight: 400;;
+  font-weight: 400; ;
 `;
 
 export const Label1 = styled(Box)`

@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import { Box } from "@material-ui/core";
 import styled from "styled-components";
 
@@ -11,63 +11,62 @@ import { Bd1, Bd2, Hl3, Hl5 } from "../shared/Typography";
 import actives from "../actives.json";
 
 const Header = styled(Box)`
-padding: 76px 10% 38px 10%;
+  padding: 76px 10% 38px 10%;
 `;
 
 const BrotherHoodBoxContainer = styled(Box)`
-display: flex;
-flex-flow: row wrap;
+  display: flex;
+  flex-flow: row wrap;
 `;
 
 const BrotherHoodBox = styled(Box)`
-width: 250px;
-margin-right: 30px;
-margin-bottom: 32px;
+  width: 250px;
+  margin-right: 30px;
+  margin-bottom: 32px;
 `;
 
 const ExecutiveBoard = styled(Box)`
-display: flex;
-flex-direction: row;
-background-color: #f4f5f7;
-padding: 76px 10% 0px 10%;
-@media (max-width: 768px) {
-  flex-direction: column;
-}
+  display: flex;
+  flex-direction: row;
+  background-color: #f4f5f7;
+  padding: 76px 10% 0px 10%;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 const ExecutiveBoardLeft = styled(Box)`
-width: 35%;
-margin-right: 10%;
-@media (max-width: 768px) {
-  width: 100%;
-}
+  width: 35%;
+  margin-right: 10%;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;
 const ExecutiveBoardRight = styled(Box)`
-width: 55%;
-@media (max-width: 768px) {
-  width: 100%;
-}
+  width: 55%;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 const ExecutivePhotos = styled(Box)`
-display: flex;
-flex-flow: row wrap;
-background-color: #f4f5f7;
-padding: 76px 10% 38px 10%;
-align-items: start;
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #f4f5f7;
+  padding: 76px 10% 38px 10%;
+  align-items: start;
 `;
 
 const ActiveHouse = styled(Box)`
-padding: 76px 10% 76px 10%;
+  padding: 76px 10% 76px 10%;
 `;
 
 const ActivePhotos = styled(Box)`
-display: flex;
-flex-flow: row wrap;
-align-items: start;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: start;
 `;
 
 export default function Members() {
-
   const [state, setState] = useState({
     mobileView: false,
   });
@@ -86,15 +85,12 @@ export default function Members() {
 
     return () => {
       window.removeEventListener("resize", () => setResponsiveness());
-    }
+    };
   }, []);
 
   return (
     <>
-      { mobileView ? 
-      <MobileNav /> :
-      <TopNav members />
-    }
+      {mobileView ? <MobileNav /> : <TopNav members />}
       <Header>
         <Box
           style={{

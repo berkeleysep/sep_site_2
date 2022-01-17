@@ -64,53 +64,32 @@
     {
       "industry": "Music, Entertainment, & Gaming",
       "description": "Film & TV Development, Music Production and Management, Game Development, and more!",
-      "companies": [
-        "88rising",
-        "itrvis",
-        "sony",
-        "unity"
-      ]
+      "companies": ["88rising", "itrvis", "sony", "unity"]
     },
     {
       "industry": "Marketing, Banking, & Consulting",
       "description": "Marketing, Banking, Accounting, Investment Banking, Consulting, and more!",
-      "companies": [
-        "bcg",
-        "citadel",
-        "quotient",
-        "sig",
-        "zs"
-      ]
+      "companies": ["bcg", "citadel", "quotient", "sig", "zs"]
     },
     {
       "industry": "Health, Medicine, & BioTech",
-        "description": "Healthcare, Healthcare Research, Biotechnology, and more!",
-        "companies": [
-          "abbvie"
-        ]
+      "description": "Healthcare, Healthcare Research, Biotechnology, and more!",
+      "companies": ["abbvie"]
     },
     {
       "industry": "Industrial & Material",
-        "description": "Materials, Construction, Architecture, and more!",
-        "companies": [
-          "clarkconstruction",
-          "corning",
-          "hntb"
-        ]
+      "description": "Materials, Construction, Architecture, and more!",
+      "companies": ["clarkconstruction", "corning", "hntb"]
     },
     {
       "industry": "Venture Capital",
-        "description": "Venture capital :). ",
-        "companies": [
-          ""
-        ]
+      "description": "Venture capital :). ",
+      "companies": [""]
     },
     {
       "industry": "Others",
-        "description": "Other industries!",
-        "companies": [
-          ""
-        ]
+      "description": "Other industries!",
+      "companies": [""]
     }
   ]
 }
