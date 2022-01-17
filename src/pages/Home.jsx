@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import { Box, Button, makeStyles } from "@material-ui/core";
 import ArrowRightAltIcon from "@material-ui/icons/ArrowRightAlt";
 import { Link } from "react-router-dom";
@@ -86,7 +86,7 @@ const FrontTitle = styled(Box)`
   @media (max-width: 767px) {
     width: auto;
   }
-`
+`;
 
 const WhoWeAre = styled(Box)`
   display: flex;
@@ -168,7 +168,6 @@ const RushSEPRight = styled(Box)`
   }
 `;
 
-
 const NavBarItem = styled(Link)`
   text-decoration: none;
   color: black;
@@ -196,15 +195,12 @@ function Home() {
 
     return () => {
       window.removeEventListener("resize", () => setResponsiveness());
-    }
+    };
   }, []);
 
   return (
     <>
-    { mobileView ? 
-      <MobileNav /> :
-      <TopNav home />
-    }
+      {mobileView ? <MobileNav /> : <TopNav home />}
       <FrontSpread className="frontSpread">
         <FrontTitle>
           <Hl2 style={{ marginBottom: "16px" }}>
@@ -221,22 +217,22 @@ function Home() {
             </Button>
           </NavBarItem>
         </FrontTitle>
-        <Box style={{ maxWidth: "60%"}}>
-        {actives.images.map((path, index) => {
-          const min = 3000;
-          const max = 4000;
-          const expiration = Math.floor(Math.random() * max) + min;
-          const stagger = index * 700;
+        <Box style={{ maxWidth: "60%" }}>
+          {actives.images.map((path, index) => {
+            const min = 3000;
+            const max = 4000;
+            const expiration = Math.floor(Math.random() * max) + min;
+            const stagger = index * 700;
 
-          return (
-            <AnimationPhoto
-              path={path}
-              delay={expiration}
-              stagger={stagger}
-              mobile={mobileView}
-            />
-          );
-        })}
+            return (
+              <AnimationPhoto
+                path={path}
+                delay={expiration}
+                stagger={stagger}
+                mobile={mobileView}
+              />
+            );
+          })}
         </Box>
       </FrontSpread>
       <WhoWeAre>

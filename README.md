@@ -15,21 +15,11 @@ npm start
 
 #### Deployment
 
-Deployment is complicated, but it shouldn't be with these steps:
-
-1. Make your changes
-2. Commit and push (make sure to merge onto `main` branch)
-3. Run while on `main` branch:
-
-```bash
-npm run deploy
-```
-
-If all goes well, `www.berkeleysep.com` should have the updated changes in a few minutes.
-
+Deployment is NO LONGER COMPLICATED. Deployment is through AWS Amplify on David W.'s personal AWS, so it should automatically refresh with every new commit :). Please do not spam commits as you might overcharge the AWS. Go through the PR System.
 
 #### Continued work
 
-1. There may be concerns with hosting on Github pages in the future.
-2. Purchase multiple domains and redirect to main `berkeleysep.com` page.
-3. Optimize images and potentially rework the front page animation.
+1. Purchase multiple domains and redirect to main `berkeleysep.com` page.
+2. Optimize images and potentially rework the front page animation.
+3. Family Tree
+4. Add Animations
