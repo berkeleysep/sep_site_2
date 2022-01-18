@@ -5,10 +5,11 @@ import styled from "styled-components";
 import BottomNav from "../components/BottomNav";
 import MobileNav from "../components/MobileNav";
 import TopNav from "../components/TopNav";
-import { Bd1, Hl3 } from "../shared/Typography";
+import { Bd1, Hl3, Hl5 } from "../shared/Typography";
 import FoundedCompanies from "../components/FoundedCompanies";
 
 import entrepreneurship from "../entrepreneurship.json";
+import Industries from "../components/Industries";
 
 const Header = styled(Box)`
   padding: 76px 10% 76px 10%;
@@ -136,9 +137,7 @@ export default function Entrepreneurship() {
             <img
               style={{ width: "100%", overflow: "none" }}
               alt="rohan-pitching"
-              src={
-                require("../assets/images/group/rohan-pitching.jpg").default
-              }
+              src={require("../assets/images/group/rohan-pitching.jpg").default}
             />
           </Box>
         </VentureProcessRight>
@@ -158,6 +157,23 @@ export default function Entrepreneurship() {
           })}
         </FoundedCompaniesContainer>
         <Hl3 style={{ marginBottom: "32px" }}>Where we go:</Hl3>
+        <Hl5>
+          While we are all builders and founders, some of us go and become
+          disruptors in industry
+        </Hl5>
+        <Industries
+          title="test"
+          description="this is a test"
+          companyPaths={["apple", "apple", "apple"]}
+        />
+        {/* 
+            entrepreneurship.careers2.map((name) => {
+              return (
+                
+              )
+            })
+        
+        */}
         <CareerPhotoContainer>
           {entrepreneurship.careers.map((name) => {
             return (
