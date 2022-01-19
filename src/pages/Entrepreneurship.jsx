@@ -150,6 +150,7 @@ export default function Entrepreneurship() {
             return (
               <FoundedCompanies
                 path={company.imgpath}
+                founders={company.founders}
                 name={company.name}
                 description={company.description}
                 urlsrc={company.url}

@@ -2,9 +2,24 @@
   "founded": [
     {
       "name": "Caviar",
+      "founders": "Andy Zhang (Alpha)",
       "description": "Delivery & takeout from the best local restaurants. Breakfast, lunch, dinner and more, delivered safely to your door.",
       "imgpath": "caviar",
       "url": "https://www.trycaviar.com/"
+    },
+    {
+      "name": "Impact",
+      "founders": "Michelle Andrews, Joelene Latief (Omicron), Tim Chau (Rho)",
+      "description": "Impact is the digital destination for young people shaping the future. We reach 10M people each month with our content. In 2021, we garnered 1 billion content views, raised $370K for social good, and were featured in Forbes 30U30.",
+      "imgpath": "impact",
+      "url": ""
+    },
+    {
+      "name": "Irrational Media",
+      "founders": "Tim Chau (Rho)",
+      "description": "Irrational Media is a social media agency with communities of millions of followers. Our content reaches 35M people and garners 350mm+ impressions each month. We've worked with brands like TikTok, BeautyBlender, Netflix, Tinder, & MSCHF.",
+      "imgpath": "irrational",
+      "url": ""
     }
   ],
   "careers2": [
