@@ -5,10 +5,11 @@ import styled from "styled-components";
 import BottomNav from "../components/BottomNav";
 import MobileNav from "../components/MobileNav";
 import TopNav from "../components/TopNav";
-import { Bd1, Hl3 } from "../shared/Typography";
+import { Bd1, Hl3, Hl5 } from "../shared/Typography";
 import FoundedCompanies from "../components/FoundedCompanies";
 
 import entrepreneurship from "../entrepreneurship.json";
+import Industries from "../components/Industries";
 
 const Header = styled(Box)`
   padding: 76px 10% 76px 10%;
@@ -136,15 +137,14 @@ export default function Entrepreneurship() {
             <img
               style={{ width: "100%", overflow: "none" }}
               alt="rohan-pitching"
-              src={
-                require("../assets/images/group/rohan-pitching.jpg").default
-              }
+              src={require("../assets/images/group/rohan-pitching.jpg").default}
             />
           </Box>
         </VentureProcessRight>
       </VentureProcess>
       <BeyondSEP>
-        <Hl3 style={{ marginBottom: "32px" }}>What we founded:</Hl3>
+        <Hl3>Featured Ventures</Hl3>
+        <Bd1 style={{ marginBottom: "32px" }}>Some companies our actives and alumni have founded.</Bd1>
         <FoundedCompaniesContainer>
           {entrepreneurship.founded.map((company) => {
             return (
@@ -157,22 +157,24 @@ export default function Entrepreneurship() {
             );
           })}
         </FoundedCompaniesContainer>
-        <Hl3 style={{ marginBottom: "32px" }}>Where we go:</Hl3>
-        <CareerPhotoContainer>
-          {entrepreneurship.careers.map((name) => {
+        <Hl3>Where we go</Hl3>
+        <Bd1 style={{ marginBottom: "42px" }}>
+          While we are all builders and founders, some of us go and become
+          disruptors in industry.
+        </Bd1>
+        {entrepreneurship.careers2.map(
+          ({ industry, description, companies }) => {
             return (
-              <Box style={{ width: "140px", height: "140px", margin: "20px" }}>
-                <img
-                  alt={name}
-                  src={
-                    require("../assets/images/careers/" + name + ".png").default
-                  }
-                  style={{ maxHeight: "140px" }}
+              <div style={{ marginBottom: "64px" }}>
+                <Industries
+                  title={industry}
+                  description={description}
+                  companyPaths={companies}
                 />
-              </Box>
+              </div>
             );
-          })}
-        </CareerPhotoContainer>
+          }
+        )}
       </BeyondSEP>
       <BottomNav />
     </>
