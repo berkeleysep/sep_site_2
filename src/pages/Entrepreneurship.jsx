@@ -143,7 +143,8 @@ export default function Entrepreneurship() {
         </VentureProcessRight>
       </VentureProcess>
       <BeyondSEP>
-        <Hl3 style={{ marginBottom: "32px" }}>What we founded:</Hl3>
+        <Hl3>Featured Ventures</Hl3>
+        <Bd1 style={{ marginBottom: "32px" }}>Some companies our actives and alumni have founded.</Bd1>
         <FoundedCompaniesContainer>
           {entrepreneurship.founded.map((company) => {
             return (
@@ -156,10 +157,10 @@ export default function Entrepreneurship() {
             );
           })}
         </FoundedCompaniesContainer>
-        <Hl3>Where we go:</Hl3>
-        <Bd1 style={{ marginBottom: "32px" }}>
+        <Hl3>Where we go</Hl3>
+        <Bd1 style={{ marginBottom: "42px" }}>
           While we are all builders and founders, some of us go and become
-          disruptors in industry
+          disruptors in industry.
         </Bd1>
         {entrepreneurship.careers2.map(
           ({ industry, description, companies }) => {
