@@ -156,39 +156,24 @@ export default function Entrepreneurship() {
             );
           })}
         </FoundedCompaniesContainer>
-        <Hl3 style={{ marginBottom: "32px" }}>Where we go:</Hl3>
-        <Hl5>
+        <Hl3>Where we go:</Hl3>
+        <Bd1 style={{ marginBottom: "32px" }}>
           While we are all builders and founders, some of us go and become
           disruptors in industry
-        </Hl5>
-        <Industries
-          title="test"
-          description="this is a test"
-          companyPaths={["apple", "apple", "apple"]}
-        />
-        {/* 
-            entrepreneurship.careers2.map((name) => {
-              return (
-                
-              )
-            })
-        
-        */}
-        <CareerPhotoContainer>
-          {entrepreneurship.careers.map((name) => {
+        </Bd1>
+        {entrepreneurship.careers2.map(
+          ({ industry, description, companies }) => {
             return (
-              <Box style={{ width: "140px", height: "140px", margin: "20px" }}>
-                <img
-                  alt={name}
-                  src={
-                    require("../assets/images/careers/" + name + ".png").default
-                  }
-                  style={{ maxHeight: "140px" }}
+              <div style={{ marginBottom: "64px" }}>
+                <Industries
+                  title={industry}
+                  description={description}
+                  companyPaths={companies}
                 />
-              </Box>
+              </div>
             );
-          })}
-        </CareerPhotoContainer>
+          }
+        )}
       </BeyondSEP>
       <BottomNav />
     </>

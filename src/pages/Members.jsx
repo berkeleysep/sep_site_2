@@ -153,7 +153,7 @@ export default function Members() {
 
       <ExecutiveBoard>
         <Hl3 style={{ marginBottom: "12px" }}>Executive Board</Hl3>
-        <Bd1 style={{ marginBottom: "32px" }}>
+        <Bd1>
           Our executive board is responsible for envisioning and executing the
           mission of our fraternity.
         </Bd1>

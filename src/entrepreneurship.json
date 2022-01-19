@@ -7,89 +7,96 @@
       "url": "https://www.trycaviar.com/"
     },
     {
-      "name": "Free Ventures",
-      "description": "Free Ventures is Cal’s leading pre-seed startup accelerator which empowers student founders by providing access to funding, mentorship, and resources to scale.",
-      "imgpath": "free-ventures",
-      "url": "https://www.trycaviar.com/"
-    },
-    {
       "name": "Impact",
       "description": "Impact is the next-generation platform for value-driven young people who make movements happen.",
-      "imgpath": "impact",
+      "imgpath": "apple",
       "url": "https://impact.site"
-    },
-    {
-      "name": "TigerTalk",
-      "description": "TigerTalk is an online platform helping individuals looking to improve their communication skills by combining AI with human coaching to provide personalized feedback on their speeches.",
-      "imgpath": "tigertalk",
-      "url": " "
     }
-  ],
-  "careers": [
-    "amazon",
-    "apple",
-    "caviar",
-    "cisco",
-    "citadel",
-    "deloitte",
-    "facebook",
-    "figma",
-    "gilead",
-    "goldman",
-    "lyft",
-    "microsoft",
-    "palantir",
-    "robinhood",
-    "salesforce",
-    "slack"
   ],
   "careers2": [
     {
       "industry": "Software & Hardware",
       "description": "Software Engineering, Product Management, Product/UX Design, and more!",
       "companies": [
+        "abnormal-security",
         "amazon",
         "apple",
+        "blend",
+        "box",
+        "brex",
+        "c3ai",
+        "capital-one",
+        "czi",
+        "facebook",
+        "figma",
+        "google",
+        "grammarly",
+        "indeed",
+        "instagram",
         "intel",
-        "jubilyinc",
-        "leandata",
+        "lean-data",
+        "linkedin",
         "odoo",
         "palantir",
-        "parrot",
-        "saleswhale",
+        "salesforce",
+        "servicenow",
         "slack",
-        "uber"
+        "stripe",
+        "uber",
+        "vmware",
+        "waymo"
       ]
     },
     {
       "industry": "Music, Entertainment, & Gaming",
       "description": "Film & TV Development, Music Production and Management, Game Development, and more!",
-      "companies": ["88rising", "itrvis", "sony", "unity"]
+      "companies": ["88rising", "sony", "spotify", "unity"]
     },
     {
       "industry": "Marketing, Banking, & Consulting",
       "description": "Marketing, Banking, Accounting, Investment Banking, Consulting, and more!",
-      "companies": ["bcg", "citadel", "quotient", "sig", "zs"]
-    },
-    {
-      "industry": "Health, Medicine, & BioTech",
-      "description": "Healthcare, Healthcare Research, Biotechnology, and more!",
-      "companies": ["abbvie"]
+      "companies": [
+        "accenture",
+        "bcg",
+        "bridgewater",
+        "centerview",
+        "citadel",
+        "clearlake",
+        "deloitte",
+        "gipartners",
+        "mckinsey",
+        "merrill",
+        "morgan",
+        "quotient",
+        "sig",
+        "visa",
+        "woodline",
+        "zs"
+      ]
     },
     {
       "industry": "Industrial & Material",
       "description": "Materials, Construction, Architecture, and more!",
-      "companies": ["clarkconstruction", "corning", "hntb"]
+      "companies": [
+        "cat",
+        "clarkconstruction",
+        "corning",
+        "hntb",
+        "raytheon",
+        "ridepanda",
+        "starlink",
+        "tesla"
+      ]
     },
     {
       "industry": "Venture Capital",
-      "description": "Venture capital :). ",
-      "companies": [""]
+      "description": "Venture capital :)",
+      "companies": ["8vc", "kleiner", "roughdraft"]
     },
     {
       "industry": "Others",
       "description": "Other industries!",
-      "companies": [""]
+      "companies": ["abbvie", "hayward", "imperfectfoods"]
     }
   ]
 }

@@ -5,18 +5,29 @@ import { Box } from "@material-ui/core";
 
 export default function Industries({ title, description, companyPaths }) {
   return (
-    <Box>
+    <Box style={{ marginBottom: "32px" }}>
       <Hl4>{title}</Hl4>
-      <Bd1>{description}</Bd1>
-      {companyPaths.map((name) => {
-        return (
-          <img
-            alt={name}
-            src={require("../assets/images/careers/" + name + ".png").default}
-            style={{ maxHeight: "140px" }}
-          />
-        );
-      })}
+      <Bd1 style={{ marginBottom: "16px" }}>{description}</Bd1>
+      <div style={{ display: "flex", flexFlow: "row wrap" }}>
+        {companyPaths.map((name) => {
+          return (
+            <div style={{ display: "flex" }}>
+              <img
+                alt={name}
+                src={
+                  require("../assets/images/careers/" + name + ".png").default
+                }
+                style={{
+                  maxHeight: "62px",
+                  maxWidth: "82px",
+                  marginRight: "30px",
+                  alignSelf: "center",
+                }}
+              />
+            </div>
+          );
+        })}
+      </div>
     </Box>
   );
 }
