@@ -47,7 +47,7 @@ const VentureProcessRight = styled(Box)`
 `;
 
 const BeyondSEP = styled(Box)`
-  padding: 76px 10% 64px 10%;
+  padding: 76px 5% 64px 5%;
 `;
 
 const FoundedCompaniesContainer = styled(Box)`
@@ -55,6 +55,7 @@ const FoundedCompaniesContainer = styled(Box)`
   flex-flow: row wrap;
   align-items: start;
   margin-bottom: 48px;
+  justify-content: center;
 `;
 
 const CareerPhotoContainer = styled(Box)`
