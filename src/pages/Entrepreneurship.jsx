@@ -47,7 +47,7 @@ const VentureProcessRight = styled(Box)`
 `;
 
 const BeyondSEP = styled(Box)`
-  padding: 76px 10% 64px 10%;
+  padding: 76px 5% 64px 5%;
 `;
 
 const FoundedCompaniesContainer = styled(Box)`
@@ -55,6 +55,7 @@ const FoundedCompaniesContainer = styled(Box)`
   flex-flow: row wrap;
   align-items: start;
   margin-bottom: 48px;
+  justify-content: center;
 `;
 
 const CareerPhotoContainer = styled(Box)`
@@ -144,12 +145,15 @@ export default function Entrepreneurship() {
       </VentureProcess>
       <BeyondSEP>
         <Hl3>Featured Ventures</Hl3>
-        <Bd1 style={{ marginBottom: "32px" }}>Some companies our actives and alumni have founded.</Bd1>
+        <Bd1 style={{ marginBottom: "32px" }}>
+          Some companies our actives and alumni have founded.
+        </Bd1>
         <FoundedCompaniesContainer>
           {entrepreneurship.founded.map((company) => {
             return (
               <FoundedCompanies
                 path={company.imgpath}
+                founders={company.founders}
                 name={company.name}
                 description={company.description}
                 urlsrc={company.url}

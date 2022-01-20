@@ -2,9 +2,38 @@
   "founded": [
     {
       "name": "Caviar",
-      "description": "Delivery & takeout from the best local restaurants. Breakfast, lunch, dinner and more, delivered safely to your door.",
+      "founders": "Andy Zhang (Alpha)",
+      "description": "Caviar was one of the first platforms to offer online delivery & takeout from the best local restaurants. First sold to Square in 2014, then to DoorDash in 2019, Caviar helped set the landscape for food-delivery services.",
       "imgpath": "caviar",
       "url": "https://www.trycaviar.com/"
+    },
+    {
+      "name": "BioSense",
+      "founders": "Rohan Arora (Omicron)",
+      "description": "Biosense is pioneering a replicant platform that combines ‘humanized’ animals with intelligent automation to simulate individualized health outcomes. Our technology helps pharmaceutical companies rapidly de-risk novel compounds at scale, and delivers insights on how specific patients may react to a treatment.",
+      "imgpath": "biosense",
+      "url": "https://biosense.ai/"
+    },
+    {
+      "name": "Impact",
+      "founders": "Michelle Andrews, Joelene Latief (Omicron), Tim Chau (Rho)",
+      "description": "Impact is the digital destination for young people shaping the future. We reach 10M people each month with our content. In 2021, we garnered 1 billion content views, raised $370K for social good, and were featured in Forbes 30U30.",
+      "imgpath": "impact",
+      "url": "https://www.instagram.com/impact/"
+    },
+    {
+      "name": "Irrational Media",
+      "founders": "Tim Chau (Rho)",
+      "description": "Irrational Media is a social media agency with communities of millions of followers. Our content reaches 35M people and garners 350mm+ impressions each month. We've worked with brands like TikTok, BeautyBlender, Netflix, Tinder, & MSCHF.",
+      "imgpath": "irrational",
+      "url": "https://www.irrational.media/"
+    },
+    {
+      "name": "DeWaste",
+      "founders": "Paran Sonthalia (Upsilon)",
+      "description": "DeWaste is a data-driven food waste management solution for restaurants and dining institutions. Using custom cameras and sensors which seamlessly integrate into one's workflow, our customers have access to actionable insights into reducing food waste and food costs.",
+      "imgpath": "dewaste",
+      "url": "https://de-waste.com/"
     }
   ],
   "careers2": [
