@@ -7,7 +7,7 @@ const PaddingBox = styled(Box)`
   display: flex;
   flex-direction: column;
   min-height: 250px;
-  margin-bottom: 48px;
+  margin-bottom: 24px;
   margin-right: 48px;
   width: 300px;
 `;
@@ -17,14 +17,24 @@ const ExploreLink = styled.a`
   color: #8c30f5;
 `;
 
-export default function FoundedCompanies({ path, founders, name, description, urlsrc }) {
+export default function FoundedCompanies({
+  path,
+  founders,
+  name,
+  description,
+  urlsrc,
+}) {
   return (
     <PaddingBox>
-      <div style={{display: "flex", height: "150px"}}>
+      <div style={{ display: "flex", height: "150px" }}>
         <img
           alt={name}
           src={require("../assets/images/careers/" + path + ".png").default}
-          style={{ maxWidth: "300px", marginBottom: "8px", alignSelf: "center" }}
+          style={{
+            maxWidth: "300px",
+            marginBottom: "8px",
+            alignSelf: "center",
+          }}
         />
       </div>
       <Box>

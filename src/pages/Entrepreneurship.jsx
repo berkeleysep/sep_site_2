@@ -144,7 +144,9 @@ export default function Entrepreneurship() {
       </VentureProcess>
       <BeyondSEP>
         <Hl3>Featured Ventures</Hl3>
-        <Bd1 style={{ marginBottom: "32px" }}>Some companies our actives and alumni have founded.</Bd1>
+        <Bd1 style={{ marginBottom: "32px" }}>
+          Some companies our actives and alumni have founded.
+        </Bd1>
         <FoundedCompaniesContainer>
           {entrepreneurship.founded.map((company) => {
             return (
