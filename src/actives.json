@@ -75,11 +75,43 @@
   ],
   "actives": [
     {
+      "name": "Jasmine Wang",
+      "pledge_class": "Phi",
+      "major": "Cognitive Science",
+      "linkedin": "https://www.linkedin.com/in/jasminexwang",
+      "imgpath": "Jasmine-Wang",
+      "cc": false
+    },
+    {
+      "name": "Katy Jin",
+      "pledge_class": "Phi",
+      "major": "Public Health",
+      "linkedin": "https://www.linkedin.com/in/katy-jin-7028a8223",
+      "imgpath": "Katy-Jin",
+      "cc": false
+    },
+    {
       "name": "Keshav Chhawchharia",
       "pledge_class": "Phi",
       "major": "EECS",
       "linkedin": "https://www.linkedin.com/in/keshav-chhawchharia/",
       "imgpath": "Keshav-Chhawchharia",
+      "cc": false
+    },
+    {
+      "name": "Satya Weir",
+      "pledge_class": "Phi",
+      "major": "Environmental Engineering Science",
+      "linkedin": "https://www.linkedin.com/in/satyamuny-weir-0922471b0",
+      "imgpath": "Satya-Weir",
+      "cc": false
+    },
+    {
+      "name": "Vivien Black",
+      "pledge_class": "Phi",
+      "major": "Psychology",
+      "linkedin": "https://www.linkedin.com/in/vivien-black/",
+      "imgpath": "Vivien-Black",
       "cc": false
     },
     {
