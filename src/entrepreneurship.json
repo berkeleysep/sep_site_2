@@ -34,6 +34,13 @@
       "description": "DeWaste is a data-driven food waste management solution for restaurants and dining institutions. Using custom cameras and sensors which seamlessly integrate into one's workflow, our customers have access to actionable insights into reducing food waste and food costs.",
       "imgpath": "dewaste",
       "url": "https://de-waste.com/"
+    },
+    {
+      "name": "Cityface",
+      "founders": "Jeena Chong (Upsilon)",
+      "description": "Cityface is a city-inspired clean, vegan, Korean skincare brand for Gen-Z, by Gen-Z. Since launch in December of 2020, Cityface has been featured on NBCUniversal's Access Hollywood, Allure magazine, San Francisco Business Times, POPSUGAR and more.",
+      "imgpath": "cityface",
+      "url": "https://cityfaceus.com/"
     }
   ],
   "careers2": [

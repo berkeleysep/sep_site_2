@@ -38,6 +38,7 @@ const ExecutivePhotos = styled(Box)`
   background-color: #f4f5f7;
   padding: 76px 10% 38px 10%;
   align-items: start;
+  justify-content: center;
 `;
 
 const ActiveHouse = styled(Box)`
@@ -48,6 +49,7 @@ const ActivePhotos = styled(Box)`
   display: flex;
   flex-flow: row wrap;
   align-items: start;
+  justify-content: center;
 `;
 
 export default function Members() {

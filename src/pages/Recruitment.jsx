@@ -123,7 +123,7 @@ export default function Recruitment() {
 
   function redirectTypeform() {
     window.open(
-      "https://mkg2mvddy6x.typeform.com/to/T0epVEaT?typeform-source=l.messenger.com",
+      "https://tinyurl.com/sepsp22app",
       "_blank"
     );
   }
@@ -194,9 +194,9 @@ export default function Recruitment() {
                 <TimelineItem
                   date={"Wed, Jan 26th"}
                   time={"6PM"}
-                  location={"VLSB 2060"}
+                  location={"Zoom"}
                   title={"Meet the Chapter #1"}
-                  description={"Business Casual"}
+                  description={"tinyurl.com/SEPmtc"}
                 />
               </VerticalTimelineElement>
               <VerticalTimelineElement
@@ -211,9 +211,9 @@ export default function Recruitment() {
                 <TimelineItem
                   date={"Wed, Jan 26th"}
                   time={"8PM"}
-                  location={"Zoom"}
+                  location={"Wheeler 102"}
                   title={"Meet the Chapter #2"}
-                  description={"tinyurl.com/SEPmtc"}
+                  description={"Business Casual"}
                 />
               </VerticalTimelineElement>
               <VerticalTimelineElement
