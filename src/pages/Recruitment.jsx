@@ -211,7 +211,7 @@ export default function Recruitment() {
                 <TimelineItem
                   date={"Wed, Jan 26th"}
                   time={"8PM"}
-                  location={"VLSB 2060"}
+                  location={"Wheeler 102"}
                   title={"Meet the Chapter #2"}
                   description={"Business Casual"}
                 />
