@@ -75,6 +75,14 @@
   ],
   "actives": [
     {
+      "name": "Keshav Chhawchharia",
+      "pledge_class": "Phi",
+      "major": "EECS",
+      "linkedin": "https://www.linkedin.com/in/keshav-chhawchharia/",
+      "imgpath": "Keshav-Chhawchharia",
+      "cc": false
+    },
+    {
       "name": "Andrea Juwono",
       "pledge_class": "Tau",
       "major": "Data Science + Creative Writing",
