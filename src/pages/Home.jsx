@@ -213,7 +213,7 @@ function Home() {
             }}
           >
             <Button className={classes.recruitmentButton}>
-              Rush Fall 2021
+              Rush Spring 2022
             </Button>
           </NavBarItem>
         </FrontTitle>
@@ -334,8 +334,8 @@ function Home() {
         <RushSEPRight>
           <Hl3 style={{ marginBottom: "32px" }}>Interested in joining SEP?</Hl3>
           <Bd1 style={{ marginBottom: "32px" }}>
-            Come be a part of our amazing brotherhood! Rush for Fall 2021 starts
-            on September 6th.
+            Come be a part of our amazing brotherhood! Rush for Spring 2022 starts
+            on January 24th.
           </Bd1>
           <Link
             to={{ pathname: "/recruitment" }}
