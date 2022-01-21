@@ -48,6 +48,7 @@ const ActivePhotos = styled(Box)`
   display: flex;
   flex-flow: row wrap;
   align-items: start;
+  justify-content: center;
 `;
 
 export default function Members() {

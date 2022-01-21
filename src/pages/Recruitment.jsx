@@ -123,7 +123,7 @@ export default function Recruitment() {
 
   function redirectTypeform() {
     window.open(
-      "https://tinyurl.com/sepsp22",
+      "https://tinyurl.com/sepsp22app",
       "_blank"
     );
   }
