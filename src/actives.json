@@ -1,77 +1,69 @@
 {
   "executives": [
     {
-      "name": "Pooja Shah",
-      "pledge_class": "Sigma",
-      "major": "Cognitive Science",
-      "position": "President",
-      "bio": "Hi! I'm Pooja, current president of SEP and a junior studying cognitive science and data science. I am passionate about figuring out ways to integrate art and music as alternative forms of treatment for different neurological disorders. I also love film, design, and music composition.",
-      "linkedin": "https://www.linkedin.com/in/pooja-shah01/",
-      "imgpath": "Pooja-Shah"
-    },
-    {
       "name": "David Wei",
       "pledge_class": "Tau",
       "major": "Computer Science",
-      "position": "Professional Development VP + Tech Lead",
-      "bio": "Hi! I'm a Junior studying CS and am passionate about the intersections between tech and other industries. I've worked at large tech companies and small startups. Outside of school, I'm an avid Seahawks fan and enjoy playing the guitar.",
+      "position": "President",
+      "bio": "Hello there, I'm David, a 3rd year studying CS! I'm passionate about the intersection between tech and other industries (especially those which are unconventionial). If you ever want to talk about music, sports, or nerdy CS stuff, reach out!",
       "linkedin": "https://www.linkedin.com/in/davidmwei/",
       "imgpath": "David-Wei"
     },
     {
-      "name": "Austin Ho",
+      "name": "Andrea Juwono",
       "pledge_class": "Tau",
-      "major": "CS + Data Science",
+      "major": "Data Science & Creative Writing",
+      "position": "President",
+      "bio": "I find joy in nature, painting, and movies. Stories, people, and places inspire me everyday to make the world a better place, and I hope to contribute to higher equity in education for lower income populations. I have many sad playlists and my friends describe me as a klutz.",
+      "linkedin": "https://www.linkedin.com/in/andrea-juwono/",
+      "imgpath": "Andrea-Juwono"
+    },
+    {
+      "name": "Daniel Zhu",
+      "pledge_class": "Upsilon",
+      "major": "Business Administration & Data Science",
       "position": "Professional Development VP",
-      "bio": "Hi there! I'm a third-year CS + Data Science double major and I'm currently one of the Professional Development VPs! Outside of class, I enjoy making Spotify playlists, trying out new recipes, and tinkering.",
-      "linkedin": "https://www.linkedin.com/in/aho1628/",
-      "imgpath": "Austin-Ho"
+      "bio": "I'm a third year student at Berkeley studying business and data science. Though I'll be working in strategy consulting this summer, I've also worked at tech startups, fire stations, and my own public speaking nonprofit. My experiences growing up in LA and the Bay Area align with my interests: I love skiing, trying new SF restaurants, and supporting California sports teams. ",
+      "linkedin": "https://www.linkedin.com/in/dzhu2/",
+      "imgpath": "Daniel-Zhu"
+    },
+    {
+      "name": "Karen Tseng",
+      "pledge_class": "Upsilon",
+      "major": "Economics & Data Science",
+      "position": "External VP",
+      "bio": "Hey :) I'm a sophomore double majoring in econ and data science. I love working on cool resin jewelry (@resinate.studio on instagram), getting deeply invested in debates about absolutely nothing in particular, and running marathons with essentially no training. Before classes, you can usually find me rock climbing because it's good practice for scaling buildings.",
+      "linkedin": "https://www.linkedin.com/in/yun-jung-tseng/",
+      "imgpath": "Karen-Tseng"
+    },
+    {
+      "name": "Leanna Chraghchian",
+      "pledge_class": "Tau",
+      "major": "Business Administration",
+      "position": "Internal VP",
+      "bio": "Henlo! I'm Leanna, a senior studying business and dabbling in data science. I currently work in marketing at Tanium and hope to study information tech management in the future. Outside of school, I love to play basketball, surf, ski, bake addictive desserts, go to concerts and paint. Let's chat!",
+      "linkedin": "https://www.linkedin.com/in/leannachraghchian/",
+      "imgpath": "Leanna-Chraghchian"
     },
     {
       "name": "Nikita Chauhan",
       "pledge_class": "Tau",
       "major": "Cognitive Science",
-      "position": "External VP",
-      "bio": "Hey! I'm a third-year studying cognitive and data science. My professional interests include, product design, UI/UX, education, and honestly anything startup related :). I love cooking and am a huge coffee fanatic. In my free time, I love playing racquetball and chilling on the glade!",
+      "position": "Internal VP",
+      "bio": "Hey! I'm a third-year studying cognitive and data science. I have an unhealthy obsession with Pinterest and TikTok and am a huge coffee fanatic. In my free time, I love playing racquetball, piano, and just chilling on the glade. Excited to get to know y'all!",
       "linkedin": "https://www.linkedin.com/in/nikita-chauhan-b47a3619b/",
       "imgpath": "Nikita-Chauhan"
     },
     {
-      "name": "Annie Pan",
-      "pledge_class": "Tau",
-      "major": "Business + Design",
-      "position": "External VP",
-      "bio": "I'm a 3rd year who loves all things design and creative (thrift-flipping, painting, making videos, photography, you name it!). I'm pursuing a career path in UI/UX / creative design, and aside from my creative interests, I'm really passionate about mental health issues and am also an adrenaline junkie.",
-      "linkedin": "linkedin.com/in/anniexpan",
-      "imgpath": "Annie-Pan"
-    },
-    {
-      "name": "Riya Sinha",
-      "pledge_class": "Sigma",
-      "major": "Media Studies",
-      "position": "Internal VP",
-      "bio": "Hi! I’m Riya and I’m a junior majoring in media studies & minoring in data science. I love books, movies, journalism, (basically all types of media) and I’m also really interested in social entrepreneurship. In my free time, I love to bake, hike & travel to new places!",
-      "linkedin": "https://www.linkedin.com/in/riya-sinha-a4b741102/",
-      "imgpath": "Riya-Sinha"
-    },
-    {
-      "name": "Miles Wilson",
-      "pledge_class": "Sigma",
-      "major": "Nuclear Engineering",
-      "position": "Internal VP",
-      "bio": "Howdy! I’m a senior from Cambridge, MA studying Nuclear Engineering. I’m a big fan of things that move; i.e. cars, bikes, and planes. Professionally, I’m interested in redefining the role of all things nuclear as a field for the betterment of humanity and restoration of Mother Nature.",
-      "linkedin": "https://www.linkedin.com/in/milesnwilson/",
-      "imgpath": "Miles-Wilson"
-    },
-    {
-      "name": "Andrea Juwono",
-      "pledge_class": "Tau",
-      "major": "Data Science + Creative Writing",
-      "position": "Operations VP",
-      "bio": "I find joy in nature, painting, and movies. Stories, people, and places inspire me everyday to make the world a better place, and I hope to contribute to higher equity in education for lower income populations. I have many sad playlists and my friends describe me as a klutz.",
-      "linkedin": "https://www.linkedin.com/in/andrea-juwono",
-      "imgpath": "Andrea-Juwono"
+      "name": "Sam Arias",
+      "pledge_class": "Upsilon",
+      "major": "Business Administration",
+      "position": "OVP",
+      "bio": "As Michael Scott quotes Wayne Gretzky, you miss 100% of the shots you don't take. And I live by that.",
+      "linkedin": "https://www.linkedin.com/in/samarias/",
+      "imgpath": "Sam-Arias"
     }
+    
   ],
   "actives": [
     {
