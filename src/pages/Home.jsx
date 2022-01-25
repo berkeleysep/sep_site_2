@@ -342,7 +342,7 @@ function Home() {
             style={{ textDecoration: "none" }}
           >
             <Button className={classes.recruitButton}>
-              Our Fall 2021 Timeline{" "}
+              Our Spring 2022 Timeline{" "}
               <ArrowRightAltIcon style={{ marginLeft: "6px" }} />
             </Button>
           </Link>
