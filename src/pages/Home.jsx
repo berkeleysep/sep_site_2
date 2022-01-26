@@ -44,7 +44,7 @@ const useStyles = makeStyles({
   recruitButton: {
     textTransform: "none",
     height: "40px",
-    width: "200px",
+    width: "240px",
     backgroundColor: "#F1E4FF",
     color: "#8C30F5",
   },
