@@ -83,6 +83,14 @@
       "cc": false
     },
     {
+      "name": "Jocelyn Martin",
+      "pledge_class": "Phi",
+      "major": "Undeclared",
+      "linkedin": "",
+      "imgpath": "Jocelyn-Martin",
+      "cc": false
+    },
+    {
       "name": "Katy Jin",
       "pledge_class": "Phi",
       "major": "Public Health",
@@ -112,6 +120,46 @@
       "major": "Psychology",
       "linkedin": "https://www.linkedin.com/in/vivien-black/",
       "imgpath": "Vivien-Black",
+      "cc": false
+    },
+    {
+      "name": "Anuj Shah",
+      "pledge_class": "Upsilon",
+      "major": "CS + Theater",
+      "linkedin": "https://www.linkedin.com/in/anuj-shah000",
+      "imgpath": "Anuj-Shah",
+      "cc": false
+    },
+    {
+      "name": "Jago Pang",
+      "pledge_class": "Upsilon",
+      "major": "Cognitive Science",
+      "linkedin": "https://www.linkedin.com/in/jagopang"      ,
+      "imgpath": "Jago-Pang",
+      "cc": false
+    },
+    {
+      "name": "Paran Sonthalia",
+      "pledge_class": "Upsilon",
+      "major": "Computer Science",
+      "linkedin": "https://www.linkedin.com/in/paran-sonthalia"      ,
+      "imgpath": "Paran-Sonthalia",
+      "cc": false
+    },
+    {
+      "name": "Smera Patil",
+      "pledge_class": "Upsilon",
+      "major": "Data Science",
+      "linkedin": "https://www.linkedin.com/in/smerapatil      "      ,
+      "imgpath": "Smera-Patil",
+      "cc": false
+    },
+    {
+      "name": "Vedika Dayal",
+      "pledge_class": "Upsilon",
+      "major": "Business + Data Science",
+      "linkedin": "https://www.linkedin.com/in/vedika-dayal/"      ,
+      "imgpath": "Vedika-Dayal",
       "cc": false
     },
     {
