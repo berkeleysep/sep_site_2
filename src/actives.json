@@ -123,11 +123,35 @@
       "cc": false
     },
     {
+      "name": "Maia Jeanneau",
+      "pledge_class": "Phi",
+      "major": "Industrial Engineering and Operations Research",
+      "linkedin": "",
+      "imgpath": "Maia-Jeanneau",
+      "cc": false
+    },
+    {
+      "name": "Zahara Poonevala",
+      "pledge_class": "Phi",
+      "major": "CS + Data Science",
+      "linkedin": "https://www.linkedin.com/in/zahra-poonevala-3616081a2/",
+      "imgpath": "Zahara-Poonevala",
+      "cc": false
+    },
+    {
       "name": "Anuj Shah",
       "pledge_class": "Upsilon",
       "major": "CS + Theater",
       "linkedin": "https://www.linkedin.com/in/anuj-shah000",
       "imgpath": "Anuj-Shah",
+      "cc": false
+    },
+    {
+      "name": "Harvey Hu",
+      "pledge_class": "Upsilon",
+      "major": "Physics + CS",
+      "linkedin": "https://www.linkedin.com/in/yubin-hu-berkeley/",
+      "imgpath": "Harvey-Hu",
       "cc": false
     },
     {
